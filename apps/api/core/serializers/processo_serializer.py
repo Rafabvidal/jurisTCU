@@ -183,5 +183,6 @@ class ProcessoAdicionarAnaliseEntradaSerializer(serializers.Serializer):
     numero_processo = serializers.CharField()
     grau = serializers.CharField()
     analise = AnaliseEntradaSerializer()
+    pdf_sha256 = serializers.CharField(max_length=64, required=False, allow_null=True, allow_blank=True)
 
 

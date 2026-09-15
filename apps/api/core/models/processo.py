@@ -74,6 +74,7 @@ class Processo(models.Model):
     grau = models.CharField(max_length=32, blank=True) #G1 ou G2
     data_ajuizamento = models.DateField(blank=True, null=True)
     pdf_url = models.URLField(blank=True, null=True)
+    pdf_sha256 = models.CharField(max_length=64, blank=True, null=True)
     movimentos = CompressedJSONField(default=list, blank=True)
     orgao_julgador = models.ForeignKey(OrgaoJulgador, on_delete=models.SET_NULL, blank=True, null=True)
     assuntos = models.ManyToManyField(Assunto, blank=True, default=list)

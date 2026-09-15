@@ -1,3 +1,4 @@
+import hashlib
 import os
 import tempfile
 from pathlib import Path
@@ -12,15 +13,26 @@ logger = get_logger("worker_llm")
 DEFAULT_API_URL = "http://api:8000/api/processos/adicionar_analise/"
 
 
-def _build_payload(numero_processo: str, grau: str, analise) -> dict:
+def _compute_sha256(file_path: str) -> str:
+    h = hashlib.sha256()
+    with open(file_path, "rb") as f:
+        for chunk in iter(lambda: f.read(8192), b""):
+            h.update(chunk)
+    return h.hexdigest()
+
+
+def _build_payload(numero_processo: str, grau: str, analise, pdf_sha256: str | None = None) -> dict:
     analise_data = analise.model_dump(mode="json") if hasattr(analise, "model_dump") else dict(analise)
     analise_data.pop("numero_processo", None)
 
-    return {
+    payload = {
         "numero_processo": numero_processo,
         "grau": grau,
         "analise": analise_data,
     }
+    if pdf_sha256:
+        payload["pdf_sha256"] = pdf_sha256
+    return payload
 
 
 def process_llm_pipeline(
@@ -47,9 +59,12 @@ def process_llm_pipeline(
         )
         client.get_object(bucket_name, object_name, tmp_path)
 
+        pdf_sha256 = _compute_sha256(tmp_path)
+        logger.info("SHA-256 do PDF: %s", pdf_sha256)
+
         analise = analyze_file(tmp_path)
 
-        payload = _build_payload(numero_processo, grau, analise)
+        payload = _build_payload(numero_processo, grau, analise, pdf_sha256=pdf_sha256)
 
         response = requests.post(api_url, json=payload, timeout=30)
 

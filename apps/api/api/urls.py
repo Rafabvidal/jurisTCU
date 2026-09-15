@@ -15,6 +15,8 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from core.views import (
+    AdminAuditLogView,
+    AdminReindexView,
     LoginView,
     LogoutView,
     ProcessoViewset,
@@ -39,6 +41,11 @@ auth_urlpatterns = [
     path('auth/me/', UserMeView.as_view(), name='auth-me'),
 ]
 
+admin_urlpatterns = [
+    path('admin/audit-logs/', AdminAuditLogView.as_view(), name='admin-audit-logs'),
+    path('admin/reindexar/', AdminReindexView.as_view(), name='admin-reindexar'),
+]
+
 
 def health(request):
     return HttpResponse('OK', content_type='text/plain')
@@ -46,6 +53,7 @@ def health(request):
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include(auth_urlpatterns)),
+    path('api/', include(admin_urlpatterns)),
     path('api/', include(router.urls)),
 ]
 

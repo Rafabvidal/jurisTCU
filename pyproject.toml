@@ -21,6 +21,11 @@ dependencies = [
 
 [tool.uv]
 package = false
+required-environments = [
+    "sys_platform == 'linux'",
+    "sys_platform == 'darwin' and platform_machine == 'arm64'",
+    "sys_platform == 'darwin' and platform_machine == 'x86_64'",
+]
 
 [tool.uv.sources]
 shared = { workspace = true }

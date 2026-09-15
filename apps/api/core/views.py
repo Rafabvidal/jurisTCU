@@ -1,29 +1,6 @@
-# Endpoints necessarios ate agr
+"""Endpoints da API JusTRT6 com controle de acesso RBAC e auditoria de segurança."""
 
-# Deduplicate Processes
-# Recebe vários processos e retorna os processos ainda não presentes no banco, baseado no numero do processo e na última data de atualização
-
-"""Endpoints necessarios ate agr.
-
-Deduplicate Processes
-Recebe vários processos e retorna os processos ainda não presentes no banco,
-baseado no numero do processo e na última data de atualização.
-
-Endpoint: POST /processos/deduplicar
-
-Adicionar Analise
-Recebe o numero do proesso e os campos provenientes da analise e adiciona ao
-processo correspondente.
-
-Endpoint: POST /processos/adicionar-analise
-"""
-
-# Endpoint: POST /processos/deduplicar
-
-# Adicionar Analise
-# Recebe o numero do proesso e os campos provenientes da analise e adiciona ao processo correspondente
-
-# Endpoint: POST /processos/adicionar-analise
+import hashlib
 
 from django.contrib.auth import authenticate
 from django.db import IntegrityError, transaction
@@ -39,7 +16,9 @@ from shared.logger import get_logger
 
 logger = get_logger("core.views")
 
+from core.models.audit_log import SecurityAuditLog
 from core.models.busca_salva import BuscaSalva
+from core.permissions import IsAdminRole
 from core.serializers.auth_serializer import (
     LoginSerializer,
     RegisterSerializer,
@@ -70,8 +49,14 @@ from core.services import (
 )
 
 
-class ProcessoViewset(viewsets.ViewSet):
+def _get_client_ip(request: Request) -> str:
+    xff = request.META.get("HTTP_X_FORWARDED_FOR")
+    if xff:
+        return xff.split(",")[0].strip()
+    return request.META.get("REMOTE_ADDR", "")
 
+
+class ProcessoViewset(viewsets.ViewSet):
 
     @action(detail=False, methods=['post'])
     def deduplicar(self, request: Request):
@@ -150,6 +135,11 @@ class ProcessoViewset(viewsets.ViewSet):
                 status=status.HTTP_404_NOT_FOUND,
             )
 
+        pdf_sha256 = payload.get("pdf_sha256")
+        if pdf_sha256:
+            processo.pdf_sha256 = pdf_sha256
+            processo.save(update_fields=["pdf_sha256"])
+
         output_serializer = ProcessoResumoSerializer(processo)
         return Response(output_serializer.data, status=status.HTTP_200_OK)
 
@@ -207,6 +197,79 @@ class ProcessoViewset(viewsets.ViewSet):
         output_serializer = ProcessoDetalheSerializer(processo)
         return Response(output_serializer.data, status=status.HTTP_200_OK)
 
+    @action(detail=False, methods=['get'], url_path='verificar-integridade')
+    def verificar_integridade(self, request: Request):
+        """Verifica a integridade de um PDF de processo comparando o SHA-256 armazenado com o atual no S3."""
+        from core.models.processo import Processo
+        from shared.s3_client import get_s3_client
+
+        numero_processo = (request.query_params.get("numero_processo") or "").strip()
+        grau = (request.query_params.get("grau") or "").strip()
+
+        if not numero_processo or not grau:
+            raise ValidationError({"mensagem": "Parametros numero_processo e grau sao obrigatorios."})
+
+        processo = obter_processo_por_numero_grau(numero_processo=numero_processo, grau=grau)
+        if processo is None:
+            return Response({"mensagem": "Processo nao encontrado."}, status=status.HTTP_404_NOT_FOUND)
+
+        if not processo.pdf_sha256:
+            return Response(
+                {"status": "SEM_HASH", "mensagem": "Processo não possui hash SHA-256 registrado."},
+                status=status.HTTP_200_OK,
+            )
+
+        client = get_s3_client()
+        from core.services import _s3_object_key, _normalize_grau
+        object_name = _s3_object_key(numero_processo, grau)
+
+        try:
+            import tempfile
+            with tempfile.NamedTemporaryFile(delete=False, suffix=".pdf") as tmp:
+                tmp_path = tmp.name
+            client.get_object("pje-documents", object_name, tmp_path)
+            with open(tmp_path, "rb") as f:
+                current_hash = hashlib.sha256(f.read()).hexdigest()
+            import os
+            os.remove(tmp_path)
+        except Exception as exc:
+            return Response(
+                {"status": "ERRO", "mensagem": f"Falha ao baixar PDF do S3: {exc}"},
+                status=status.HTTP_503_SERVICE_UNAVAILABLE,
+            )
+
+        ip = _get_client_ip(request)
+        if current_hash == processo.pdf_sha256:
+            SecurityAuditLog.log(
+                event_type=SecurityAuditLog.EventType.INTEGRITY_OK,
+                severity=SecurityAuditLog.Severity.INFO,
+                user=request.user if request.user.is_authenticated else None,
+                ip_address=ip,
+                numero_processo=numero_processo,
+                grau=grau,
+            )
+            return Response({"status": "INTEGRO", "sha256": current_hash}, status=status.HTTP_200_OK)
+
+        SecurityAuditLog.log(
+            event_type=SecurityAuditLog.EventType.INTEGRITY_VIOLATION,
+            severity=SecurityAuditLog.Severity.CRITICAL,
+            user=request.user if request.user.is_authenticated else None,
+            ip_address=ip,
+            numero_processo=numero_processo,
+            grau=grau,
+            hash_esperado=processo.pdf_sha256,
+            hash_encontrado=current_hash,
+        )
+        return Response(
+            {
+                "status": "ADULTERADO",
+                "mensagem": "O documento foi adulterado! O hash não confere.",
+                "hash_esperado": processo.pdf_sha256,
+                "hash_encontrado": current_hash,
+            },
+            status=status.HTTP_409_CONFLICT,
+        )
+
 
 def _auth_payload(user, token: Token) -> dict:
     """Resposta padrao apos login/registro: token + dados do usuario."""
@@ -227,6 +290,13 @@ class RegisterView(APIView):
         serializer.is_valid(raise_exception=True)
         user = serializer.save()
         token, _ = Token.objects.get_or_create(user=user)
+        SecurityAuditLog.log(
+            event_type=SecurityAuditLog.EventType.LOGIN_SUCCESS,
+            severity=SecurityAuditLog.Severity.INFO,
+            user=user,
+            ip_address=_get_client_ip(request),
+            action="register",
+        )
         return Response(_auth_payload(user, token), status=status.HTTP_201_CREATED)
 
 
@@ -244,13 +314,27 @@ class LoginView(APIView):
         password = serializer.validated_data["password"]
         user = authenticate(request, username=email, password=password)
 
+        ip = _get_client_ip(request)
+
         if user is None:
+            SecurityAuditLog.log(
+                event_type=SecurityAuditLog.EventType.LOGIN_FAILED,
+                severity=SecurityAuditLog.Severity.WARNING,
+                ip_address=ip,
+                email=email,
+            )
             return Response(
                 {"mensagem": "E-mail ou senha invalidos."},
                 status=status.HTTP_401_UNAUTHORIZED,
             )
 
         token, _ = Token.objects.get_or_create(user=user)
+        SecurityAuditLog.log(
+            event_type=SecurityAuditLog.EventType.LOGIN_SUCCESS,
+            severity=SecurityAuditLog.Severity.INFO,
+            user=user,
+            ip_address=ip,
+        )
         return Response(_auth_payload(user, token), status=status.HTTP_200_OK)
 
 
@@ -260,6 +344,12 @@ class LogoutView(APIView):
     permission_classes = [IsAuthenticated]
 
     def post(self, request: Request):
+        SecurityAuditLog.log(
+            event_type=SecurityAuditLog.EventType.LOGOUT,
+            severity=SecurityAuditLog.Severity.INFO,
+            user=request.user,
+            ip_address=_get_client_ip(request),
+        )
         Token.objects.filter(user=request.user).delete()
         return Response(status=status.HTTP_204_NO_CONTENT)
 
@@ -281,7 +371,6 @@ class UserMeView(APIView):
         return Response(UserSerializer(user).data, status=status.HTTP_200_OK)
 
 
-
 class SavedSearchViewSet(viewsets.ModelViewSet):
     """CRUD das buscas salvas, restrito ao usuario autenticado."""
 
@@ -293,4 +382,46 @@ class SavedSearchViewSet(viewsets.ModelViewSet):
 
     def perform_create(self, serializer):
         serializer.save(user=self.request.user)
+
+
+# ────────────────────────────────────────────────────────────────────
+# Endpoints administrativos (RBAC — somente is_staff=True)
+# ────────────────────────────────────────────────────────────────────
+
+class AdminAuditLogView(APIView):
+    """GET /api/admin/audit-logs/ — lista eventos de auditoria de segurança (somente admin)."""
+
+    permission_classes = [IsAuthenticated, IsAdminRole]
+
+    def get(self, request: Request):
+        from rest_framework import serializers as drf_serializers
+
+        class AuditLogSerializer(drf_serializers.ModelSerializer):
+            username = drf_serializers.CharField(source="user.username", default=None)
+
+            class Meta:
+                model = SecurityAuditLog
+                fields = ["id", "timestamp", "username", "ip_address", "event_type", "severity", "detail"]
+
+        limit = min(int(request.query_params.get("limit", 100)), 500)
+        event_type = request.query_params.get("event_type")
+
+        qs = SecurityAuditLog.objects.select_related("user").all()
+        if event_type:
+            qs = qs.filter(event_type=event_type)
+
+        logs = qs[:limit]
+        serializer = AuditLogSerializer(logs, many=True)
+        return Response(serializer.data, status=status.HTTP_200_OK)
+
+
+class AdminReindexView(APIView):
+    """POST /api/admin/reindexar/ — dispara reindexação vetorial (somente admin)."""
+
+    permission_classes = [IsAuthenticated, IsAdminRole]
+
+    def post(self, request: Request):
+        from core.services import reindexar_processos_sem_embedding
+        count = reindexar_processos_sem_embedding()
+        return Response({"mensagem": f"{count} processos reindexados."}, status=status.HTTP_200_OK)
 

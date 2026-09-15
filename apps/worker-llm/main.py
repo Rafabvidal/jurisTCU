@@ -9,7 +9,7 @@ import opendataloader_pdf
 from langchain.agents import create_agent
 from langchain_openai import ChatOpenAI
 from shared.env_manager import EnviromentManager
-from shared.llm_constants import SYSTEM_PROMPT
+from shared.llm_constants import PROMPT_INJECTION_PATTERNS, SYSTEM_PROMPT
 from shared.logger import get_logger
 from shared.schemas.resumo_ia import ProcessoAnalise
 
@@ -52,7 +52,26 @@ def extract_text_from_document(path: str) -> str:
     return input_path.read_text(encoding="utf-8")
 
 
+def detect_prompt_injection(text: str) -> list[str]:
+    """Verifica se o texto contém padrões de prompt injection. Retorna as frases detectadas."""
+    text_lower = text.lower()
+    return [pattern for pattern in PROMPT_INJECTION_PATTERNS if pattern in text_lower]
+
+
+def sanitize_document_text(text: str) -> str:
+    """Envolve o texto do documento em delimitadores de segurança."""
+    return f"<documento_tribunal_nao_confiavel>\n{text}\n</documento_tribunal_nao_confiavel>"
+
+
 def analyze_text(pdf_text: str) -> ProcessoAnalise:
+    injections = detect_prompt_injection(pdf_text)
+    if injections:
+        logger.warning(
+            "PROMPT INJECTION DETECTADO no documento. Padrões encontrados: %s. Continuando com sanitização reforçada.",
+            injections,
+        )
+
+    sanitized_text = sanitize_document_text(pdf_text)
 
     model_name = env_manager.get_lmstudio_model()
 
@@ -66,7 +85,7 @@ def analyze_text(pdf_text: str) -> ProcessoAnalise:
             {
                 "messages": [
                     {"role": "system", "content": build_system_prompt()},
-                    {"role": "user", "content": f"Texto extraído do PDF:\n{pdf_text}"},
+                    {"role": "user", "content": f"Texto extraído do PDF:\n{sanitized_text}"},
                 ]
             }
         )
