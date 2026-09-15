@@ -1,0 +1,1805 @@
+{
+  "file name" : "mock.pdf",
+  "number of pages" : 12,
+  "author" : "Processo Judicial Eletrônico",
+  "title" : "PROCESSO: 0000256-48.2025.5.06.0171 - AÇÃO TRABALHISTA - RITO SUMARÍSSIMO",
+  "creation date" : "D:20260316104708-03'00'",
+  "modification date" : "D:20260316104708-03'00'",
+  "kids" : [ {
+    "type" : "image",
+    "id" : 74,
+    "page number" : 1,
+    "bounding box" : [ 266.7, 714.4, 318.3, 766.0 ]
+  }, {
+    "type" : "paragraph",
+    "id" : 76,
+    "page number" : 1,
+    "bounding box" : [ 193.96, 664.12, 401.04, 708.02 ],
+    "font" : "Helvetica-Bold",
+    "font size" : 10.0,
+    "text color" : "[0.0]",
+    "content" : "Poder Judiciário Justiça do Trabalho Tribunal Regional do Trabalho da 6ª Região"
+  }, {
+    "type" : "heading",
+    "id" : 77,
+    "level" : "Doctitle",
+    "page number" : 1,
+    "bounding box" : [ 120.24, 601.84, 469.22, 645.64 ],
+    "heading level" : 1,
+    "font" : "Helvetica-Bold",
+    "font size" : 20.0,
+    "text color" : "[0.0]",
+    "content" : "Ação Trabalhista - Rito Sumaríssimo 0000256-48.2025.5.06.0171"
+  }, {
+    "type" : "paragraph",
+    "id" : 78,
+    "page number" : 1,
+    "bounding box" : [ 152.02, 567.25, 442.982, 583.434 ],
+    "font" : "Helvetica",
+    "font size" : 14.0,
+    "text color" : "[0.0, 0.0, 1.0]",
+    "content" : "PARA ACESSAR O SUMÁRIO, CLIQUE AQUI"
+  }, {
+    "type" : "heading",
+    "id" : 79,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 178.5, 502.752, 359.908, 521.792 ],
+    "heading level" : 2,
+    "font" : "Helvetica-Bold",
+    "font size" : 16.0,
+    "text color" : "[0.0]",
+    "content" : "Tramitação Preferencial"
+  }, {
+    "type" : "paragraph",
+    "id" : 80,
+    "level" : "1",
+    "page number" : 1,
+    "bounding box" : [ 213.5, 487.7, 339.56, 501.572 ],
+    "font" : "Helvetica",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "- Pagamento de Salário"
+  }, {
+    "type" : "heading",
+    "id" : 81,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 178.5, 442.752, 397.252, 461.792 ],
+    "heading level" : 2,
+    "font" : "Helvetica-Bold",
+    "font size" : 16.0,
+    "text color" : "[0.0]",
+    "content" : "Processo Judicial Eletrônico"
+  }, {
+    "type" : "heading",
+    "id" : 82,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 36.0, 391.664, 204.732, 421.944 ],
+    "heading level" : 4,
+    "font" : "Helvetica-Bold",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Data da Autuação: 15/04/2025 Valor da causa: R$ 31.399,70"
+  }, {
+    "type" : "paragraph",
+    "id" : 83,
+    "page number" : 1,
+    "bounding box" : [ 36.0, 307.664, 425.712, 369.944 ],
+    "font" : "Helvetica",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "Partes: RECLAMANTE: LEANDRO MARCIONILO DE OLIVEIRA ADVOGADO: José Henrique da Silva RECLAMADO: ECAM TERRAPLENAGEM E PAVIMENTACAO LTDA"
+  }, {
+    "type" : "paragraph",
+    "id" : 84,
+    "page number" : 1,
+    "bounding box" : [ 36.0, 288.7, 385.74, 305.572 ],
+    "font" : "Helvetica",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "PAGINA_CAPA_PROCESSO_PJEADVOGADO: PAULO JOSE CARNEIRO LEAO CANNIZZARO"
+  }, {
+    "type" : "paragraph",
+    "id" : 75,
+    "page number" : 1,
+    "bounding box" : [ 534.24, 788.038, 556.749, 798.082 ],
+    "font" : "Times-Roman",
+    "font size" : 9.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Fls.: 1"
+  }, {
+    "type" : "header",
+    "id" : 85,
+    "page number" : 2,
+    "bounding box" : [ 75.8, 714.575, 557.247, 830.379 ],
+    "kids" : [ {
+      "type" : "paragraph",
+      "id" : 56,
+      "page number" : 2,
+      "bounding box" : [ 532.74, 819.975, 557.247, 830.379 ],
+      "font" : "Helvetica",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "Fls.: 2"
+    }, {
+      "type" : "paragraph",
+      "id" : 57,
+      "page number" : 2,
+      "bounding box" : [ 143.3, 738.659, 427.316, 798.201 ],
+      "font" : "OpenSans-Regular",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "PODER JUDICIÁRIO JUSTIÇA DO TRABALHO TRIBUNAL REGIONAL DO TRABALHO DA 6ª REGIÃO 1ª VARA DO TRABALHO DO CABO"
+    }, {
+      "type" : "image",
+      "id" : 58,
+      "page number" : 2,
+      "bounding box" : [ 75.8, 714.575, 140.3, 779.075 ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 86,
+    "page number" : 2,
+    "bounding box" : [ 143.3, 695.459, 420.008, 740.601 ],
+    "font" : "OpenSans-Regular",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "0000256-48.2025.5.06.0171 : LEANDRO MARCIONILO DE OLIVEIRA : ECAM TERRAPLENAGEM E PAVIMENTACAO LTDA"
+  }, {
+    "type" : "heading",
+    "id" : 87,
+    "level" : "Subtitle",
+    "page number" : 2,
+    "bounding box" : [ 201.125, 645.584, 263.729, 661.926 ],
+    "heading level" : 4,
+    "font" : "OpenSans-Regular",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "DESPACHO"
+  }, {
+    "type" : "list",
+    "id" : 88,
+    "level" : "2",
+    "page number" : 2,
+    "bounding box" : [ 201.125, 443.309, 566.764, 630.501 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 3,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 201.125, 614.159, 566.762, 630.501 ],
+      "font" : "OpenSans-Regular",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "1. Considerando que a parte autora deve expor suas razões de",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 72,
+        "page number" : 2,
+        "bounding box" : [ 73.55, 524.159, 566.775, 612.501 ],
+        "font" : "OpenSans-Regular",
+        "font size" : 12.0,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "pedir na fundamentação da petição inicial de forma clara e objetiva, além de constar todas as pretensões no rol postulatório, para que possam ser todas as pretensões devidamente analisadas pelo Juízo e realizada a prestação jurisdicional de forma plena, constato a necessidade de emenda da inicial para indicar a jornada de trabalho do obreiro."
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 201.125, 492.734, 566.764, 509.076 ],
+      "font" : "OpenSans-Regular",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "2. Noto também que o valor atribuído à causa não se coaduna",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 73,
+        "page number" : 2,
+        "bounding box" : [ 73.55, 474.734, 540.254, 491.076 ],
+        "font" : "OpenSans-Regular",
+        "font size" : 12.0,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "com o somatório dos títulos pleiteados, devendo a inicial ser ajustada no particular."
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 201.125, 443.309, 558.473, 459.651 ],
+      "font" : "OpenSans-Regular",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "3. Assim, concedo prazo de 15 (quinze) dias à parte autora para:",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 89,
+    "level" : "3",
+    "page number" : 2,
+    "bounding box" : [ 73.55, 308.459, 566.771, 428.226 ],
+    "numbering style" : "unknown style",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 73.55, 375.884, 566.743, 428.226 ],
+      "font" : "OpenSans-Regular",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- emendar a inicial quanto à matéria/pedidos acima mencionados, sob pena de extinção do feito sem resolução de mérito quanto à matéria /pedidos correlatos, na forma dos artigos 852-B, I, da CLT e 485, I, c/c 330, §1°, do CPC;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 73.55, 308.459, 566.771, 360.801 ],
+      "font" : "OpenSans-Regular",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "-retificar o valor da causa, nos moldes dos artigos 319, V c/c 292, VI, sob pena de indeferimento da petição inicial, na forma do parágrafo único artigo 321 do CPC.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 90,
+    "page number" : 2,
+    "bounding box" : [ 201.125, 277.034, 501.305, 293.376 ],
+    "font" : "OpenSans-Regular",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "CABO DE SANTO AGOSTINHO/PE, 23 de abril de 2025."
+  }, {
+    "type" : "heading",
+    "id" : 91,
+    "level" : "Subtitle",
+    "page number" : 2,
+    "bounding box" : [ 207.275, 227.609, 432.947, 261.951 ],
+    "heading level" : 4,
+    "font" : "OpenSans-Regular",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "TAYSA QUEIROZ MOTA DE SOUSA BRITO Juíza do Trabalho Substituta"
+  }, {
+    "type" : "image",
+    "id" : 94,
+    "page number" : 2,
+    "bounding box" : [ 27.255, 56.818, 159.255, 104.818 ]
+  }, {
+    "type" : "paragraph",
+    "id" : 93,
+    "page number" : 2,
+    "bounding box" : [ 164.255, 62.535, 562.744, 99.764 ],
+    "font" : "OpenSans-Regular",
+    "font size" : 7.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Documento assinado eletronicamente por TAYSA QUEIROZ MOTA DE SOUSA BRITO, em 23/04/2025, às 14:45:44 - 367e148 https://pje.trt6.jus.br/pjekz/validacao/25042308405284100000086625126?instancia=1 Número do processo: 0000256-48.2025.5.06.0171 Número do documento: 25042308405284100000086625126"
+  }, {
+    "type" : "header",
+    "id" : 96,
+    "page number" : 3,
+    "bounding box" : [ 75.8, 714.575, 557.247, 830.379 ],
+    "kids" : [ {
+      "type" : "paragraph",
+      "id" : 59,
+      "page number" : 3,
+      "bounding box" : [ 532.74, 819.975, 557.247, 830.379 ],
+      "font" : "Helvetica",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "Fls.: 3"
+    }, {
+      "type" : "paragraph",
+      "id" : 60,
+      "page number" : 3,
+      "bounding box" : [ 143.3, 738.659, 427.316, 798.201 ],
+      "font" : "OpenSans-Regular",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "PODER JUDICIÁRIO JUSTIÇA DO TRABALHO TRIBUNAL REGIONAL DO TRABALHO DA 6ª REGIÃO 1ª VARA DO TRABALHO DO CABO"
+    }, {
+      "type" : "image",
+      "id" : 61,
+      "page number" : 3,
+      "bounding box" : [ 75.8, 714.575, 140.3, 779.075 ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 97,
+    "page number" : 3,
+    "bounding box" : [ 143.3, 695.459, 492.02, 740.601 ],
+    "font" : "OpenSans-Regular",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "ATSum 0000256-48.2025.5.06.0171 RECLAMANTE: LEANDRO MARCIONILO DE OLIVEIRA RECLAMADO: ECAM TERRAPLENAGEM E PAVIMENTACAO LTDA"
+  }, {
+    "type" : "heading",
+    "id" : 98,
+    "level" : "Subtitle",
+    "page number" : 3,
+    "bounding box" : [ 201.125, 645.584, 266.921, 661.926 ],
+    "heading level" : 4,
+    "font" : "OpenSans-Regular",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "DESPACHO:"
+  }, {
+    "type" : "list",
+    "id" : 99,
+    "level" : "2",
+    "page number" : 3,
+    "bounding box" : [ 201.125, 533.309, 566.768, 630.501 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 3,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 201.125, 614.159, 566.768, 630.501 ],
+      "font" : "OpenSans-Regular",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "1. Recebo a emenda à inicial, apresentada por meio da petição",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 71,
+        "page number" : 3,
+        "bounding box" : [ 73.55, 596.159, 158.138, 612.501 ],
+        "font" : "OpenSans-Regular",
+        "font size" : 12.0,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "de ID.b029b6e."
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 201.125, 564.734, 539.645, 581.076 ],
+      "font" : "OpenSans-Regular",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "2. Retifica-se o valor da causa conforme petição de emenda.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 201.125, 533.309, 566.751, 549.651 ],
+      "font" : "OpenSans-Regular",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "3. Expeça-se notificação inicial à reclamada por meio do",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 100,
+    "page number" : 3,
+    "bounding box" : [ 73.55, 479.309, 566.768, 531.651 ],
+    "font" : "OpenSans-Regular",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Domicílio Judicial Eletrônico. Caso não possua cadastro, expeça-se notificação para seu endereço postal e, não sendo o endereço atendido pelos correios, cumpra-se a diligência por meio de mandado."
+  }, {
+    "type" : "paragraph",
+    "id" : 101,
+    "page number" : 3,
+    "bounding box" : [ 201.125, 447.884, 504.425, 464.226 ],
+    "font" : "OpenSans-Regular",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "CABO DE SANTO AGOSTINHO/PE, 19 de maio de 2025."
+  }, {
+    "type" : "heading",
+    "id" : 102,
+    "level" : "Subtitle",
+    "page number" : 3,
+    "bounding box" : [ 219.65, 398.459, 420.602, 432.801 ],
+    "heading level" : 4,
+    "font" : "OpenSans-Regular",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "MAYSA COSTA DE CARVALHO ALVES Juíza do Trabalho Titular"
+  }, {
+    "type" : "image",
+    "id" : 105,
+    "page number" : 3,
+    "bounding box" : [ 34.284, 60.898, 166.284, 108.898 ]
+  }, {
+    "type" : "paragraph",
+    "id" : 104,
+    "page number" : 3,
+    "bounding box" : [ 171.284, 61.999, 555.717, 108.46 ],
+    "font" : "OpenSans-Regular",
+    "font size" : 7.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Documento assinado eletronicamente por MAYSA COSTA DE CARVALHO ALVES, em 19/05/2025, às 18:56:49 - b449492 Certificado por TRIBUNAL REGIONAL DO TRABALHO DA 6A REGIAO:02566224000190 https://pje.trt6.jus.br/pjekz/validacao/25051908054891400000087471778?instancia=1 Número do processo: 0000256-48.2025.5.06.0171 Número do documento: 25051908054891400000087471778"
+  }, {
+    "type" : "image",
+    "id" : 108,
+    "page number" : 4,
+    "bounding box" : [ 79.55, 695.975, 169.55, 793.475 ]
+  }, {
+    "type" : "header",
+    "id" : 107,
+    "page number" : 4,
+    "bounding box" : [ 177.05, 777.397, 557.247, 830.379 ],
+    "kids" : [ {
+      "type" : "paragraph",
+      "id" : 62,
+      "page number" : 4,
+      "bounding box" : [ 532.74, 819.975, 557.247, 830.379 ],
+      "font" : "Helvetica",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "Fls.: 4"
+    }, {
+      "type" : "heading",
+      "id" : 63,
+      "page number" : 4,
+      "bounding box" : [ 177.05, 777.397, 282.242, 793.739 ],
+      "heading level" : 5,
+      "font" : "OpenSans-Regular",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "PODER JUDICIÁRIO"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 109,
+    "page number" : 4,
+    "bounding box" : [ 177.05, 682.222, 540.47, 777.876 ],
+    "font" : "OpenSans-Regular",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "JUSTIÇA DO TRABALHO TRIBUNAL REGIONAL DO TRABALHO DA 6ª REGIÃO 1ª Vara do Trabalho do Cabo ATSum 0000256-48.2025.5.06.0171 RECLAMANTE: LEANDRO MARCIONILO DE OLIVEIRA RECLAMADO(A): ECAM TERRAPLENAGEM E PAVIMENTACAO LTDA"
+  }, {
+    "type" : "heading",
+    "id" : 110,
+    "level" : "Subtitle",
+    "page number" : 4,
+    "bounding box" : [ 267.05, 652.934, 373.202, 669.276 ],
+    "heading level" : 4,
+    "font" : "OpenSans-Regular",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "ATA DE AUDIÊNCIA"
+  }, {
+    "type" : "heading",
+    "id" : 111,
+    "level" : "Subtitle",
+    "page number" : 4,
+    "bounding box" : [ 78.802, 576.059, 563.499, 639.989 ],
+    "heading level" : 3,
+    "font" : "OpenSans-Regular",
+    "font size" : 12.268,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Em 18 de junho de 2025, na sala de sessões da MM. 1ª Vara do Trabalho do Cabo, sob a direção do(a) Exmo(a). Sr(a). Juiz(a) do Trabalho MAYSA COSTA DE CARVALHO ALVES, realizou-se audiência relativa à Ação Trabalhista - Rito Sumaríssimo número 0000256-48.2025.5.06.0171, supramencionada."
+  }, {
+    "type" : "paragraph",
+    "id" : 112,
+    "page number" : 4,
+    "bounding box" : [ 164.6, 517.484, 560.751, 563.114 ],
+    "font" : "OpenSans-Regular",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Às 08:21, aberta a audiência, foram apregoadas as partes. Presente a parte reclamante LEANDRO MARCIONILO DE OLIVEIRA,"
+  }, {
+    "type" : "paragraph",
+    "id" : 113,
+    "page number" : 4,
+    "bounding box" : [ 79.55, 485.759, 560.768, 517.964 ],
+    "font" : "OpenSans-Regular",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "pessoalmente, acompanhado(a) de seu(a) advogado(a), Dr(a). José Henrique da Silva, OAB 0031742D/PE."
+  }, {
+    "type" : "paragraph",
+    "id" : 114,
+    "page number" : 4,
+    "bounding box" : [ 79.55, 408.884, 560.786, 472.814 ],
+    "font" : "OpenSans-Regular",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Presente a parte reclamada ECAM TERRAPLENAGEM E PAVIMENTACAO LTDA, representado(a) pelo(a) preposto(a) Sr.(a) MATEUS AUGUSTO TENÓRIO DA SILVA, CPF: 711.348.964-84, acompanhado(a) de seu(a) advogado(a), Dr (a). PAULO JOSE CARNEIRO LEAO CANNIZZARO, OAB 39792/PE."
+  }, {
+    "type" : "paragraph",
+    "id" : 115,
+    "page number" : 4,
+    "bounding box" : [ 164.6, 321.022, 560.751, 395.939 ],
+    "font" : "OpenSans-Regular",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Instalada a audiência. Sem êxito a primeira tentativa de acordo. A reclamada ratifica os termos da contestação escrita já protocolada"
+  }, {
+    "type" : "paragraph",
+    "id" : 116,
+    "page number" : 4,
+    "bounding box" : [ 79.55, 275.872, 461.192, 321.501 ],
+    "font" : "OpenSans-Regular",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "nos autos eletrônicos. Alçada fixada em conformidade com a petição inicial."
+  }, {
+    "type" : "paragraph",
+    "id" : 117,
+    "page number" : 4,
+    "bounding box" : [ 79.55, 135.547, 560.78, 262.926 ],
+    "font" : "OpenSans-Regular",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Concede-se às partes o prazo preclusivo de 5 (cinco) dias para juntada de documentos, não sendo permitida posterior juntada de outros - artigo 223 do CPC c/c artigo 769 da CLT - salvo se, a critério do juiz, forem considerados necessários à instrução do processo (artigo 765 da CLT c/c artigo 370 do CPC), além de prova em mídia (gravações de áudio ou vídeo), se houver, através do PJe Mídias, sob pena de não conhecimento. No mesmo prazo as partes deverão apresentar documentos relativos à sua representação em Juízo (procuração, substabelecimento, atos constitutivos e carta de preposição), caso ainda não o tenham feito."
+  }, {
+    "type" : "paragraph",
+    "id" : 119,
+    "page number" : 4,
+    "bounding box" : [ 79.55, 42.809, 560.795, 122.601 ],
+    "font" : "OpenSans-Regular",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Cabe à parte autora informar ao Juízo e fazer a devida comprovação, no prazo para produção de prova documental, quanto à ocorrência de causas suspensivas ou interruptivas da prescrição, nos termos dos artigos 197 a 201 do Código Civil e artigo 11, § 3º da CLT, ficando ciente desde já que o silêncio implicará na presunção de que tais causas não ocorreram."
+  }, {
+    "type" : "footer",
+    "id" : 123,
+    "page number" : 4,
+    "bounding box" : [ 7.862, 4.625, 415.373, 26.375 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 46,
+      "page number" : 4,
+      "bounding box" : [ 7.862, 4.625, 29.612, 26.375 ]
+    }, {
+      "type" : "heading",
+      "id" : 47,
+      "page number" : 4,
+      "bounding box" : [ 31.612, 10.074, 415.373, 19.607 ],
+      "heading level" : 7,
+      "font" : "OpenSans-Regular",
+      "font size" : 7.0,
+      "text color" : "[0.0]",
+      "content" : "Documento assinado eletronicamente por MAYSA COSTA DE CARVALHO ALVES, em 18/06/2025, às 09:26:09 - 8b093c8"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 124,
+    "page number" : 5,
+    "bounding box" : [ 532.74, 819.975, 557.247, 830.379 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 64,
+      "page number" : 5,
+      "bounding box" : [ 532.74, 819.975, 557.247, 830.379 ],
+      "heading level" : 6,
+      "font" : "Helvetica",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "Fls.: 5"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 125,
+    "page number" : 5,
+    "bounding box" : [ 79.55, 691.034, 560.774, 786.689 ],
+    "font" : "OpenSans-Regular",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "A parte que alegar direito municipal, estadual, estrangeiro, consuetudinário ou previsto em norma advinda da autonomia privada coletiva (norma coletiva) deve provar o teor e a vigência, no prazo acima mencionado para juntada da prova documental, preclusivamente, sob pena de ser presumida a inexistência do(s) direito(s) invocado(s) e consequente improcedência dos pedidos daí decorrentes."
+  }, {
+    "type" : "paragraph",
+    "id" : 129,
+    "page number" : 5,
+    "bounding box" : [ 79.55, 550.709, 560.783, 678.089 ],
+    "font" : "OpenSans-Regular",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Havendo controvérsia acerca da jornada de trabalho, deve o empregador, no prazo concedido para produção de prova documental, juntar todos os controles de jornada e contracheques do(a) trabalhador(a) reclamante, sob pena de aplicação da diretriz da Súmula n° 338 do TST. Se houver pedido de pagamento de feriados estaduais e municipais, fica de logo determinado que a parte autora comprove o alegado direito e a respectiva vigência, nos termos do artigo 376 do CPC, o que deverá ocorrer no mesmo prazo de juntada de documentos, sob pena de improcedência do respectivo pedido."
+  }, {
+    "type" : "paragraph",
+    "id" : 131,
+    "page number" : 5,
+    "bounding box" : [ 79.55, 473.834, 560.775, 537.764 ],
+    "font" : "OpenSans-Regular",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Havendo alegação na exordial de irregularidades nos depósitos de FGTS, é do empregador o ônus da prova em relação à regularidade dos recolhimentos, pois o pagamento é fato extintivo do direito do autor (artigo 373, II, do CPC), consoante a jurisprudência sedimentada na Súmula n° 461 do TST."
+  }, {
+    "type" : "paragraph",
+    "id" : 133,
+    "page number" : 5,
+    "bounding box" : [ 79.55, 396.959, 560.784, 460.889 ],
+    "font" : "OpenSans-Regular",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Também recai sobre o empregador, em conformidade com o entendimento sedimentado na Súmula n° 460, do TST, o ônus de comprovar que o empregado não satisfaz os requisitos indispensáveis para a concessão do valetransporte ou dispensou a concessão do benefício."
+  }, {
+    "type" : "paragraph",
+    "id" : 137,
+    "page number" : 5,
+    "bounding box" : [ 79.55, 320.084, 560.783, 384.014 ],
+    "font" : "OpenSans-Regular",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Havendo pedido de responsabilização de ente público, na condição de tomador de serviços, a este cabe o ônus de comprovar a devida fiscalização da empresa contratada quanto ao cumprimento das obrigações trabalhistas, em homenagem ao princípio da aptidão para a prova."
+  }, {
+    "type" : "paragraph",
+    "id" : 139,
+    "page number" : 5,
+    "bounding box" : [ 79.55, 163.897, 560.783, 307.139 ],
+    "font" : "OpenSans-Regular",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "A juntada de documentos deve observar o disposto nos artigos 12, § 3°, 4° e 5°, e 13 da Resolução nº 185/17 CSJT, cabendo às partes e seus advogados zelar pela qualidade dos documentos juntados por qualquer meio, especialmente no que toca à legibilidade, classificação e organização cronológica, devendo ser evitada a classificação genérica “documentos diversos” e indicado o período a que se referem, ficando de logo advertidas que serão desconsiderados os documentos que não atenderem às condições mínimas de apreciação no que diz respeito à qualidade da visualização ou quando dificultarem o manuseio dos autos eletrônicos, consoante artigo 15 da indigitada Resolução."
+  }, {
+    "type" : "paragraph",
+    "id" : 148,
+    "page number" : 5,
+    "bounding box" : [ 79.55, 55.297, 560.783, 150.951 ],
+    "font" : "OpenSans-Regular",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Findo o prazo para produção de prova documental / em mídia, e em sucessivo, faculta-se às partes manifestação sobre os documentos/mídias apresentados pelo ex adverso, no prazo preclusivo de 5 (cinco) dias, independentemente de notificação, oportunidade em que também é facultado à parte reclamante manifestar-se sobre as preliminares e prejudiciais de mérito suscitadas na defesa, em consonância com o disposto no artigo 10 e 351 do CPC."
+  }, {
+    "type" : "footer",
+    "id" : 154,
+    "page number" : 5,
+    "bounding box" : [ 7.862, 4.625, 415.373, 26.375 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 48,
+      "page number" : 5,
+      "bounding box" : [ 7.862, 4.625, 29.612, 26.375 ]
+    }, {
+      "type" : "heading",
+      "id" : 49,
+      "page number" : 5,
+      "bounding box" : [ 31.612, 10.074, 415.373, 19.607 ],
+      "heading level" : 7,
+      "font" : "OpenSans-Regular",
+      "font size" : 7.0,
+      "text color" : "[0.0]",
+      "content" : "Documento assinado eletronicamente por MAYSA COSTA DE CARVALHO ALVES, em 18/06/2025, às 09:26:09 - 8b093c8"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 155,
+    "page number" : 6,
+    "bounding box" : [ 532.74, 819.975, 557.247, 830.379 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 65,
+      "page number" : 6,
+      "bounding box" : [ 532.74, 819.975, 557.247, 830.379 ],
+      "heading level" : 6,
+      "font" : "Helvetica",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "Fls.: 6"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 156,
+    "page number" : 6,
+    "bounding box" : [ 79.55, 751.109, 560.777, 799.176 ],
+    "font" : "OpenSans-Regular",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "As partes requereram a tramitação do feito na modalidade do Juízo 100% Digital, informando, neste ato, os dados exigidos pelo parágrafo único do artigo 2º da Resolução nº 345/2020 do CNJ:"
+  }, {
+    "type" : "list",
+    "id" : 157,
+    "level" : "3",
+    "page number" : 6,
+    "bounding box" : [ 79.55, 570.509, 560.784, 738.164 ],
+    "numbering style" : "unknown style",
+    "number of list items" : 4,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 79.55, 705.959, 560.784, 738.164 ],
+      "font" : "OpenSans-Regular",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- Reclamante: telefone - 081-9.8720-2170; e-mail leandrooliveirax52@gmail.com;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 79.55, 660.809, 560.78, 693.014 ],
+      "font" : "OpenSans-Regular",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- Advogado do reclamante: telefone - 081-9.8713-4878; e-mail henriquesilva.adv@gmail.com;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 79.55, 615.659, 560.589, 647.864 ],
+      "font" : "OpenSans-Regular",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- Reclamada: telefone - 081-9.9237-7515; e-mail - mateustenorio. ecampe@gmail.com;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 79.55, 570.509, 560.771, 602.714 ],
+      "font" : "OpenSans-Regular",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "- Advogado da reclamada: telefone - 081-9.8101-3792; e-mail paulojose@cannizzaro.adv.br;",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 158,
+    "page number" : 6,
+    "bounding box" : [ 79.55, 525.359, 560.756, 557.564 ],
+    "font" : "OpenSans-Regular",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Deferido o pedido, providencia a Secretaria ao registro no cadastro do feito quanto ao Juízo 100% Digital."
+  }, {
+    "type" : "paragraph",
+    "id" : 159,
+    "page number" : 6,
+    "bounding box" : [ 79.55, 448.484, 560.756, 512.414 ],
+    "font" : "OpenSans-Regular",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Designa-se audiência telepresencial (artigo 7°, parágrafo 2º, do Ato Conjunto TRT6 GP-GVP-CRT n° 05/2022 e artigo 3º do Ato Conjunto TRT6 GP-GVP-CRT n° 12/2022) para instrução do feito, com oitiva das partes, sob pena de confissão, e produção de prova testemunhal, sob pena de preclusão, para:"
+  }, {
+    "type" : "paragraph",
+    "id" : 162,
+    "page number" : 6,
+    "bounding box" : [ 164.6, 389.909, 560.759, 435.539 ],
+    "font" : "OpenSans-Regular",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "24.07.2025, às 9h30min. O link será disponibilizado por meio de certidão nos autos em até"
+  }, {
+    "type" : "paragraph",
+    "id" : 163,
+    "page number" : 6,
+    "bounding box" : [ 79.55, 358.184, 560.772, 390.389 ],
+    "font" : "OpenSans-Regular",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "dois dias úteis antes da data de audiência, cabendo às partes diligenciar para ciência e informar às testemunhas eventualmente convidadas."
+  }, {
+    "type" : "paragraph",
+    "id" : 164,
+    "page number" : 6,
+    "bounding box" : [ 79.55, 297.172, 560.763, 345.239 ],
+    "font" : "OpenSans-Regular",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "As partes deverão trazer suas testemunhas independentemente de intimação (artigo 825 da CLT). Não serão aceitos pedidos de adiamento acaso a prova do real convite não seja apresentada."
+  }, {
+    "type" : "paragraph",
+    "id" : 165,
+    "page number" : 6,
+    "bounding box" : [ 79.55, 252.022, 560.781, 284.226 ],
+    "font" : "OpenSans-Regular",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Havendo interesse na intimação judicial de testemunhas, o rol deve ser apresentado no prazo de 05 (cinco) dias."
+  }, {
+    "type" : "paragraph",
+    "id" : 166,
+    "page number" : 6,
+    "bounding box" : [ 79.55, 159.284, 560.78, 239.076 ],
+    "font" : "OpenSans-Regular",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "As testemunhas deverão obrigatoriamente comparecer à sessão de instrução portando documento de identificação oficial com foto, preferencialmente CTPS e RG, sob pena de não serem compromissadas e inquiridas, advertindo-se que não serão aceitos pedidos de adiamento ou de apresentação posterior de documento."
+  }, {
+    "type" : "paragraph",
+    "id" : 168,
+    "page number" : 6,
+    "bounding box" : [ 79.55, 66.547, 560.793, 146.339 ],
+    "font" : "OpenSans-Regular",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "À atenção da Secretaria para que as intimações e notificações direcionadas às partes sejam realizadas em nome do(s) advogado(s) indicado(s), desde que regularmente credenciado(s) no PJe e habilitado(s) nestes autos (Súmula n° 427 do C.TST; artigo 272, §5°, do CPC; artigo 5°, capute §10°, da Resolução CSJT nº 185/2017)."
+  }, {
+    "type" : "footer",
+    "id" : 171,
+    "page number" : 6,
+    "bounding box" : [ 7.862, 4.625, 415.373, 26.375 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 50,
+      "page number" : 6,
+      "bounding box" : [ 7.862, 4.625, 29.612, 26.375 ]
+    }, {
+      "type" : "heading",
+      "id" : 51,
+      "page number" : 6,
+      "bounding box" : [ 31.612, 10.074, 415.373, 19.607 ],
+      "heading level" : 7,
+      "font" : "OpenSans-Regular",
+      "font size" : 7.0,
+      "text color" : "[0.0]",
+      "content" : "Documento assinado eletronicamente por MAYSA COSTA DE CARVALHO ALVES, em 18/06/2025, às 09:26:09 - 8b093c8"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 172,
+    "page number" : 7,
+    "bounding box" : [ 532.74, 819.975, 557.247, 830.379 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 66,
+      "page number" : 7,
+      "bounding box" : [ 532.74, 819.975, 557.247, 830.379 ],
+      "heading level" : 6,
+      "font" : "Helvetica",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "Fls.: 7"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 174,
+    "page number" : 7,
+    "bounding box" : [ 79.55, 735.809, 560.775, 799.739 ],
+    "font" : "OpenSans-Regular",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "É dever das partes e dos procuradores manter atualizados os seus endereços, sob pena de se reputarem perfeitas as notificações enviadas para os endereços, embora desatualizados, mas constantes nos autos, a teor dos artigos 77, V, e 274, parágrafo único, do CPC."
+  }, {
+    "type" : "paragraph",
+    "id" : 175,
+    "page number" : 7,
+    "bounding box" : [ 79.55, 643.072, 560.768, 722.864 ],
+    "font" : "OpenSans-Regular",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Esta ata vale como declaração de comparecimento das pessoas cujos nomes nela constam, servindo para justificar a ausência do empregado ao seu trabalho e salvaguardar o seu direito à percepção do seu salário, na forma da lei, e, estando assinada eletronicamente pela Juíza que presidiu esta sessão, é desnecessária a expedição de certidão para tal finalidade."
+  }, {
+    "type" : "paragraph",
+    "id" : 176,
+    "page number" : 7,
+    "bounding box" : [ 164.6, 584.497, 357.848, 630.126 ],
+    "font" : "OpenSans-Regular",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Audiência encerrada às 08h39min. Cientes os presentes."
+  }, {
+    "type" : "paragraph",
+    "id" : 177,
+    "page number" : 7,
+    "bounding box" : [ 219.65, 539.347, 420.602, 571.551 ],
+    "font" : "OpenSans-Regular",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "MAYSA COSTA DE CARVALHO ALVES Juiz(a) do Trabalho"
+  }, {
+    "type" : "heading",
+    "id" : 178,
+    "level" : "Subtitle",
+    "page number" : 7,
+    "bounding box" : [ 123.612, 433.184, 563.496, 465.389 ],
+    "heading level" : 3,
+    "font" : "OpenSans-Regular",
+    "font size" : 12.268,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Ata redigida por PAULO VICENTE DE ALMEIDA GOGGIN FILHO, Secretário(a) de Audiência."
+  }, {
+    "type" : "image",
+    "id" : 181,
+    "page number" : 7,
+    "bounding box" : [ 34.62, 56.818, 166.62, 104.818 ]
+  }, {
+    "type" : "paragraph",
+    "id" : 180,
+    "page number" : 7,
+    "bounding box" : [ 171.62, 62.535, 555.381, 99.764 ],
+    "font" : "OpenSans-Regular",
+    "font size" : 7.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Documento assinado eletronicamente por MAYSA COSTA DE CARVALHO ALVES, em 18/06/2025, às 09:26:09 - 8b093c8 https://pje.trt6.jus.br/pjekz/validacao/25061808431537400000088521124?instancia=1 Número do processo: 0000256-48.2025.5.06.0171 Número do documento: 25061808431537400000088521124"
+  }, {
+    "type" : "header",
+    "id" : 183,
+    "page number" : 8,
+    "bounding box" : [ 532.74, 819.975, 557.247, 830.379 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 67,
+      "page number" : 8,
+      "bounding box" : [ 532.74, 819.975, 557.247, 830.379 ],
+      "heading level" : 6,
+      "font" : "Helvetica",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "Fls.: 8"
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 184,
+    "page number" : 8,
+    "bounding box" : [ 79.55, 695.975, 169.55, 793.475 ]
+  }, {
+    "type" : "paragraph",
+    "id" : 185,
+    "page number" : 8,
+    "bounding box" : [ 177.05, 682.222, 540.47, 793.739 ],
+    "font" : "OpenSans-Regular",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "PODER JUDICIÁRIO JUSTIÇA DO TRABALHO TRIBUNAL REGIONAL DO TRABALHO DA 6ª REGIÃO 1ª Vara do Trabalho do Cabo ATSum 0000256-48.2025.5.06.0171 RECLAMANTE: LEANDRO MARCIONILO DE OLIVEIRA RECLAMADO(A): ECAM TERRAPLENAGEM E PAVIMENTACAO LTDA"
+  }, {
+    "type" : "heading",
+    "id" : 186,
+    "level" : "Subtitle",
+    "page number" : 8,
+    "bounding box" : [ 267.05, 652.934, 373.202, 669.276 ],
+    "heading level" : 4,
+    "font" : "OpenSans-Regular",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "ATA DE AUDIÊNCIA"
+  }, {
+    "type" : "heading",
+    "id" : 187,
+    "level" : "Subtitle",
+    "page number" : 8,
+    "bounding box" : [ 78.802, 576.059, 563.499, 639.989 ],
+    "heading level" : 3,
+    "font" : "OpenSans-Regular",
+    "font size" : 12.268,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Em 24 de julho de 2025, na sala de sessões da MM. 1ª Vara do Trabalho do Cabo, sob a direção do(a) Exmo(a). Sr(a). Juiz(a) do Trabalho TAYSA QUEIROZ MOTA DE SOUSA BRITO, realizou-se audiência relativa à Ação Trabalhista Rito Sumaríssimo número 0000256-48.2025.5.06.0171, supramencionada."
+  }, {
+    "type" : "paragraph",
+    "id" : 188,
+    "page number" : 8,
+    "bounding box" : [ 164.6, 517.484, 560.751, 563.114 ],
+    "font" : "OpenSans-Regular",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Às 09:37, aberta a audiência, foram apregoadas as partes. Presente a parte reclamante LEANDRO MARCIONILO DE OLIVEIRA,"
+  }, {
+    "type" : "paragraph",
+    "id" : 189,
+    "page number" : 8,
+    "bounding box" : [ 79.55, 485.759, 560.768, 517.964 ],
+    "font" : "OpenSans-Regular",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "pessoalmente, acompanhado(a) de seu(a) advogado(a), Dr(a). José Henrique da Silva, OAB 0031742D/PE."
+  }, {
+    "type" : "paragraph",
+    "id" : 190,
+    "page number" : 8,
+    "bounding box" : [ 79.55, 408.884, 560.78, 472.814 ],
+    "font" : "OpenSans-Regular",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Presente a parte reclamada ECAM TERRAPLENAGEM E PAVIMENTACAO LTDA, representado(a) pelo(a) preposto(a) Sr.(a) Mateus Augusto Tenório da Silva, CPF: 711.348.964-84, acompanhado(a) de seu(a) advogado(a), Dr(a). PAULO JOSE CARNEIRO LEAO CANNIZZARO, OAB 39792/PE."
+  }, {
+    "type" : "paragraph",
+    "id" : 191,
+    "page number" : 8,
+    "bounding box" : [ 164.6, 291.734, 553.616, 395.939 ],
+    "font" : "OpenSans-Regular",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Instalada a audiência. A Juíza dispensa a gravação desta sessão, ante o acordo homologado. A esta altura as partes resolveram conciliar, nos seguintes termos: CONCILIAÇÃO:"
+  }, {
+    "type" : "paragraph",
+    "id" : 192,
+    "page number" : 8,
+    "bounding box" : [ 79.55, 214.859, 560.775, 278.789 ],
+    "font" : "OpenSans-Regular",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "A reclamada ECAM - TERRAPLENAGEM E PAVIMENTAÇÃO LTDA., CNPJ: 06.204.246/0001-61, pagará ao reclamante LEANDRO MARCIONILO DE OLIVEIRA, CPF: 098.630.914-13, a importância líquida e total de R$ 2.500,00, em parcela única, a ser paga no dia 30.07.2025"
+  }, {
+    "type" : "paragraph",
+    "id" : 193,
+    "page number" : 8,
+    "bounding box" : [ 79.55, 137.984, 560.762, 201.914 ],
+    "font" : "OpenSans-Regular",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Os pagamentos do crédito do reclamante serão efetuados por meio de depósito em conta bancária de titularidade deste, no Banco Nubank Pagamentos S.A., agência 0001, conta corrente n. 90869681-6, chave PIX leandrooliveirax52@gmail.com (e-mail)."
+  }, {
+    "type" : "paragraph",
+    "id" : 195,
+    "page number" : 8,
+    "bounding box" : [ 79.55, 61.109, 560.786, 125.039 ],
+    "font" : "OpenSans-Regular",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "A reclamada ECAM - TERRAPLENAGEM E PAVIMENTAÇÃO LTDA., CNPJ: 06.204.246/0001-61 pagará ao advogado do reclamante, Dr. JOSÉ HENRIQUE DA SILVA, CPF: 011.818.944-17, a importância líquida e total de R$ 750,00, em parcela única, a ser paga no dia 30.07.2025"
+  }, {
+    "type" : "footer",
+    "id" : 197,
+    "page number" : 8,
+    "bounding box" : [ 7.862, 4.625, 429.408, 26.375 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 52,
+      "page number" : 8,
+      "bounding box" : [ 7.862, 4.625, 29.612, 26.375 ]
+    }, {
+      "type" : "heading",
+      "id" : 53,
+      "page number" : 8,
+      "bounding box" : [ 31.612, 10.074, 429.408, 19.607 ],
+      "heading level" : 7,
+      "font" : "OpenSans-Regular",
+      "font size" : 7.0,
+      "text color" : "[0.0]",
+      "content" : "Documento assinado eletronicamente por TAYSA QUEIROZ MOTA DE SOUSA BRITO, em 24/07/2025, às 10:12:12 - 29d9dcc"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 198,
+    "page number" : 9,
+    "bounding box" : [ 532.74, 819.975, 557.247, 830.379 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 68,
+      "page number" : 9,
+      "bounding box" : [ 532.74, 819.975, 557.247, 830.379 ],
+      "heading level" : 6,
+      "font" : "Helvetica",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "Fls.: 9"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 199,
+    "page number" : 9,
+    "bounding box" : [ 79.55, 735.809, 560.787, 799.739 ],
+    "font" : "OpenSans-Regular",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Os pagamentos do crédito do advogado do reclamante serão efetuados por meio de depósito em conta bancária de titularidade do mesmo, no Banco Nubank Pagamentos S.A., agência 0001, conta corrente n. 4466821-1, chave PIX 01181894417 (CPF)."
+  }, {
+    "type" : "paragraph",
+    "id" : 200,
+    "page number" : 9,
+    "bounding box" : [ 79.55, 643.072, 560.772, 722.864 ],
+    "font" : "OpenSans-Regular",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Havendo qualquer impossibilidade de proceder ao depósito nas contas indicadas, deve a reclamada efetuar o pagamento das parcelas mediante depósito judicial e noticiar nos autos tal ocorrência, juntando o comprovante de depósito, no prazo de dois dias. Em tal caso, de logo fica autorizada a Secretaria a expedir de imediato alvará em favor dos credores e não haverá incidência de multa."
+  }, {
+    "type" : "paragraph",
+    "id" : 201,
+    "page number" : 9,
+    "bounding box" : [ 79.55, 566.197, 560.786, 630.126 ],
+    "font" : "OpenSans-Regular",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Após a data de cumprimento de cada obrigação de pagar, se não houver notícia nos autos sobre descumprimento da parcela, no prazo de 05 (cinco) dias, esta será considerada adimplida para todos os efeitos (Recomendação CRT nº 01/2009)."
+  }, {
+    "type" : "paragraph",
+    "id" : 202,
+    "page number" : 9,
+    "bounding box" : [ 79.55, 521.047, 560.766, 553.251 ],
+    "font" : "OpenSans-Regular",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "O reclamante dá geral e plena quitação pelo objeto da inicial e do contrato de trabalho."
+  }, {
+    "type" : "paragraph",
+    "id" : 203,
+    "page number" : 9,
+    "bounding box" : [ 79.55, 475.897, 560.76, 508.101 ],
+    "font" : "OpenSans-Regular",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Multa de 100% em caso de inadimplência ou mora, com antecipação das parcelas vincendas."
+  }, {
+    "type" : "paragraph",
+    "id" : 204,
+    "page number" : 9,
+    "bounding box" : [ 79.55, 399.022, 560.777, 462.951 ],
+    "font" : "OpenSans-Regular",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "As partes declaram que a transação é composta de 100% de parcelas indenizatórias, sendo: vale transporte (R$ 2.200,00) e diferença de multa de 40% sobre os depósitos do FGTS (R$ 300,00), sobre as quais não incide contribuição previdenciária."
+  }, {
+    "type" : "paragraph",
+    "id" : 205,
+    "page number" : 9,
+    "bounding box" : [ 164.6, 340.447, 560.78, 386.076 ],
+    "font" : "OpenSans-Regular",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "ACORDO HOMOLOGADO. Custas pela parte autora no importe de R$ 50,00, equivalente a 2%"
+  }, {
+    "type" : "paragraph",
+    "id" : 206,
+    "page number" : 9,
+    "bounding box" : [ 79.55, 266.009, 379.202, 340.926 ],
+    "font" : "OpenSans-Regular",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "sobre o valor do acordo, dispensadas na forma da lei. Cumprido, arquivem-se. Descumprido, cite-se."
+  }, {
+    "type" : "paragraph",
+    "id" : 207,
+    "page number" : 9,
+    "bounding box" : [ 79.55, 173.272, 560.775, 253.064 ],
+    "font" : "OpenSans-Regular",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Esta ata vale como declaração de comparecimento das pessoas cujos nomes nela constam, servindo para justificar a ausência do empregado ao seu trabalho, e salvaguardar o seu direito à percepção do seu salário, na forma da lei, e, estando assinada eletronicamente pela Juíza que presidiu esta sessão, é desnecessária a expedição de certidão para tal finalidade."
+  }, {
+    "type" : "paragraph",
+    "id" : 208,
+    "page number" : 9,
+    "bounding box" : [ 164.6, 114.697, 364.16, 160.326 ],
+    "font" : "OpenSans-Regular",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Cientes os presentes. Audiência encerrada às: 09h57min."
+  }, {
+    "type" : "heading",
+    "id" : 209,
+    "level" : "Subtitle",
+    "page number" : 9,
+    "bounding box" : [ 207.275, 69.547, 432.947, 101.751 ],
+    "heading level" : 4,
+    "font" : "OpenSans-Regular",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "TAYSA QUEIROZ MOTA DE SOUSA BRITO Juiz(a) do Trabalho"
+  }, {
+    "type" : "footer",
+    "id" : 211,
+    "page number" : 9,
+    "bounding box" : [ 7.862, 4.625, 429.408, 26.375 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 54,
+      "page number" : 9,
+      "bounding box" : [ 7.862, 4.625, 29.612, 26.375 ]
+    }, {
+      "type" : "heading",
+      "id" : 55,
+      "page number" : 9,
+      "bounding box" : [ 31.612, 10.074, 429.408, 19.607 ],
+      "heading level" : 7,
+      "font" : "OpenSans-Regular",
+      "font size" : 7.0,
+      "text color" : "[0.0]",
+      "content" : "Documento assinado eletronicamente por TAYSA QUEIROZ MOTA DE SOUSA BRITO, em 24/07/2025, às 10:12:12 - 29d9dcc"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 212,
+    "page number" : 10,
+    "bounding box" : [ 530.24, 819.975, 559.751, 830.379 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 69,
+      "page number" : 10,
+      "bounding box" : [ 530.24, 819.975, 559.751, 830.379 ],
+      "heading level" : 6,
+      "font" : "Helvetica",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "Fls.: 10"
+    } ]
+  }, {
+    "type" : "heading",
+    "id" : 213,
+    "level" : "Subtitle",
+    "page number" : 10,
+    "bounding box" : [ 123.612, 706.522, 563.496, 738.726 ],
+    "heading level" : 3,
+    "font" : "OpenSans-Regular",
+    "font size" : 12.268,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Ata redigida por PAULO VICENTE DE ALMEIDA GOGGIN FILHO, Secretário(a) de Audiência."
+  }, {
+    "type" : "image",
+    "id" : 216,
+    "page number" : 10,
+    "bounding box" : [ 27.602, 56.818, 159.602, 104.818 ]
+  }, {
+    "type" : "paragraph",
+    "id" : 215,
+    "page number" : 10,
+    "bounding box" : [ 164.602, 62.535, 562.398, 99.764 ],
+    "font" : "OpenSans-Regular",
+    "font size" : 7.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Documento assinado eletronicamente por TAYSA QUEIROZ MOTA DE SOUSA BRITO, em 24/07/2025, às 10:12:12 - 29d9dcc https://pje.trt6.jus.br/pjekz/validacao/25072410114604700000089636071?instancia=1 Número do processo: 0000256-48.2025.5.06.0171 Número do documento: 25072410114604700000089636071"
+  }, {
+    "type" : "paragraph",
+    "id" : 220,
+    "page number" : 11,
+    "bounding box" : [ 143.3, 695.459, 492.02, 798.201 ],
+    "font" : "OpenSans-Regular",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "PODER JUDICIÁRIO JUSTIÇA DO TRABALHO TRIBUNAL REGIONAL DO TRABALHO DA 6ª REGIÃO 1ª VARA DO TRABALHO DO CABO ATSum 0000256-48.2025.5.06.0171 RECLAMANTE: LEANDRO MARCIONILO DE OLIVEIRA RECLAMADO: ECAM TERRAPLENAGEM E PAVIMENTACAO LTDA"
+  }, {
+    "type" : "image",
+    "id" : 219,
+    "page number" : 11,
+    "bounding box" : [ 75.8, 714.575, 140.3, 779.075 ]
+  }, {
+    "type" : "header",
+    "id" : 218,
+    "page number" : 11,
+    "bounding box" : [ 530.24, 819.975, 559.751, 830.379 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 70,
+      "page number" : 11,
+      "bounding box" : [ 530.24, 819.975, 559.751, 830.379 ],
+      "heading level" : 6,
+      "font" : "Helvetica",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "Fls.: 11"
+    } ]
+  }, {
+    "type" : "heading",
+    "id" : 221,
+    "level" : "Subtitle",
+    "page number" : 11,
+    "bounding box" : [ 201.125, 645.584, 260.957, 661.926 ],
+    "heading level" : 4,
+    "font" : "OpenSans-Regular",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "SENTENÇA"
+  }, {
+    "type" : "paragraph",
+    "id" : 222,
+    "page number" : 11,
+    "bounding box" : [ 201.125, 614.159, 237.425, 630.501 ],
+    "font" : "OpenSans-Regular",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Vistos."
+  }, {
+    "type" : "paragraph",
+    "id" : 223,
+    "page number" : 11,
+    "bounding box" : [ 201.125, 582.734, 549.756, 599.076 ],
+    "font" : "OpenSans-Regular",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Considerando que não há pendências nos autos, arquivem-se."
+  }, {
+    "type" : "paragraph",
+    "id" : 224,
+    "page number" : 11,
+    "bounding box" : [ 201.125, 551.309, 515.297, 567.651 ],
+    "font" : "OpenSans-Regular",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "CABO DE SANTO AGOSTINHO/PE, 16 de janeiro de 2026."
+  }, {
+    "type" : "heading",
+    "id" : 225,
+    "level" : "Subtitle",
+    "page number" : 11,
+    "bounding box" : [ 219.65, 501.884, 420.602, 536.226 ],
+    "heading level" : 4,
+    "font" : "OpenSans-Regular",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "MAYSA COSTA DE CARVALHO ALVES Juíza do Trabalho Titular"
+  }, {
+    "type" : "image",
+    "id" : 228,
+    "page number" : 11,
+    "bounding box" : [ 34.34, 56.818, 166.34, 104.818 ]
+  }, {
+    "type" : "paragraph",
+    "id" : 227,
+    "page number" : 11,
+    "bounding box" : [ 171.34, 62.535, 555.661, 99.764 ],
+    "font" : "OpenSans-Regular",
+    "font size" : 7.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Documento assinado eletronicamente por MAYSA COSTA DE CARVALHO ALVES, em 16/01/2026, às 11:24:02 - 85466da https://pje.trt6.jus.br/pjekz/validacao/26011513484137100000095347737?instancia=1 Número do processo: 0000256-48.2025.5.06.0171 Número do documento: 26011513484137100000095347737"
+  }, {
+    "type" : "heading",
+    "id" : 230,
+    "level" : "Subtitle",
+    "page number" : 12,
+    "bounding box" : [ 259.72, 778.352, 335.272, 797.392 ],
+    "heading level" : 2,
+    "font" : "Helvetica-Bold",
+    "font size" : 16.0,
+    "text color" : "[0.0]",
+    "content" : "SUMÁRIO"
+  }, {
+    "type" : "table",
+    "id" : 231,
+    "level" : "4",
+    "page number" : 12,
+    "bounding box" : [ 35.75, 624.75, 561.25, 772.25 ],
+    "number of rows" : 7,
+    "number of columns" : 4,
+    "rows" : [ {
+      "type" : "table row",
+      "row number" : 1,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 12,
+        "bounding box" : [ 36.0, 753.0, 561.0, 772.0 ],
+        "row number" : 1,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 4,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 1,
+          "page number" : 12,
+          "bounding box" : [ 271.25, 755.948, 325.754, 766.658 ],
+          "font" : "Helvetica-Bold",
+          "font size" : 9.0,
+          "text color" : "[0.0]",
+          "content" : "Documentos"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 2,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 12,
+        "bounding box" : [ 36.0, 725.0, 86.0, 753.0 ],
+        "row number" : 2,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 2,
+          "page number" : 12,
+          "bounding box" : [ 55.75, 732.448, 66.253, 743.158 ],
+          "font" : "Helvetica-Bold",
+          "font size" : 9.0,
+          "text color" : "[0.0]",
+          "content" : "Id."
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 12,
+        "bounding box" : [ 86.0, 725.0, 171.0, 753.0 ],
+        "row number" : 2,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 3,
+          "page number" : 12,
+          "bounding box" : [ 105.24, 727.948, 151.752, 747.658 ],
+          "font" : "Helvetica-Bold",
+          "font size" : 9.0,
+          "text color" : "[0.0]",
+          "content" : "Data da Assinatura"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 12,
+        "bounding box" : [ 171.0, 725.0, 461.0, 753.0 ],
+        "row number" : 2,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 4,
+          "page number" : 12,
+          "bounding box" : [ 174.0, 732.448, 223.5, 743.158 ],
+          "font" : "Helvetica-Bold",
+          "font size" : 9.0,
+          "text color" : "[0.0]",
+          "content" : "Documento"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 12,
+        "bounding box" : [ 461.0, 725.0, 561.0, 753.0 ],
+        "row number" : 2,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 5,
+          "page number" : 12,
+          "bounding box" : [ 501.5, 732.448, 520.499, 743.158 ],
+          "font" : "Helvetica-Bold",
+          "font size" : 9.0,
+          "text color" : "[0.0]",
+          "content" : "Tipo"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 3,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 12,
+        "bounding box" : [ 36.0, 705.0, 86.0, 725.0 ],
+        "row number" : 3,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 6,
+          "page number" : 12,
+          "bounding box" : [ 43.49, 708.475, 78.518, 718.879 ],
+          "font" : "Helvetica",
+          "font size" : 9.0,
+          "text color" : "[0.0]",
+          "content" : "367e148"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 12,
+        "bounding box" : [ 86.0, 705.0, 171.0, 725.0 ],
+        "row number" : 3,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 7,
+          "page number" : 12,
+          "bounding box" : [ 93.47, 708.475, 163.526, 718.879 ],
+          "font" : "Helvetica",
+          "font size" : 9.0,
+          "text color" : "[0.0]",
+          "content" : "23/04/2025 14:45"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 12,
+        "bounding box" : [ 171.0, 705.0, 461.0, 725.0 ],
+        "row number" : 3,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 9,
+          "page number" : 12,
+          "bounding box" : [ 174.0, 707.75, 219.02, 719.31 ],
+          "font" : "Helvetica",
+          "font size" : 10.0,
+          "text color" : "[0.0, 0.0, 1.0]",
+          "content" : "Despacho"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 12,
+        "bounding box" : [ 461.0, 705.0, 561.0, 725.0 ],
+        "row number" : 3,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 10,
+          "page number" : 12,
+          "bounding box" : [ 490.74, 708.475, 531.258, 718.879 ],
+          "font" : "Helvetica",
+          "font size" : 9.0,
+          "text color" : "[0.0]",
+          "content" : "Despacho"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 4,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 12,
+        "bounding box" : [ 36.0, 685.0, 86.0, 705.0 ],
+        "row number" : 4,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 11,
+          "page number" : 12,
+          "bounding box" : [ 43.49, 688.475, 78.518, 698.879 ],
+          "font" : "Helvetica",
+          "font size" : 9.0,
+          "text color" : "[0.0]",
+          "content" : "b449492"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 12,
+        "bounding box" : [ 86.0, 685.0, 171.0, 705.0 ],
+        "row number" : 4,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 12,
+          "page number" : 12,
+          "bounding box" : [ 93.47, 688.475, 163.526, 698.879 ],
+          "font" : "Helvetica",
+          "font size" : 9.0,
+          "text color" : "[0.0]",
+          "content" : "19/05/2025 18:56"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 12,
+        "bounding box" : [ 171.0, 685.0, 461.0, 705.0 ],
+        "row number" : 4,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 14,
+          "page number" : 12,
+          "bounding box" : [ 174.0, 687.75, 257.37, 699.31 ],
+          "font" : "Helvetica",
+          "font size" : 10.0,
+          "text color" : "[0.0, 0.0, 1.0]",
+          "content" : "expedir notificação"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 12,
+        "bounding box" : [ 461.0, 685.0, 561.0, 705.0 ],
+        "row number" : 4,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 15,
+          "page number" : 12,
+          "bounding box" : [ 490.74, 688.475, 531.258, 698.879 ],
+          "font" : "Helvetica",
+          "font size" : 9.0,
+          "text color" : "[0.0]",
+          "content" : "Despacho"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 5,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 12,
+        "bounding box" : [ 36.0, 665.0, 86.0, 685.0 ],
+        "row number" : 5,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 16,
+          "page number" : 12,
+          "bounding box" : [ 43.74, 668.475, 78.264, 678.879 ],
+          "font" : "Helvetica",
+          "font size" : 9.0,
+          "text color" : "[0.0]",
+          "content" : "8b093c8"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 12,
+        "bounding box" : [ 86.0, 665.0, 171.0, 685.0 ],
+        "row number" : 5,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 17,
+          "page number" : 12,
+          "bounding box" : [ 93.47, 668.475, 163.526, 678.879 ],
+          "font" : "Helvetica",
+          "font size" : 9.0,
+          "text color" : "[0.0]",
+          "content" : "18/06/2025 09:26"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 12,
+        "bounding box" : [ 171.0, 665.0, 461.0, 685.0 ],
+        "row number" : 5,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 19,
+          "page number" : 12,
+          "bounding box" : [ 174.0, 667.75, 249.6, 679.31 ],
+          "font" : "Helvetica",
+          "font size" : 10.0,
+          "text color" : "[0.0, 0.0, 1.0]",
+          "content" : "Ata da Audiência"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 12,
+        "bounding box" : [ 461.0, 665.0, 561.0, 685.0 ],
+        "row number" : 5,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 20,
+          "page number" : 12,
+          "bounding box" : [ 476.98, 668.475, 545.02, 678.879 ],
+          "font" : "Helvetica",
+          "font size" : 9.0,
+          "text color" : "[0.0]",
+          "content" : "Ata da Audiência"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 6,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 12,
+        "bounding box" : [ 36.0, 645.0, 86.0, 665.0 ],
+        "row number" : 6,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 21,
+          "page number" : 12,
+          "bounding box" : [ 43.99, 648.475, 78.01, 658.879 ],
+          "font" : "Helvetica",
+          "font size" : 9.0,
+          "text color" : "[0.0]",
+          "content" : "29d9dcc"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 12,
+        "bounding box" : [ 86.0, 645.0, 171.0, 665.0 ],
+        "row number" : 6,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 22,
+          "page number" : 12,
+          "bounding box" : [ 93.47, 648.475, 163.526, 658.879 ],
+          "font" : "Helvetica",
+          "font size" : 9.0,
+          "text color" : "[0.0]",
+          "content" : "24/07/2025 10:12"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 12,
+        "bounding box" : [ 171.0, 645.0, 461.0, 665.0 ],
+        "row number" : 6,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 24,
+          "page number" : 12,
+          "bounding box" : [ 174.0, 647.75, 249.6, 659.31 ],
+          "font" : "Helvetica",
+          "font size" : 10.0,
+          "text color" : "[0.0, 0.0, 1.0]",
+          "content" : "Ata da Audiência"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 12,
+        "bounding box" : [ 461.0, 645.0, 561.0, 665.0 ],
+        "row number" : 6,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 25,
+          "page number" : 12,
+          "bounding box" : [ 476.98, 648.475, 545.02, 658.879 ],
+          "font" : "Helvetica",
+          "font size" : 9.0,
+          "text color" : "[0.0]",
+          "content" : "Ata da Audiência"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 7,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 12,
+        "bounding box" : [ 36.0, 625.0, 86.0, 645.0 ],
+        "row number" : 7,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 26,
+          "page number" : 12,
+          "bounding box" : [ 43.49, 628.475, 78.518, 638.879 ],
+          "font" : "Helvetica",
+          "font size" : 9.0,
+          "text color" : "[0.0]",
+          "content" : "85466da"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 12,
+        "bounding box" : [ 86.0, 625.0, 171.0, 645.0 ],
+        "row number" : 7,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 27,
+          "page number" : 12,
+          "bounding box" : [ 93.47, 628.475, 163.526, 638.879 ],
+          "font" : "Helvetica",
+          "font size" : 9.0,
+          "text color" : "[0.0]",
+          "content" : "16/01/2026 11:24"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 12,
+        "bounding box" : [ 171.0, 625.0, 461.0, 645.0 ],
+        "row number" : 7,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 29,
+          "page number" : 12,
+          "bounding box" : [ 174.0, 627.75, 216.25, 639.31 ],
+          "font" : "Helvetica",
+          "font size" : 10.0,
+          "text color" : "[0.0, 0.0, 1.0]",
+          "content" : "Sentença"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 12,
+        "bounding box" : [ 461.0, 625.0, 561.0, 645.0 ],
+        "row number" : 7,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 30,
+          "page number" : 12,
+          "bounding box" : [ 491.99, 628.475, 530.015, 638.879 ],
+          "font" : "Helvetica",
+          "font size" : 9.0,
+          "text color" : "[0.0]",
+          "content" : "Sentença"
+        } ]
+      } ]
+    } ]
+  } ]
+}

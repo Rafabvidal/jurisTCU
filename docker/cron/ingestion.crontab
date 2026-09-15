@@ -1,0 +1,11 @@
+# Ingestion schedule (UTC) — read by supercronic in the ingestion container.
+# Format: m  h  dom mon dow  command
+
+# 03:00 UTC daily — full collection across all topics + dispatch scraper tasks.
+0 3 * * * ingest --provider api --trigger
+
+# 15:00 UTC daily — pull processes still missing PDFs from the API and dispatch the scraper for each.
+0 15 * * * ingest --pending-pdf --pending-api-url http://api:8000/api/processos/nao_possuem_pdf/
+
+# 16:00 UTC daily — pull processes without analise and dispatch the LLM worker directly.
+0 16 * * * ingest --pending-analise --pending-analise-api-url http://api:8000/api/processos/nao_possuem_analise/

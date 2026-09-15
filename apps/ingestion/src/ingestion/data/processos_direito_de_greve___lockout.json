@@ -1,0 +1,314 @@
+{
+  "hits": {
+    "hits": [
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 10227,
+              "nome": "Direito de Greve"
+            },
+            {
+              "codigo": 12981,
+              "nome": "Direito de Greve "
+            },
+            {
+              "codigo": 13180,
+              "nome": "Greve "
+            }
+          ],
+          "classe": {
+            "codigo": 12134,
+            "nome": "Tutela Cautelar Antecedente"
+          },
+          "data_ajuizamento": "20230726113358",
+          "data_hora_ultima_atualizacao": "2024-07-23T07:07:27.943000Z",
+          "grau": "G2",
+          "id": "TRT6_G2_00016595120235060000",
+          "numero_processo": "00016595120235060000",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2611606,
+            "codigo": 20751,
+            "nome": "GAB. DES. VALDIR JOSÉ SILVA DE CARVALHO"
+          },
+          "timestamp": "2024-07-23T07:07:27.943000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 12888,
+              "nome": "Greve"
+            },
+            {
+              "codigo": 12981,
+              "nome": "Direito de Greve "
+            },
+            {
+              "codigo": 13180,
+              "nome": "Greve "
+            }
+          ],
+          "classe": {
+            "codigo": 1709,
+            "nome": "Interdito Proibitório"
+          },
+          "data_ajuizamento": "20240606184829",
+          "data_hora_ultima_atualizacao": "2026-03-10T15:34:14.627000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00002697820245060172",
+          "numero_processo": "00002697820245060172",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2602902,
+            "codigo": 20678,
+            "nome": "CABO DE SANTO AGOSTINHO  - 02A VARA"
+          },
+          "timestamp": "2026-03-10T15:34:14.627000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 12981,
+              "nome": "Direito de Greve "
+            },
+            {
+              "codigo": 13180,
+              "nome": "Greve "
+            }
+          ],
+          "classe": {
+            "codigo": 1709,
+            "nome": "Interdito Proibitório"
+          },
+          "data_ajuizamento": "20250916002658",
+          "data_hora_ultima_atualizacao": "2026-03-09T16:50:50.042000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00009461020255060161",
+          "numero_processo": "00009461020255060161",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2613701,
+            "codigo": 20716,
+            "nome": "SÃO LOURENÇO DA MATA  - 01A VARA"
+          },
+          "timestamp": "2026-03-09T16:50:50.042000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 12981,
+              "nome": "Direito de Greve "
+            },
+            {
+              "codigo": 13180,
+              "nome": "Greve "
+            }
+          ],
+          "classe": {
+            "codigo": 1009,
+            "nome": "Recurso Ordinário Trabalhista"
+          },
+          "data_ajuizamento": "20251009135042",
+          "data_hora_ultima_atualizacao": "2026-03-09T16:52:43.336000Z",
+          "grau": "G2",
+          "id": "TRT6_G2_00003225820255060161",
+          "numero_processo": "00003225820255060161",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2611606,
+            "codigo": 20757,
+            "nome": "GAB. DES. SERGIO TORRES TEIXEIRA"
+          },
+          "timestamp": "2026-03-09T16:52:43.336000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 12981,
+              "nome": "Direito de Greve "
+            },
+            {
+              "codigo": 13180,
+              "nome": "Greve "
+            }
+          ],
+          "classe": {
+            "codigo": 1709,
+            "nome": "Interdito Proibitório"
+          },
+          "data_ajuizamento": "20241127134016",
+          "data_hora_ultima_atualizacao": "2026-03-09T16:47:33.418000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00012667720245060005",
+          "numero_processo": "00012667720245060005",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2611606,
+            "codigo": 20654,
+            "nome": "RECIFE  - 05A VARA"
+          },
+          "timestamp": "2026-03-09T16:47:33.418000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 12981,
+              "nome": "Direito de Greve "
+            },
+            {
+              "codigo": 13180,
+              "nome": "Greve "
+            }
+          ],
+          "classe": {
+            "codigo": 1709,
+            "nome": "Interdito Proibitório"
+          },
+          "data_ajuizamento": "20240812154923",
+          "data_hora_ultima_atualizacao": "2026-02-05T13:36:28.768000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00007922620245060161",
+          "numero_processo": "00007922620245060161",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2613701,
+            "codigo": 20716,
+            "nome": "SÃO LOURENÇO DA MATA  - 01A VARA"
+          },
+          "timestamp": "2026-02-05T13:36:28.768000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 12981,
+              "nome": "Direito de Greve "
+            },
+            {
+              "codigo": 13180,
+              "nome": "Greve "
+            }
+          ],
+          "classe": {
+            "codigo": 1709,
+            "nome": "Interdito Proibitório"
+          },
+          "data_ajuizamento": "20250711121939",
+          "data_hora_ultima_atualizacao": "2025-11-07T20:13:22.476000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00009195620255060313",
+          "numero_processo": "00009195620255060313",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2604106,
+            "codigo": 20682,
+            "nome": "CARUARU  - 03A VARA"
+          },
+          "timestamp": "2025-11-07T20:13:22.476000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 12981,
+              "nome": "Direito de Greve "
+            },
+            {
+              "codigo": 13180,
+              "nome": "Greve "
+            }
+          ],
+          "classe": {
+            "codigo": 1009,
+            "nome": "Recurso Ordinário Trabalhista"
+          },
+          "data_ajuizamento": "20241203230058",
+          "data_hora_ultima_atualizacao": "2025-11-07T20:20:17.829000Z",
+          "grau": "G2",
+          "id": "TRT6_G2_00007922620245060161",
+          "numero_processo": "00007922620245060161",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2611606,
+            "codigo": 20755,
+            "nome": "GAB. DES. RUY SALATHIEL DE ALBUQUERQUE E MELLO VENTURA"
+          },
+          "timestamp": "2025-11-07T20:20:17.829000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 12981,
+              "nome": "Direito de Greve "
+            },
+            {
+              "codigo": 13180,
+              "nome": "Greve "
+            }
+          ],
+          "classe": {
+            "codigo": 1709,
+            "nome": "Interdito Proibitório"
+          },
+          "data_ajuizamento": "20250330001322",
+          "data_hora_ultima_atualizacao": "2025-11-07T20:20:23.834000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00003225820255060161",
+          "numero_processo": "00003225820255060161",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2613701,
+            "codigo": 20716,
+            "nome": "SÃO LOURENÇO DA MATA  - 01A VARA"
+          },
+          "timestamp": "2025-11-07T20:20:23.834000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 12981,
+              "nome": "Direito de Greve "
+            },
+            {
+              "codigo": 13180,
+              "nome": "Greve "
+            }
+          ],
+          "classe": {
+            "codigo": 988,
+            "nome": "Dissídio Coletivo de Greve"
+          },
+          "data_ajuizamento": "20241018103905",
+          "data_hora_ultima_atualizacao": "2025-07-16T15:23:12.010000Z",
+          "grau": "G2",
+          "id": "TRT6_G2_00021623820245060000",
+          "numero_processo": "00021623820245060000",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2611606,
+            "codigo": 79730,
+            "nome": "GAB. DESª ANA CLAUDIA PETRUCCELLI DE LIMA"
+          },
+          "timestamp": "2025-07-16T15:23:12.010000Z",
+          "tribunal": "TRT6"
+        }
+      }
+    ]
+  }
+}

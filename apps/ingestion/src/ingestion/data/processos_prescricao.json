@@ -1,0 +1,266 @@
+{
+  "hits": {
+    "hits": [
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 14046,
+              "nome": "Prescrição"
+            }
+          ],
+          "classe": {
+            "codigo": 985,
+            "nome": "Ação Trabalhista - Rito Ordinário"
+          },
+          "data_ajuizamento": "19960819030000",
+          "data_hora_ultima_atualizacao": "2026-04-13T12:30:18.963000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_01699000519965060171",
+          "numero_processo": "01699000519965060171",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2602902,
+            "codigo": 20677,
+            "nome": "CABO DE SANTO AGOSTINHO  - 01A VARA"
+          },
+          "timestamp": "2026-04-13T12:30:18.963000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 14046,
+              "nome": "Prescrição"
+            }
+          ],
+          "classe": {
+            "codigo": 156,
+            "nome": "Cumprimento de sentença"
+          },
+          "data_ajuizamento": "20260204132806",
+          "data_hora_ultima_atualizacao": "2026-03-09T16:45:19.336000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00001176620265060008",
+          "numero_processo": "00001176620265060008",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2611606,
+            "codigo": 20657,
+            "nome": "RECIFE  - 08A VARA"
+          },
+          "timestamp": "2026-03-09T16:45:19.336000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 14046,
+              "nome": "Prescrição"
+            }
+          ],
+          "classe": {
+            "codigo": 47,
+            "nome": "Ação Rescisória"
+          },
+          "data_ajuizamento": "20250707182602",
+          "data_hora_ultima_atualizacao": "2025-08-07T18:05:44.432000Z",
+          "grau": "G2",
+          "id": "TRT6_G2_00018754120255060000",
+          "numero_processo": "00018754120255060000",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2611606,
+            "codigo": 20757,
+            "nome": "GAB. DES. SERGIO TORRES TEIXEIRA"
+          },
+          "timestamp": "2025-08-07T18:05:44.432000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 14046,
+              "nome": "Prescrição"
+            }
+          ],
+          "classe": {
+            "codigo": 1125,
+            "nome": "Ação Trabalhista - Rito Sumaríssimo"
+          },
+          "data_ajuizamento": "20240520173905",
+          "data_hora_ultima_atualizacao": "2025-09-09T04:28:45.101000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00004666120245060001",
+          "numero_processo": "00004666120245060001",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2611606,
+            "codigo": 20650,
+            "nome": "RECIFE  - 01A VARA"
+          },
+          "timestamp": "2025-09-09T04:28:45.101000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 14046,
+              "nome": "Prescrição"
+            }
+          ],
+          "classe": {
+            "codigo": 1126,
+            "nome": "Ação Trabalhista - Rito Sumário (Alçada)"
+          },
+          "data_ajuizamento": "20231107111531",
+          "data_hora_ultima_atualizacao": "2025-10-03T21:18:21.063000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00009454320235060016",
+          "numero_processo": "00009454320235060016",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2611606,
+            "codigo": 20666,
+            "nome": "RECIFE  - 17A VARA"
+          },
+          "timestamp": "2025-10-03T21:18:21.063000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 14046,
+              "nome": "Prescrição"
+            }
+          ],
+          "classe": {
+            "codigo": 993,
+            "nome": "Execução de Certidão de Crédito Judicial"
+          },
+          "data_ajuizamento": "20250817013836",
+          "data_hora_ultima_atualizacao": "2025-11-07T19:29:55.702000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00006960320255060411",
+          "numero_processo": "00006960320255060411",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2611101,
+            "codigo": 20710,
+            "nome": "PETROLINA  - 01A VARA"
+          },
+          "timestamp": "2025-11-07T19:29:55.702000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 14046,
+              "nome": "Prescrição"
+            }
+          ],
+          "classe": {
+            "codigo": 993,
+            "nome": "Execução de Certidão de Crédito Judicial"
+          },
+          "data_ajuizamento": "20250817020129",
+          "data_hora_ultima_atualizacao": "2025-11-07T19:49:56.366000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00006978520255060411",
+          "numero_processo": "00006978520255060411",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2611101,
+            "codigo": 20710,
+            "nome": "PETROLINA  - 01A VARA"
+          },
+          "timestamp": "2025-11-07T19:49:56.366000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 14046,
+              "nome": "Prescrição"
+            }
+          ],
+          "classe": {
+            "codigo": 1116,
+            "nome": "Execução Fiscal"
+          },
+          "data_ajuizamento": "20200626235707",
+          "data_hora_ultima_atualizacao": "2024-10-18T22:47:00.717000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00005366020205060020",
+          "numero_processo": "00005366020205060020",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2611606,
+            "codigo": 20671,
+            "nome": "RECIFE  - 22A VARA"
+          },
+          "timestamp": "2024-10-18T22:47:00.717000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 14046,
+              "nome": "Prescrição"
+            }
+          ],
+          "classe": {
+            "codigo": 1126,
+            "nome": "Ação Trabalhista - Rito Sumário (Alçada)"
+          },
+          "data_ajuizamento": "20231107110459",
+          "data_hora_ultima_atualizacao": "2025-04-03T19:50:04.888000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00009445820235060016",
+          "numero_processo": "00009445820235060016",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2611606,
+            "codigo": 20665,
+            "nome": "RECIFE  - 16A VARA"
+          },
+          "timestamp": "2025-04-03T19:50:04.888000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 14046,
+              "nome": "Prescrição"
+            }
+          ],
+          "classe": {
+            "codigo": 12228,
+            "nome": "Protesto"
+          },
+          "data_ajuizamento": "20250103125052",
+          "data_hora_ultima_atualizacao": "2025-05-09T12:42:39.264000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00000013020255060191",
+          "numero_processo": "00000013020255060191",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2607208,
+            "codigo": 20691,
+            "nome": "IPOJUCA  - 01A VARA"
+          },
+          "timestamp": "2025-05-09T12:42:39.264000Z",
+          "tribunal": "TRT6"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,84 @@
+[project]
+name = "projeto-trt6"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ruff>=0.15.8",
+    "mypy>=1.19.1",
+    "django-stubs>=6.0.1",
+    "mlflow>=1.27.0",
+    "scikit-learn>=1.8.0",
+    "seaborn>=0.13.2",
+    "matplotlib>=3.11.0",
+    "umap-learn>=0.5.12",
+    "psycopg2-binary>=2.9.12",
+    "jupyter>=1.1.1",
+    "protobuf<5.0.0",
+    "sentence-transformers>=5.5.1",
+]
+
+[tool.uv]
+package = false
+
+[tool.uv.sources]
+shared = { workspace = true }
+worker-llm = { workspace = true }
+ingestion = { workspace = true }
+worker-scrapper = { workspace = true }
+search-notifier = { workspace = true }
+
+[tool.uv.workspace]
+members = [
+    "shared",
+    "apps/ingestion",
+    "apps/worker-llm",
+    "apps/worker-scrapper",
+    "apps/api",
+    "apps/search-notifier",
+]
+
+[tool.ruff]
+# Enable all rules in the default rule set and the Django-specific rule set
+select = ["E", "F", "W", "I", "UP", "B", "C4", "A", "DJ", "S", "N"]
+# I = isort (import sorting)
+# UP = pyupgrade (modernize code)
+# B = flake8-bugbear (find likely bugs or design issues)
+# C4 = flake8-comprehensions
+# A = flake8-builtins
+# DJ = flake8-django (Django-specific rules)
+# S = flake8-bandit (security checks)
+# N = pep8-naming (naming conventions)
+
+# Exclude migration files and virtual environments
+exclude = [
+    ".venv",
+    "venv",
+    "migrations",
+    "__pycache__",
+    "env",
+    ".mypy_cache",
+    ".pytest_cache",
+]
+
+# Set the line length (Black's default)
+line-length = 120
+
+# Target Python version
+target-version = "py312"
+
+# # Adjust max complexity if needed
+[tool.ruff.lint]
+# Plugin configs:
+flake8-quotes.inline-quotes = "single"
+mccabe.max-complexity = 6
+pydocstyle.convention = "google"
+
+[tool.ruff.format]
+# Enable docstring formatting (optional)
+docstring-code-format = true
+
+[tool.mypy]
+plugins = ["mypy_django_plugin.main"]
+

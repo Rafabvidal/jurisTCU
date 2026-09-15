@@ -1,0 +1,266 @@
+{
+  "hits": {
+    "hits": [
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 14007,
+              "nome": "Responsabilidade Civil do Empregador"
+            }
+          ],
+          "classe": {
+            "codigo": 1125,
+            "nome": "Ação Trabalhista - Rito Sumaríssimo"
+          },
+          "data_ajuizamento": "20231107144754",
+          "data_hora_ultima_atualizacao": "2026-04-30T14:24:10.275000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00009509820235060005",
+          "numero_processo": "00009509820235060005",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2611606,
+            "codigo": 20654,
+            "nome": "RECIFE  - 05A VARA"
+          },
+          "timestamp": "2026-04-30T14:24:10.275000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 14007,
+              "nome": "Responsabilidade Civil do Empregador"
+            }
+          ],
+          "classe": {
+            "codigo": 985,
+            "nome": "Ação Trabalhista - Rito Ordinário"
+          },
+          "data_ajuizamento": "20230814181027",
+          "data_hora_ultima_atualizacao": "2026-03-11T17:56:46.044000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00007634520235060311",
+          "numero_processo": "00007634520235060311",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2604106,
+            "codigo": 20680,
+            "nome": "CARUARU  - 01A VARA"
+          },
+          "timestamp": "2026-03-11T17:56:46.044000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 14007,
+              "nome": "Responsabilidade Civil do Empregador"
+            }
+          ],
+          "classe": {
+            "codigo": 980,
+            "nome": "Ação de Cumprimento"
+          },
+          "data_ajuizamento": "20230823110513",
+          "data_hora_ultima_atualizacao": "2026-03-11T18:59:09.284000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00004815020235060232",
+          "numero_processo": "00004815020235060232",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2606200,
+            "codigo": 20687,
+            "nome": "GOIANA  - 02A VARA"
+          },
+          "timestamp": "2026-03-11T18:59:09.284000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 14007,
+              "nome": "Responsabilidade Civil do Empregador"
+            }
+          ],
+          "classe": {
+            "codigo": 985,
+            "nome": "Ação Trabalhista - Rito Ordinário"
+          },
+          "data_ajuizamento": "20251219154519",
+          "data_hora_ultima_atualizacao": "2026-04-08T14:51:47.991000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00015678420255060006",
+          "numero_processo": "00015678420255060006",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2611606,
+            "codigo": 20655,
+            "nome": "RECIFE  - 06A VARA"
+          },
+          "timestamp": "2026-04-08T14:51:47.991000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 14007,
+              "nome": "Responsabilidade Civil do Empregador"
+            }
+          ],
+          "classe": {
+            "codigo": 985,
+            "nome": "Ação Trabalhista - Rito Ordinário"
+          },
+          "data_ajuizamento": "20260311142011",
+          "data_hora_ultima_atualizacao": "2026-04-08T21:21:54.811000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00002639820265060011",
+          "numero_processo": "00002639820265060011",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2611606,
+            "codigo": 20660,
+            "nome": "RECIFE  - 11A VARA"
+          },
+          "timestamp": "2026-04-08T21:21:54.811000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 14007,
+              "nome": "Responsabilidade Civil do Empregador"
+            }
+          ],
+          "classe": {
+            "codigo": 1125,
+            "nome": "Ação Trabalhista - Rito Sumaríssimo"
+          },
+          "data_ajuizamento": "20240520232048",
+          "data_hora_ultima_atualizacao": "2026-03-11T14:33:56.061000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00005491720245060312",
+          "numero_processo": "00005491720245060312",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2604106,
+            "codigo": 20681,
+            "nome": "CARUARU  - 02A VARA"
+          },
+          "timestamp": "2026-03-11T14:33:56.061000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 14007,
+              "nome": "Responsabilidade Civil do Empregador"
+            }
+          ],
+          "classe": {
+            "codigo": 985,
+            "nome": "Ação Trabalhista - Rito Ordinário"
+          },
+          "data_ajuizamento": "20250129172049",
+          "data_hora_ultima_atualizacao": "2026-03-10T15:22:43.363000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00000927320255060142",
+          "numero_processo": "00000927320255060142",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2607901,
+            "codigo": 20695,
+            "nome": "JABOATÃO DOS GUARARAPES  - 02A VARA"
+          },
+          "timestamp": "2026-03-10T15:22:43.363000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 14007,
+              "nome": "Responsabilidade Civil do Empregador"
+            }
+          ],
+          "classe": {
+            "codigo": 985,
+            "nome": "Ação Trabalhista - Rito Ordinário"
+          },
+          "data_ajuizamento": "20260131232237",
+          "data_hora_ultima_atualizacao": "2026-03-09T16:50:28.762000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00000973920265060020",
+          "numero_processo": "00000973920265060020",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2611606,
+            "codigo": 20669,
+            "nome": "RECIFE  - 20A VARA"
+          },
+          "timestamp": "2026-03-09T16:50:28.762000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 14007,
+              "nome": "Responsabilidade Civil do Empregador"
+            }
+          ],
+          "classe": {
+            "codigo": 985,
+            "nome": "Ação Trabalhista - Rito Ordinário"
+          },
+          "data_ajuizamento": "20250728134234",
+          "data_hora_ultima_atualizacao": "2026-03-09T16:47:04.392000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00008913320255060008",
+          "numero_processo": "00008913320255060008",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2611606,
+            "codigo": 20657,
+            "nome": "RECIFE  - 08A VARA"
+          },
+          "timestamp": "2026-03-09T16:47:04.392000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 14007,
+              "nome": "Responsabilidade Civil do Empregador"
+            }
+          ],
+          "classe": {
+            "codigo": 985,
+            "nome": "Ação Trabalhista - Rito Ordinário"
+          },
+          "data_ajuizamento": "20231030192029",
+          "data_hora_ultima_atualizacao": "2026-03-09T16:48:30.692000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00008490220235060251",
+          "numero_processo": "00008490220235060251",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2608909,
+            "codigo": 20699,
+            "nome": "LIMOEIRO  - 01A VARA"
+          },
+          "timestamp": "2026-03-09T16:48:30.692000Z",
+          "tribunal": "TRT6"
+        }
+      }
+    ]
+  }
+}

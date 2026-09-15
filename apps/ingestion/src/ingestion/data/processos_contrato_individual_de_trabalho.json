@@ -1,0 +1,266 @@
+{
+  "hits": {
+    "hits": [
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13707,
+              "nome": "Contrato Individual de Trabalho"
+            }
+          ],
+          "classe": {
+            "codigo": 12374,
+            "nome": "Homologação da Transação Extrajudicial"
+          },
+          "data_ajuizamento": "20250922094448",
+          "data_hora_ultima_atualizacao": "2026-04-30T14:24:09.892000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00008759620255060261",
+          "numero_processo": "00008759620255060261",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2611804,
+            "codigo": 20713,
+            "nome": "RIBEIRÃO  - 01A VARA"
+          },
+          "timestamp": "2026-04-30T14:24:09.892000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13707,
+              "nome": "Contrato Individual de Trabalho"
+            }
+          ],
+          "classe": {
+            "codigo": 1125,
+            "nome": "Ação Trabalhista - Rito Sumaríssimo"
+          },
+          "data_ajuizamento": "20250620101926",
+          "data_hora_ultima_atualizacao": "2026-04-30T14:23:40.735000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00005858120255060261",
+          "numero_processo": "00005858120255060261",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2611804,
+            "codigo": 20713,
+            "nome": "RIBEIRÃO  - 01A VARA"
+          },
+          "timestamp": "2026-04-30T14:23:40.735000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13707,
+              "nome": "Contrato Individual de Trabalho"
+            }
+          ],
+          "classe": {
+            "codigo": 985,
+            "nome": "Ação Trabalhista - Rito Ordinário"
+          },
+          "data_ajuizamento": "20241021072720",
+          "data_hora_ultima_atualizacao": "2026-04-30T14:23:41.555000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00006944820245060191",
+          "numero_processo": "00006944820245060191",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2607208,
+            "codigo": 20691,
+            "nome": "IPOJUCA  - 01A VARA"
+          },
+          "timestamp": "2026-04-30T14:23:41.555000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13707,
+              "nome": "Contrato Individual de Trabalho"
+            }
+          ],
+          "classe": {
+            "codigo": 985,
+            "nome": "Ação Trabalhista - Rito Ordinário"
+          },
+          "data_ajuizamento": "20230427204516",
+          "data_hora_ultima_atualizacao": "2026-04-30T14:23:42.122000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00003213620235060002",
+          "numero_processo": "00003213620235060002",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2611606,
+            "codigo": 20651,
+            "nome": "RECIFE  - 02A VARA"
+          },
+          "timestamp": "2026-04-30T14:23:42.122000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13707,
+              "nome": "Contrato Individual de Trabalho"
+            }
+          ],
+          "classe": {
+            "codigo": 985,
+            "nome": "Ação Trabalhista - Rito Ordinário"
+          },
+          "data_ajuizamento": "20250830110113",
+          "data_hora_ultima_atualizacao": "2026-04-30T14:23:43.332000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00010684920255060023",
+          "numero_processo": "00010684920255060023",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2611606,
+            "codigo": 20672,
+            "nome": "RECIFE  - 23A VARA"
+          },
+          "timestamp": "2026-04-30T14:23:43.332000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13707,
+              "nome": "Contrato Individual de Trabalho"
+            }
+          ],
+          "classe": {
+            "codigo": 985,
+            "nome": "Ação Trabalhista - Rito Ordinário"
+          },
+          "data_ajuizamento": "20060721030000",
+          "data_hora_ultima_atualizacao": "2026-04-30T14:23:47.484000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_01069001220065060161",
+          "numero_processo": "01069001220065060161",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2613701,
+            "codigo": 20716,
+            "nome": "SÃO LOURENÇO DA MATA  - 01A VARA"
+          },
+          "timestamp": "2026-04-30T14:23:47.484000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13707,
+              "nome": "Contrato Individual de Trabalho"
+            }
+          ],
+          "classe": {
+            "codigo": 985,
+            "nome": "Ação Trabalhista - Rito Ordinário"
+          },
+          "data_ajuizamento": "20011001030000",
+          "data_hora_ultima_atualizacao": "2026-04-30T14:23:48.167000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_98672003520025060013",
+          "numero_processo": "98672003520025060013",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2611606,
+            "codigo": 20662,
+            "nome": "RECIFE  - 13A VARA"
+          },
+          "timestamp": "2026-04-30T14:23:48.167000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13707,
+              "nome": "Contrato Individual de Trabalho"
+            }
+          ],
+          "classe": {
+            "codigo": 985,
+            "nome": "Ação Trabalhista - Rito Ordinário"
+          },
+          "data_ajuizamento": "20221213222419",
+          "data_hora_ultima_atualizacao": "2026-04-30T14:23:52.578000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00007951920225060171",
+          "numero_processo": "00007951920225060171",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2602902,
+            "codigo": 20677,
+            "nome": "CABO DE SANTO AGOSTINHO  - 01A VARA"
+          },
+          "timestamp": "2026-04-30T14:23:52.578000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13707,
+              "nome": "Contrato Individual de Trabalho"
+            }
+          ],
+          "classe": {
+            "codigo": 985,
+            "nome": "Ação Trabalhista - Rito Ordinário"
+          },
+          "data_ajuizamento": "20250907151946",
+          "data_hora_ultima_atualizacao": "2026-04-30T14:22:43.644000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00011061520255060006",
+          "numero_processo": "00011061520255060006",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2611606,
+            "codigo": 20655,
+            "nome": "RECIFE  - 06A VARA"
+          },
+          "timestamp": "2026-04-30T14:22:43.644000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13707,
+              "nome": "Contrato Individual de Trabalho"
+            }
+          ],
+          "classe": {
+            "codigo": 12374,
+            "nome": "Homologação da Transação Extrajudicial"
+          },
+          "data_ajuizamento": "20250919105604",
+          "data_hora_ultima_atualizacao": "2026-04-30T14:22:34.964000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00008663720255060261",
+          "numero_processo": "00008663720255060261",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2611804,
+            "codigo": 20713,
+            "nome": "RIBEIRÃO  - 01A VARA"
+          },
+          "timestamp": "2026-04-30T14:22:34.964000Z",
+          "tribunal": "TRT6"
+        }
+      }
+    ]
+  }
+}

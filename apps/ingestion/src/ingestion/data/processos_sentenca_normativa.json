@@ -1,0 +1,266 @@
+{
+  "hits": {
+    "hits": [
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13299,
+              "nome": "Sentença Normativa "
+            }
+          ],
+          "classe": {
+            "codigo": 156,
+            "nome": "Cumprimento de sentença"
+          },
+          "data_ajuizamento": "20230328212504",
+          "data_hora_ultima_atualizacao": "2026-03-11T11:29:40.882000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00002251520235060004",
+          "numero_processo": "00002251520235060004",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2611606,
+            "codigo": 20654,
+            "nome": "RECIFE  - 05A VARA"
+          },
+          "timestamp": "2026-03-11T11:29:40.882000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13299,
+              "nome": "Sentença Normativa "
+            }
+          ],
+          "classe": {
+            "codigo": 1009,
+            "nome": "Recurso Ordinário Trabalhista"
+          },
+          "data_ajuizamento": "20250605205249",
+          "data_hora_ultima_atualizacao": "2026-03-09T16:52:14.003000Z",
+          "grau": "G2",
+          "id": "TRT6_G2_00010874020245060104",
+          "numero_processo": "00010874020245060104",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2611606,
+            "codigo": 20751,
+            "nome": "GAB. DES. VALDIR JOSÉ SILVA DE CARVALHO"
+          },
+          "timestamp": "2026-03-09T16:52:14.003000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13299,
+              "nome": "Sentença Normativa "
+            }
+          ],
+          "classe": {
+            "codigo": 1009,
+            "nome": "Recurso Ordinário Trabalhista"
+          },
+          "data_ajuizamento": "20260201190012",
+          "data_hora_ultima_atualizacao": "2026-03-09T16:52:50.772000Z",
+          "grau": "G2",
+          "id": "TRT6_G2_00010571420245060101",
+          "numero_processo": "00010571420245060101",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2611606,
+            "codigo": 87425,
+            "nome": "GAB. DESª CARMEN LÚCIA VIEIRA DO NASCIMENTO"
+          },
+          "timestamp": "2026-03-09T16:52:50.772000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13299,
+              "nome": "Sentença Normativa "
+            }
+          ],
+          "classe": {
+            "codigo": 1009,
+            "nome": "Recurso Ordinário Trabalhista"
+          },
+          "data_ajuizamento": "20250926082146",
+          "data_hora_ultima_atualizacao": "2026-03-09T16:53:21.148000Z",
+          "grau": "G2",
+          "id": "TRT6_G2_00012345720245060010",
+          "numero_processo": "00012345720245060010",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2611606,
+            "codigo": 80362,
+            "nome": "GAB. DES. MILTON GOUVEIA DA SILVA FILHO"
+          },
+          "timestamp": "2026-03-09T16:53:21.148000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13299,
+              "nome": "Sentença Normativa "
+            }
+          ],
+          "classe": {
+            "codigo": 1009,
+            "nome": "Recurso Ordinário Trabalhista"
+          },
+          "data_ajuizamento": "20250507090029",
+          "data_hora_ultima_atualizacao": "2026-03-09T16:53:21.487000Z",
+          "grau": "G2",
+          "id": "TRT6_G2_00012365420245060001",
+          "numero_processo": "00012365420245060001",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2611606,
+            "codigo": 79730,
+            "nome": "GAB. DESª ANA CLAUDIA PETRUCCELLI DE LIMA"
+          },
+          "timestamp": "2026-03-09T16:53:21.487000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13299,
+              "nome": "Sentença Normativa "
+            }
+          ],
+          "classe": {
+            "codigo": 1009,
+            "nome": "Recurso Ordinário Trabalhista"
+          },
+          "data_ajuizamento": "20251012205009",
+          "data_hora_ultima_atualizacao": "2026-03-09T16:53:28.277000Z",
+          "grau": "G2",
+          "id": "TRT6_G2_00012225220245060007",
+          "numero_processo": "00012225220245060007",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2611606,
+            "codigo": 20753,
+            "nome": "GAB. DESª MARIA CLARA SABOYA ALBUQUERQUE BERNARDINO"
+          },
+          "timestamp": "2026-03-09T16:53:28.277000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13299,
+              "nome": "Sentença Normativa "
+            }
+          ],
+          "classe": {
+            "codigo": 1004,
+            "nome": "Agravo de Petição"
+          },
+          "data_ajuizamento": "20191015154154",
+          "data_hora_ultima_atualizacao": "2024-07-24T15:57:02.434000Z",
+          "grau": "G2",
+          "id": "TRT6_G2_00000915720115060020",
+          "numero_processo": "00000915720115060020",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2611606,
+            "codigo": 80362,
+            "nome": "GAB. DES. MILTON GOUVEIA DA SILVA FILHO"
+          },
+          "timestamp": "2024-07-24T15:57:02.434000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13299,
+              "nome": "Sentença Normativa "
+            }
+          ],
+          "classe": {
+            "codigo": 991,
+            "nome": "Execução de Termo de Ajuste de Conduta"
+          },
+          "data_ajuizamento": "20110126000000",
+          "data_hora_ultima_atualizacao": "2024-07-24T15:49:30.415000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00000915720115060020",
+          "numero_processo": "00000915720115060020",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2611606,
+            "codigo": 20669,
+            "nome": "RECIFE  - 20A VARA"
+          },
+          "timestamp": "2024-07-24T15:49:30.415000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13299,
+              "nome": "Sentença Normativa "
+            }
+          ],
+          "classe": {
+            "codigo": 47,
+            "nome": "Ação Rescisória"
+          },
+          "data_ajuizamento": "20230912190309",
+          "data_hora_ultima_atualizacao": "2024-07-10T14:32:29.715000Z",
+          "grau": "G2",
+          "id": "TRT6_G2_00020934020235060000",
+          "numero_processo": "00020934020235060000",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2611606,
+            "codigo": 74270,
+            "nome": "GAB. DES. CARLOS EDUARDO GOMES PUGLIESI"
+          },
+          "timestamp": "2024-07-10T14:32:29.715000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13300,
+              "nome": "Sentença Normativa - Modificação "
+            }
+          ],
+          "classe": {
+            "codigo": 11886,
+            "nome": "Recurso Ordinário - Rito Sumaríssimo"
+          },
+          "data_ajuizamento": "20250905132008",
+          "data_hora_ultima_atualizacao": "2025-12-04T15:49:52.174000Z",
+          "grau": "G2",
+          "id": "TRT6_G2_00004688520255060004",
+          "numero_processo": "00004688520255060004",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2611606,
+            "codigo": 20747,
+            "nome": "GAB. DESª GISANE BARBOSA DE ARAÚJO"
+          },
+          "timestamp": "2025-12-04T15:49:52.174000Z",
+          "tribunal": "TRT6"
+        }
+      }
+    ]
+  }
+}

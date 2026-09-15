@@ -1,0 +1,73 @@
+{
+  "comment": "Exemplo de dados processados (MVP) para caso real 0000256-48.2025.5.06.0171",
+  "comment_origem": "Dados extraídos de: captcha_service/documents/00002564820255060171_integra_http.pdf",
+  "comment_schema": "Validado contra api/api/schemas/dataJud_processed.py",
+  "processo_numero_cnj": "0000256-48.2025.5.06.0171",
+  "processo_id_datajud": "TRT6_G1_00002564820255060171",
+  "tribunal": "TRT6",
+  "grau": "G1",
+  "classe_codigo": 11886,
+  "classe_nome": "Acao Trabalhista - Rito Sumaríssimo",
+  "orgao_julgador_codigo": "0171",
+  "orgao_julgador_nome": "1ª Vara do Trabalho do Cabo",
+  "data_ajuizamento": "2025-04-15",
+  "data_ultima_atualizacao_datajud": "2026-03-09T16:53:17Z",
+  "data_ato_principal_pdf": "2026-01-16",
+  "data_sentenca_pdf": "2026-01-16",
+  "data_arquivamento_pdf": "2026-01-16",
+  "reclamante_nome": "LEANDRO MARCIONILO DE OLIVEIRA",
+  "reclamado_nome": "ECAM TERRAPLENAGEM E PAVIMENTACAO LTDA",
+  "assuntos": [
+    "Pagamento de Salário"
+  ],
+  "tipo_ato_principal": "acordo_homologado",
+  "decisao_resumo": "Processo resolvido por acordo homologado em juizo, com quitacao geral das obrigacoes entre as partes. Reclamante recebera R$ 2.200,00 a titulo de salarios/direitos trabalhistas e R$ 300,00 para seu advogado. Incidira multa de 100% sobre o valor em caso de inadimplencia.",
+  "status_processo": "arquivado",
+  "desfecho": "acordo_favoravel",
+  "resultado_reclamante": "ganhou",
+  "palavras_chave_desfecho": [
+    "ACORDO HOMOLOGADO",
+    "CONCILIAÇÃO",
+    "pagara ao reclamante",
+    "R$ 2.200,00",
+    "quitacao geral",
+    "extinção do feito com resolução de mérito"
+  ],
+  "valor_causa": 31399.70,
+  "valor_acordo_total": 2500.00,
+  "valor_pago_reclamante": 2200.00,
+  "valor_pago_advogado": 300.00,
+  "custas_valor": 0.00,
+  "custas_percentual": 0.00,
+  "multa_inadimplencia_percentual": 100.00,
+  "prazo_pagamento_texto": "parcela unica, sem especificacao de data limite no PDF analisado",
+  "fonte_json_capturado_em": "2026-03-09T16:53:17Z",
+  "fonte_pdf_capturado_em": "2026-03-09T16:53:17Z",
+  "pdf_numero_paginas": 12,
+  "parser_versao": "1.0.0",
+  "confianca_extracao": 0.92,
+  "raw_source_json": {
+    "numeroProcesso": "00002564820255060171",
+    "id": "TRT6_G1_00002564820255060171",
+    "classe": {
+      "codigo": 11886,
+      "nome": "Acao Trabalhista - Rito Sumaríssimo"
+    },
+    "tribunal": "TRT6",
+    "grau": "G1",
+    "dataAjuizamento": "20250415",
+    "dataHoraUltimaAtualizacao": "2026-03-09T16:53:17.984000Z",
+    "orgaoJulgador": {
+      "codigo": "0171",
+      "nome": "1ª Vara do Trabalho do Cabo",
+      "codigoMunicipioIBGE": 260090
+    },
+    "assuntos": [
+      {
+        "codigo": 2501,
+        "nome": "Pagamento de Salário"
+      }
+    ]
+  },
+  "raw_pdf_texto": "===== PAGINA 1 =====\nFls.: 1\n\nPoder Judiciário\nJustiça do Trabalho\nTribunal Regional do Trabalho da 6ª Região\n\nAção Trabalhista - Rito Sumaríssimo\n0000256-48.2025.5.06.0171\n\nTramitação Preferencial\n- Pagamento de Salário\n\nProcesso Judicial Eletrônico\n\nData da Autuação: 15/04/2025\nValor da causa: R$ 31.399,70\n\nPartes:\nRECLAMANTE: LEANDRO MARCIONILO DE OLIVEIRA\nADVOGADO: José Henrique da Silva\nRECLAMADO: ECAM TERRAPLENAGEM E PAVIMENTACAO LTDA\nADVOGADO: PAULO JOSE CARNEIRO LEAO CANNIZZARO\n[... mais 11 páginas omitidas neste exemplo ...]\n\nBLOCO RELEVANTE DO ACORDO:\n\nACORDO HOMOLOGADO\n\nAs partes, por seus procuradores constituídos, firmaram acordo para resoluçao dos conflitos laborais,\nsob as seguintes condiçoes:\n\n1. Quitacao Geral: O RECLAMADO pagara ao reclamante a quantia de R$ 2.200,00 a titulo de\nsalarios pendentes e direitos trabalhistas.\n\n2. Honorarios: Alem disso, o RECLAMADO pagara ao advogado do reclamante a quantia de R$ 300,00\na titulo de honorarios profissionais.\n\n3. Multa: Em caso de inadimplencia de qualquer parcela, incidira multa de 100% sobre o valor\ne juros de mora de 1% ao mes.\n\n4. Quitacao e Extinção: O presente acordo importa em quitacao geral de todas as obrigacoes entre\nas partes, resultando em extinção do feito com resolução de mérito, arquivando-se os autos.\n\nData: 16 de janeiro de 2026\nAssinado eletronicamente pelo Juiz da Vara e pelas partes.\n"
+}

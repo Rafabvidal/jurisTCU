@@ -1,0 +1,31 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Captcha runtime artifacts
+captcha_log/
+debug_captcha_page*.png
+juristcu.db
+
+.vscode/
+.env
+
+# Git worktrees (local-only)
+.worktrees/
+
+.antigravitycli/
+.claude/
+.opencode/
+.vscode/
+
+*.log
+
+.cache/huggingface
+

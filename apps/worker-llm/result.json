@@ -1,0 +1,31 @@
+{
+  "numero_processo": "0000256-48.2025.5.06.0171",
+  "tribunal": "TRT6",
+  "classe_nome": "Ação Trabalhista - Rito Sumaríssimo",
+  "orgao_julgador_nome": "1ª Vara do Trabalho do Cabo",
+  "data_ajuizamento": "2025-04-15",
+  "tempo_tramitacao": 30,
+  "resumo_causa": "O reclamante, Leandro Marcionilo de Oliveira, entrou com uma ação trabalhista contra a ECAM Terraplennagem e Pavimentação Ltda. buscando o pagamento do salário devido. A causa envolveu a necessidade de emenda da inicial para detalhar a jornada de trabalho e o valor da causa não se coadunava com os pedidos.",
+  "tipo_ato_principal": "sentenca",
+  "decisao_resumo": "A juíza homologou um acordo entre as partes, onde a reclamada ECAM Terraplennagem e Pavimentação Ltda. pagará ao reclamante R$ 2.500,00 em parcela única, além de pagar as custas do processo.",
+  "palavras_chave_processo": [
+    "acordo",
+    "salário",
+    "jornada",
+    "ECAM",
+    "despacho"
+  ],
+  "status_processo": "arquivado",
+  "desfecho": "sentenca_procedente",
+  "resultado_reclamante": "ganhou",
+  "palavras_chave_desfecho": [
+    "acordo",
+    "pagamento",
+    "salário",
+    "juízo",
+    "homologado"
+  ],
+  "valor_causa": 31399.7,
+  "custas_valor_total": 50.0,
+  "custas_percentual": 2.0
+}

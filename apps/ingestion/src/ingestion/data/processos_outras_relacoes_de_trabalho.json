@@ -1,0 +1,266 @@
+{
+  "hits": {
+    "hits": [
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13815,
+              "nome": "Outras Relações de Trabalho"
+            }
+          ],
+          "classe": {
+            "codigo": 1125,
+            "nome": "Ação Trabalhista - Rito Sumaríssimo"
+          },
+          "data_ajuizamento": "20220725170103",
+          "data_hora_ultima_atualizacao": "2026-04-30T14:23:07.005000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00001808220225060024",
+          "numero_processo": "00001808220225060024",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2611606,
+            "codigo": 84615,
+            "nome": "RECIFE  - 24A VARA"
+          },
+          "timestamp": "2026-04-30T14:23:07.005000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13815,
+              "nome": "Outras Relações de Trabalho"
+            }
+          ],
+          "classe": {
+            "codigo": 1125,
+            "nome": "Ação Trabalhista - Rito Sumaríssimo"
+          },
+          "data_ajuizamento": "20210318113019",
+          "data_hora_ultima_atualizacao": "2026-03-11T19:02:58.845000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00002032520215060004",
+          "numero_processo": "00002032520215060004",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2611606,
+            "codigo": 20653,
+            "nome": "RECIFE  - 04A VARA"
+          },
+          "timestamp": "2026-03-11T19:02:58.845000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13815,
+              "nome": "Outras Relações de Trabalho"
+            }
+          ],
+          "classe": {
+            "codigo": 985,
+            "nome": "Ação Trabalhista - Rito Ordinário"
+          },
+          "data_ajuizamento": "20230523115402",
+          "data_hora_ultima_atualizacao": "2026-03-11T19:14:07.384000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00005502720235060121",
+          "numero_processo": "00005502720235060121",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2610707,
+            "codigo": 20707,
+            "nome": "PAULISTA  - 01A VARA"
+          },
+          "timestamp": "2026-03-11T19:14:07.384000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13815,
+              "nome": "Outras Relações de Trabalho"
+            }
+          ],
+          "classe": {
+            "codigo": 1125,
+            "nome": "Ação Trabalhista - Rito Sumaríssimo"
+          },
+          "data_ajuizamento": "20210330184101",
+          "data_hora_ultima_atualizacao": "2026-03-11T19:14:43.833000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00002552720215060002",
+          "numero_processo": "00002552720215060002",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2611606,
+            "codigo": 20651,
+            "nome": "RECIFE  - 02A VARA"
+          },
+          "timestamp": "2026-03-11T19:14:43.833000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13815,
+              "nome": "Outras Relações de Trabalho"
+            }
+          ],
+          "classe": {
+            "codigo": 1125,
+            "nome": "Ação Trabalhista - Rito Sumaríssimo"
+          },
+          "data_ajuizamento": "20220210171756",
+          "data_hora_ultima_atualizacao": "2026-04-08T14:22:35.086000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00000891320225060017",
+          "numero_processo": "00000891320225060017",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2611606,
+            "codigo": 20666,
+            "nome": "RECIFE  - 17A VARA"
+          },
+          "timestamp": "2026-04-08T14:22:35.086000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13815,
+              "nome": "Outras Relações de Trabalho"
+            }
+          ],
+          "classe": {
+            "codigo": 985,
+            "nome": "Ação Trabalhista - Rito Ordinário"
+          },
+          "data_ajuizamento": "20240325162756",
+          "data_hora_ultima_atualizacao": "2026-04-08T18:20:50.974000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00000922520245060331",
+          "numero_processo": "00000922520245060331",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2601706,
+            "codigo": 20676,
+            "nome": "BELO JARDIM  - 01A VARA"
+          },
+          "timestamp": "2026-04-08T18:20:50.974000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13815,
+              "nome": "Outras Relações de Trabalho"
+            }
+          ],
+          "classe": {
+            "codigo": 12374,
+            "nome": "Homologação da Transação Extrajudicial"
+          },
+          "data_ajuizamento": "20260329204135",
+          "data_hora_ultima_atualizacao": "2026-04-08T21:31:53.389000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00001947620265060331",
+          "numero_processo": "00001947620265060331",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2601706,
+            "codigo": 20676,
+            "nome": "BELO JARDIM  - 01A VARA"
+          },
+          "timestamp": "2026-04-08T21:31:53.389000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13815,
+              "nome": "Outras Relações de Trabalho"
+            }
+          ],
+          "classe": {
+            "codigo": 12374,
+            "nome": "Homologação da Transação Extrajudicial"
+          },
+          "data_ajuizamento": "20251219161115",
+          "data_hora_ultima_atualizacao": "2026-04-08T21:50:51.612000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00011823920255060103",
+          "numero_processo": "00011823920255060103",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2609600,
+            "codigo": 20704,
+            "nome": "OLINDA  - 03A VARA"
+          },
+          "timestamp": "2026-04-08T21:50:51.612000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13815,
+              "nome": "Outras Relações de Trabalho"
+            }
+          ],
+          "classe": {
+            "codigo": 1125,
+            "nome": "Ação Trabalhista - Rito Sumaríssimo"
+          },
+          "data_ajuizamento": "20220713145308",
+          "data_hora_ultima_atualizacao": "2026-03-10T15:25:22.055000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00000811520225060024",
+          "numero_processo": "00000811520225060024",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2611606,
+            "codigo": 84615,
+            "nome": "RECIFE  - 24A VARA"
+          },
+          "timestamp": "2026-03-10T15:25:22.055000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13815,
+              "nome": "Outras Relações de Trabalho"
+            }
+          ],
+          "classe": {
+            "codigo": 1125,
+            "nome": "Ação Trabalhista - Rito Sumaríssimo"
+          },
+          "data_ajuizamento": "20230628060155",
+          "data_hora_ultima_atualizacao": "2026-03-10T15:27:16.109000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00004862920235060020",
+          "numero_processo": "00004862920235060020",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2611606,
+            "codigo": 20669,
+            "nome": "RECIFE  - 20A VARA"
+          },
+          "timestamp": "2026-03-10T15:27:16.109000Z",
+          "tribunal": "TRT6"
+        }
+      }
+    ]
+  }
+}

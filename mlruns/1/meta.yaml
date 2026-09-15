@@ -1,0 +1,4 @@
+artifact_location: file:///home/miguelsb/workspace/projetos6/mlruns/1
+experiment_id: '1'
+lifecycle_stage: active
+name: JusTRT6-Semantic-Search

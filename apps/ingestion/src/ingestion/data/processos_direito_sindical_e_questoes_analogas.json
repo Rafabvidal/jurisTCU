@@ -1,0 +1,294 @@
+{
+  "hits": {
+    "hits": [
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 10379,
+              "nome": "Anulação e Correção de Provas / Questões"
+            }
+          ],
+          "classe": {
+            "codigo": 120,
+            "nome": "Mandado de Segurança Cível"
+          },
+          "data_ajuizamento": "20180929095827",
+          "data_hora_ultima_atualizacao": "2024-07-24T18:39:50.048000Z",
+          "grau": "G2",
+          "id": "TRT6_G2_00006157020185060000",
+          "numero_processo": "00006157020185060000",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2611606,
+            "codigo": 20754,
+            "nome": "GAB. DESª NISE PEDROSO LINS DE SOUSA"
+          },
+          "timestamp": "2024-07-24T18:39:50.048000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 10379,
+              "nome": "Anulação e Correção de Provas / Questões"
+            }
+          ],
+          "classe": {
+            "codigo": 120,
+            "nome": "Mandado de Segurança Cível"
+          },
+          "data_ajuizamento": "20180929091730",
+          "data_hora_ultima_atualizacao": "2024-07-24T18:54:33.458000Z",
+          "grau": "G2",
+          "id": "TRT6_G2_00006148520185060000",
+          "numero_processo": "00006148520185060000",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2611606,
+            "codigo": 20759,
+            "nome": "GAB. DES. PAULO DIAS DE ALCÂNTARA"
+          },
+          "timestamp": "2024-07-24T18:54:33.458000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 12936,
+              "nome": "Direito Individual do Trabalho "
+            },
+            {
+              "codigo": 13754,
+              "nome": "Trabalho em Condições Análogas  à de Escravo"
+            }
+          ],
+          "classe": {
+            "codigo": 985,
+            "nome": "Ação Trabalhista - Rito Ordinário"
+          },
+          "data_ajuizamento": "20250228135745",
+          "data_hora_ultima_atualizacao": "2026-03-09T17:47:11.880000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00002589020255060341",
+          "numero_processo": "00002589020255060341",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2610905,
+            "codigo": 20709,
+            "nome": "PESQUEIRA  - 01A VARA"
+          },
+          "timestamp": "2026-03-09T17:47:11.880000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 12936,
+              "nome": "Direito Individual do Trabalho "
+            },
+            {
+              "codigo": 13754,
+              "nome": "Trabalho em Condições Análogas  à de Escravo"
+            },
+            {
+              "codigo": 13764,
+              "nome": "Duração do Trabalho"
+            }
+          ],
+          "classe": {
+            "codigo": 985,
+            "nome": "Ação Trabalhista - Rito Ordinário"
+          },
+          "data_ajuizamento": "20231122163058",
+          "data_hora_ultima_atualizacao": "2026-03-10T15:23:18.655000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00011177020235060311",
+          "numero_processo": "00011177020235060311",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2604106,
+            "codigo": 20680,
+            "nome": "CARUARU  - 01A VARA"
+          },
+          "timestamp": "2026-03-10T15:23:18.655000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 12936,
+              "nome": "Direito Individual do Trabalho "
+            },
+            {
+              "codigo": 12949,
+              "nome": "Arbitragem e Mediação no Direito Coletivo "
+            }
+          ],
+          "classe": {
+            "codigo": 985,
+            "nome": "Ação Trabalhista - Rito Ordinário"
+          },
+          "data_ajuizamento": "20120119060000",
+          "data_hora_ultima_atualizacao": "2024-11-06T14:21:10.678000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00000416320125060192",
+          "numero_processo": "00000416320125060192",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2607208,
+            "codigo": 20692,
+            "nome": "IPOJUCA  - 02A VARA"
+          },
+          "timestamp": "2024-11-06T14:21:10.678000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 12936,
+              "nome": "Direito Individual do Trabalho "
+            },
+            {
+              "codigo": 12942,
+              "nome": "Prescrição e Decadência no Direito do Trabalho "
+            }
+          ],
+          "classe": {
+            "codigo": 985,
+            "nome": "Ação Trabalhista - Rito Ordinário"
+          },
+          "data_ajuizamento": "20240916152713",
+          "data_hora_ultima_atualizacao": "2025-07-16T16:18:29.895000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00009548320245060011",
+          "numero_processo": "00009548320245060011",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2611606,
+            "codigo": 20660,
+            "nome": "RECIFE  - 11A VARA"
+          },
+          "timestamp": "2025-07-16T16:18:29.895000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 12949,
+              "nome": "Arbitragem e Mediação no Direito Coletivo "
+            }
+          ],
+          "classe": {
+            "codigo": 11875,
+            "nome": "Reclamação Pré-processual"
+          },
+          "data_ajuizamento": "20250609230740",
+          "data_hora_ultima_atualizacao": "2026-03-10T15:29:36.620000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00006747820255060011",
+          "numero_processo": "00006747820255060011",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2611606,
+            "codigo": 20660,
+            "nome": "RECIFE  - 11A VARA"
+          },
+          "timestamp": "2026-03-10T15:29:36.620000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 12949,
+              "nome": "Arbitragem e Mediação no Direito Coletivo "
+            }
+          ],
+          "classe": {
+            "codigo": 12374,
+            "nome": "Homologação da Transação Extrajudicial"
+          },
+          "data_ajuizamento": "20231109134312",
+          "data_hora_ultima_atualizacao": "2026-03-11T14:30:12.808000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00009602720235060011",
+          "numero_processo": "00009602720235060011",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2611606,
+            "codigo": 20660,
+            "nome": "RECIFE  - 11A VARA"
+          },
+          "timestamp": "2026-03-11T14:30:12.808000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 12936,
+              "nome": "Direito Individual do Trabalho "
+            },
+            {
+              "codigo": 12950,
+              "nome": "Arbitragem e Mediação no Direito Individual do Trabalho "
+            }
+          ],
+          "classe": {
+            "codigo": 1125,
+            "nome": "Ação Trabalhista - Rito Sumaríssimo"
+          },
+          "data_ajuizamento": "20250221145720",
+          "data_hora_ultima_atualizacao": "2025-07-16T16:19:33.611000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00001204220255060271",
+          "numero_processo": "00001204220255060271",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2615300,
+            "codigo": 20718,
+            "nome": "TIMBAÚBA  - 01A VARA"
+          },
+          "timestamp": "2025-07-16T16:19:33.611000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 12936,
+              "nome": "Direito Individual do Trabalho "
+            },
+            {
+              "codigo": 12950,
+              "nome": "Arbitragem e Mediação no Direito Individual do Trabalho "
+            }
+          ],
+          "classe": {
+            "codigo": 1125,
+            "nome": "Ação Trabalhista - Rito Sumaríssimo"
+          },
+          "data_ajuizamento": "20250219181940",
+          "data_hora_ultima_atualizacao": "2025-11-07T18:20:31.042000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00001152020255060271",
+          "numero_processo": "00001152020255060271",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2615300,
+            "codigo": 20718,
+            "nome": "TIMBAÚBA  - 01A VARA"
+          },
+          "timestamp": "2025-11-07T18:20:31.042000Z",
+          "tribunal": "TRT6"
+        }
+      }
+    ]
+  }
+}

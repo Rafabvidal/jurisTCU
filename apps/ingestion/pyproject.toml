@@ -1,0 +1,27 @@
+[project.scripts]
+ingest = "ingestion.main:main"
+
+[project]
+name = "ingestion"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "shared", # Para validar os metadados que ele buscou antes de colocar na fila.
+    "celery>=5.6.3",
+    "requests>=2.33.0",
+    "python-dateutil>=2.9.0",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["ingestion*"]
+namespaces = false
+
+[tool.uv.sources]
+shared = { workspace = true } # Indica que deve buscar no monorepo

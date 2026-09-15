@@ -1,0 +1,26 @@
+[project.scripts]
+search-notifier = "search_notifier.main:main"
+
+[project]
+name = "search-notifier"
+version = "0.1.0"
+description = "Microserviço cron que notifica usuários sobre novos resultados de buscas salvas."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "shared", # Logger e EnviromentManager compartilhados do monorepo.
+    "requests>=2.33.0",
+    "psycopg2-binary>=2.9.12",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["search_notifier*"]
+namespaces = false
+
+[tool.uv.sources]
+shared = { workspace = true } # Indica que deve buscar no monorepo

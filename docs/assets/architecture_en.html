@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Architecture Canvas - Ingestion & AI Enrichment</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0b0f19;
+            color: #e2e8f0;
+        }
+
+        /* Custom scrollbar styling */
+        ::-webkit-scrollbar {
+            width: 6px;
+            height: 6px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #0f172a;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #334155;
+            border-radius: 3px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #475569;
+        }
+
+        /* Glow effects */
+        .glow-green { filter: drop-shadow(0 0 8px rgba(57, 153, 75, 0.6)); }
+        .glow-blue { filter: drop-shadow(0 0 8px rgba(86, 162, 232, 0.6)); }
+        .glow-pink { filter: drop-shadow(0 0 8px rgba(255, 141, 188, 0.6)); }
+        .glow-orange { filter: drop-shadow(0 0 8px rgba(245, 158, 11, 0.6)); }
+        .glow-purple { filter: drop-shadow(0 0 8px rgba(139, 92, 246, 0.6)); }
+
+        /* CSS animations for SVG paths */
+        .flow-path {
+            stroke-dasharray: 8 8;
+            animation: flow-dash 30s linear infinite;
+        }
+        
+        .flow-path-active {
+            stroke-dasharray: 6 6;
+            animation: flow-dash-fast 2s linear infinite;
+        }
+
+        @keyframes flow-dash {
+            to { stroke-dashoffset: -1000; }
+        }
+
+        @keyframes flow-dash-fast {
+            to { stroke-dashoffset: -100; }
+        }
+
+        /* Moving pulse circle style */
+        .pulse-ball {
+            animation: move-along 3s linear infinite;
+        }
+
+        /* Tech background grid */
+        .tech-grid {
+            background-size: 40px 40px;
+            background-image: 
+                linear-gradient(to right, rgba(148, 163, 184, 0.05) 1px, transparent 1px),
+                linear-gradient(to bottom, rgba(148, 163, 184, 0.05) 1px, transparent 1px);
+        }
+
+        /* Node cards */
+        .node-card {
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .node-card.active {
+            transform: scale(1.03);
+            box-shadow: 0 0 25px rgba(255, 255, 255, 0.1);
+        }
+        
+        /* Info cards in sidebar */
+        .info-card {
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .info-card.highlighted {
+            border-color: rgba(99, 102, 241, 0.7) !important;
+            background-color: rgba(99, 102, 241, 0.08);
+            box-shadow: 0 0 20px rgba(99, 102, 241, 0.2);
+        }
+    </style>
+</head>
+<body class="h-full flex flex-col overflow-hidden tech-grid">
+
+    <main class="flex-1 flex overflow-hidden relative">
+        
+        <!-- Central Panel: SVG Canvas & Diagram Elements -->
+        <div class="flex-1 overflow-auto p-0 flex items-center justify-center relative w-full h-full">
+            <div class="relative w-[1150px] h-[680px] bg-slate-950/60 rounded-2xl border border-slate-800/80 p-4 shadow-2xl backdrop-blur-sm scale-90 lg:scale-100">
+                
+
+
+                <!-- SVG Background Connections -->
+                <svg class="absolute inset-0 w-full h-full pointer-events-none z-0" id="svg-canvas" viewBox="0 0 1150 680">
+                    <!-- Marker Definitions -->
+                    <defs>
+                        <marker id="arrow-green" viewBox="0 0 10 10" refX="18" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+                            <path d="M0,0 L10,5 L0,10 z" fill="#39994b"/>
+                        </marker>
+                        <marker id="arrow-blue" viewBox="0 0 10 10" refX="18" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+                            <path d="M0,0 L10,5 L0,10 z" fill="#56a2e8"/>
+                        </marker>
+                        <marker id="arrow-standard" viewBox="0 0 10 10" refX="18" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+                            <path d="M0,0 L10,5 L0,10 z" fill="#64748b"/>
+                        </marker>
+                    </defs>
+
+                    <!-- Flow Paths -->
+                    <!-- Ingest-worker -> Django API (Sync Existing Lawsuits/Records) -->
+                    <path id="path-ingest-to-api" d="M 210,520 Q 140,360 210,200" fill="none" stroke="#64748b" stroke-width="2.5" class="flow-path" marker-end="url(#arrow-standard)"/>
+                    <path id="path-api-to-ingest" d="M 240,200 Q 310,360 240,520" fill="none" stroke="#64748b" stroke-width="2.5" class="flow-path" marker-end="url(#arrow-standard)"/>
+
+                    <!-- Ingest-worker -> Broker (Publish Scraping Event) -->
+                    <path id="path-ingest-to-broker" d="M 270,560 L 460,560" fill="none" stroke="#39994b" stroke-width="2.5" class="flow-path" marker-end="url(#arrow-green)"/>
+
+                    <!-- Broker -> Scrapper-worker (Consume Scraping Event) -->
+                    <path id="path-broker-to-scrapper" d="M 680,560 L 860,560" fill="none" stroke="#39994b" stroke-width="2.5" class="flow-path" marker-end="url(#arrow-green)"/>
+
+                    <!-- Scrapper-worker -> S3 (Upload Raw PDF) -->
+                    <path id="path-scrapper-to-s3" d="M 990,520 L 990,410" fill="none" stroke="#64748b" stroke-width="2.5" class="flow-path" marker-end="url(#arrow-standard)"/>
+
+                    <!-- Scrapper-worker -> Broker (Publish LLM Input Event) -->
+                    <path id="path-scrapper-to-broker" d="M 880,600 C 880,655 480,655 480,600" fill="none" stroke="#56a2e8" stroke-width="2.5" class="flow-path" marker-end="url(#arrow-blue)"/>
+
+                    <!-- Broker -> LLM-worker (Consume LLM Input Event) -->
+                    <path id="path-broker-to-llm" d="M 680,520 C 780,380 850,230 880,190" fill="none" stroke="#56a2e8" stroke-width="2.5" class="flow-path" marker-end="url(#arrow-blue)"/>
+
+                    <!-- LLM-worker -> S3 (Download PDF) -->
+                    <path id="path-llm-to-s3" d="M 990,200 L 990,310" fill="none" stroke="#64748b" stroke-width="2.5" class="flow-path" marker-end="url(#arrow-standard)"/>
+
+                    <!-- LLM-worker -> Gemma 3 Model (API Local Inference) -->
+                    <path id="path-llm-to-gemma" d="M 880,150 L 680,150" fill="none" stroke="#64748b" stroke-width="2.5" class="flow-path" marker-end="url(#arrow-standard)"/>
+
+                    <!-- LLM-worker -> Django API (Sync processed data) -->
+                    <path id="path-llm-to-api" d="M 880,120 L 270,120" fill="none" stroke="#56a2e8" stroke-width="2.5" class="flow-path" marker-end="url(#arrow-blue)"/>
+
+                    <!-- Pulsing Circles (Simulation of message traffic) -->
+                    <circle id="pulse-ingest-to-api" r="6" fill="#cbd5e1" class="hidden" style="motion-path: url(#path-ingest-to-api); fill-opacity: 0.9; filter: drop-shadow(0 0 4px #fff)"></circle>
+                    <circle id="pulse-api-to-ingest" r="6" fill="#cbd5e1" class="hidden" style="motion-path: url(#path-api-to-ingest); fill-opacity: 0.9; filter: drop-shadow(0 0 4px #fff)"></circle>
+                    <circle id="pulse-ingest-to-broker" r="6" fill="#39994b" class="hidden" style="motion-path: url(#path-ingest-to-broker); fill-opacity: 0.9; filter: drop-shadow(0 0 6px #39994b)"></circle>
+                    <circle id="pulse-broker-to-scrapper" r="6" fill="#39994b" class="hidden" style="motion-path: url(#path-broker-to-scrapper); fill-opacity: 0.9; filter: drop-shadow(0 0 6px #39994b)"></circle>
+                    <circle id="pulse-scrapper-to-s3" r="6" fill="#e2e8f0" class="hidden" style="motion-path: url(#path-scrapper-to-s3); fill-opacity: 0.9; filter: drop-shadow(0 0 6px #fff)"></circle>
+                    <circle id="pulse-scrapper-to-broker" r="6" fill="#56a2e8" class="hidden" style="motion-path: url(#path-scrapper-to-broker); fill-opacity: 0.9; filter: drop-shadow(0 0 6px #56a2e8)"></circle>
+                    <circle id="pulse-broker-to-llm" r="6" fill="#56a2e8" class="hidden" style="motion-path: url(#path-broker-to-llm); fill-opacity: 0.9; filter: drop-shadow(0 0 6px #56a2e8)"></circle>
+                    <circle id="pulse-llm-to-s3" r="6" fill="#e2e8f0" class="hidden" style="motion-path: url(#path-llm-to-s3); fill-opacity: 0.9; filter: drop-shadow(0 0 6px #fff)"></circle>
+                    <circle id="pulse-llm-to-gemma" r="6" fill="#e2e8f0" class="hidden" style="motion-path: url(#path-llm-to-gemma); fill-opacity: 0.9; filter: drop-shadow(0 0 6px #fff)"></circle>
+                    <circle id="pulse-llm-to-api" r="6" fill="#56a2e8" class="hidden" style="motion-path: url(#path-llm-to-api); fill-opacity: 0.9; filter: drop-shadow(0 0 6px #56a2e8)"></circle>
+                </svg>
+
+                <!-- Django API -->
+                <div class="absolute cursor-pointer node-card bg-slate-900 border border-slate-700/60 hover:border-pink-500/80 p-4 rounded-xl w-[210px] z-10 select-none" style="left: 60px; top: 90px;" onclick="inspectNode('django-api', this)" id="card-django-api">
+                    <div class="flex items-center justify-between mb-2">
+                        <div class="flex items-center gap-2 text-slate-300 font-semibold text-sm">
+                            <i class="fa-solid fa-server text-pink-400"></i>
+                            <span>Django API</span>
+                        </div>
+                        <span class="text-[9px] bg-pink-500/10 text-pink-400 px-1.5 py-0.5 rounded font-mono border border-pink-500/20">PORT 8000</span>
+                    </div>
+                    <div class="text-[11px] text-slate-400 mb-2">Main brain, validation, and database persistence.</div>
+                    <div class="flex items-center justify-between mt-3 pt-2 border-t border-slate-800 text-[10px]">
+                        <span class="text-slate-500">Status:</span>
+                        <span class="text-emerald-400 font-medium" id="status-django-api">Idle</span>
+                    </div>
+                </div>
+
+                <!-- Ingest-worker -->
+                <div class="absolute cursor-pointer node-card bg-slate-900 border border-slate-700/60 hover:border-pink-500/80 p-4 rounded-xl w-[210px] z-10 select-none" style="left: 60px; top: 510px;" onclick="inspectNode('ingest-worker', this)" id="card-ingest-worker">
+                    <div class="flex items-center justify-between mb-2">
+                        <div class="flex items-center gap-2 text-slate-300 font-semibold text-sm">
+                            <i class="fa-solid fa-gears text-pink-400"></i>
+                            <span>Ingest-worker</span>
+                        </div>
+                        <span class="text-[9px] bg-slate-800 text-slate-400 px-1.5 py-0.5 rounded font-mono">Docker</span>
+                    </div>
+                    <div class="text-[11px] text-slate-400 mb-2">Scans new court records and notifies API. Cron/Schedules.</div>
+                    <div class="flex items-center justify-between mt-3 pt-2 border-t border-slate-800 text-[10px]">
+                        <span class="text-slate-500">Status:</span>
+                        <span class="text-emerald-400 font-medium" id="status-ingest-worker">Idle</span>
+                    </div>
+                </div>
+
+                <!-- Broker (RabbitMQ/Kafka) -->
+                <div class="absolute cursor-pointer node-card bg-slate-900 border border-purple-500/50 hover:border-purple-400 p-4 rounded-xl w-[220px] z-10 text-center select-none" style="left: 460px; top: 510px;" onclick="inspectNode('broker', this)" id="card-broker">
+                    <div class="flex items-center justify-between mb-2">
+                        <div class="flex items-center gap-2 text-slate-300 font-semibold text-sm">
+                            <i class="fa-solid fa-shuffle text-purple-400"></i>
+                            <span>Message Broker</span>
+                        </div>
+                        <span class="text-[9px] bg-purple-500/10 text-purple-400 px-1.5 py-0.5 rounded font-mono border border-purple-500/20">AMQP</span>
+                    </div>
+                    <div class="text-[11px] text-slate-400 mb-2 text-left">Asynchronous message orchestrator for the system.</div>
+                    <div class="flex items-center justify-between mt-3 pt-2 border-t border-slate-800 text-[10px] text-left">
+                        <span class="text-slate-500">Active Queues:</span>
+                        <span class="text-purple-400 font-mono" id="status-broker">0 msg/s</span>
+                    </div>
+                </div>
+
+                <!-- Gemma 3 Model Local -->
+                <div class="absolute cursor-pointer node-card bg-slate-900 border border-violet-500/50 hover:border-violet-400 p-4 rounded-xl w-[220px] z-10 select-none" style="left: 460px; top: 90px;" onclick="inspectNode('gemma-model', this)" id="card-gemma-model">
+                    <div class="flex items-center justify-between mb-2">
+                        <div class="flex items-center gap-2 text-slate-300 font-semibold text-sm">
+                            <i class="fa-solid fa-brain text-violet-400"></i>
+                            <span>Gemma 3 Model</span>
+                        </div>
+                        <span class="text-[9px] bg-violet-500/10 text-violet-300 px-1.5 py-0.5 rounded font-mono border border-violet-500/20">PORT 1234</span>
+                    </div>
+                    <div class="text-[11px] text-slate-400 mb-2">Local LLM performing structured extraction offline.</div>
+                    <div class="flex items-center justify-between mt-3 pt-2 border-t border-slate-800 text-[10px]">
+                        <span class="text-slate-500">Model:</span>
+                        <span class="text-violet-400 font-medium" id="status-gemma-model">Local/Inference</span>
+                    </div>
+                </div>
+
+                <!-- scrapper-worker -->
+                <div class="absolute cursor-pointer node-card bg-slate-900 border border-slate-700/60 hover:border-pink-500/80 p-4 rounded-xl w-[220px] z-10 select-none" style="left: 860px; top: 510px;" onclick="inspectNode('scrapper-worker', this)" id="card-scrapper-worker">
+                    <div class="flex items-center justify-between mb-2">
+                        <div class="flex items-center gap-2 text-slate-300 font-semibold text-sm">
+                            <i class="fa-solid fa-robot text-pink-400"></i>
+                            <span>scrapper-worker</span>
+                        </div>
+                        <span class="text-[9px] bg-slate-800 text-slate-400 px-1.5 py-0.5 rounded font-mono">Docker</span>
+                    </div>
+                    <div class="text-[11px] text-slate-400 mb-2">Downloads court HTML, compiles PDF, and saves to S3.</div>
+                    <div class="flex items-center justify-between mt-3 pt-2 border-t border-slate-800 text-[10px]">
+                        <span class="text-slate-500">Status:</span>
+                        <span class="text-emerald-400 font-medium" id="status-scrapper-worker">Idle</span>
+                    </div>
+                </div>
+
+                <!-- LLM-worker -->
+                <div class="absolute cursor-pointer node-card bg-slate-900 border border-slate-700/60 hover:border-pink-500/80 p-4 rounded-xl w-[220px] z-10 select-none" style="left: 860px; top: 90px;" onclick="inspectNode('llm-worker', this)" id="card-llm-worker">
+                    <div class="flex items-center justify-between mb-2">
+                        <div class="flex items-center gap-2 text-slate-300 font-semibold text-sm">
+                            <i class="fa-solid fa-microchip text-pink-400"></i>
+                            <span>llm-worker</span>
+                        </div>
+                        <span class="text-[9px] bg-slate-800 text-slate-400 px-1.5 py-0.5 rounded font-mono">Docker</span>
+                    </div>
+                    <div class="text-[11px] text-slate-400 mb-2">Fetches PDF from S3, splits chunks, feeds to Gemma.</div>
+                    <div class="flex items-center justify-between mt-3 pt-2 border-t border-slate-800 text-[10px]">
+                        <span class="text-slate-500">Status:</span>
+                        <span class="text-emerald-400 font-medium" id="status-llm-worker">Idle</span>
+                    </div>
+                </div>
+
+                <!-- Amazon S3 Storage -->
+                <div class="absolute cursor-pointer node-card bg-slate-900 border border-amber-600/50 hover:border-amber-400 p-4 rounded-xl w-[220px] z-10 select-none" style="left: 860px; top: 310px;" onclick="inspectNode('s3-storage', this)" id="card-s3-storage">
+                    <div class="flex items-center justify-between mb-2">
+                        <div class="flex items-center gap-2 text-slate-300 font-semibold text-sm">
+                            <i class="fa-solid fa-box-archive text-amber-500"></i>
+                            <span>S3 Storage</span>
+                        </div>
+                        <span class="text-[9px] bg-amber-500/10 text-amber-400 px-1.5 py-0.5 rounded font-mono border border-amber-500/20">AWS S3</span>
+                    </div>
+                    <div class="text-[11px] text-slate-400 mb-2">Central object storage for PDFs downloaded by scrappers.</div>
+                    <div class="flex items-center justify-between mt-3 pt-2 border-t border-slate-800 text-[10px]">
+                        <span class="text-slate-500">Capacity:</span>
+                        <span class="text-amber-400 font-medium" id="status-s3-storage">Active</span>
+                    </div>
+                </div>
+
+                <!-- Flow Labels -->
+                <div class="absolute text-[10px] bg-slate-950/90 text-slate-400 px-2 py-1 rounded border border-slate-800 z-10 select-none font-mono" style="left: 175px; top: 320px;">
+                    List records
+                </div>
+                <div class="absolute text-[10px] bg-slate-950/90 text-slate-400 px-2 py-1 rounded border border-slate-800 z-10 select-none font-mono" style="left: 235px; top: 360px;">
+                    Create missing
+                </div>
+                <div class="absolute text-[10px] bg-emerald-950/90 text-emerald-400 px-2 py-1 rounded border border-emerald-800/60 z-10 select-none font-mono font-medium" style="left: 330px; top: 535px;">
+                    Scrap PDF Event
+                </div>
+                <div class="absolute text-[10px] bg-emerald-950/90 text-emerald-400 px-2 py-1 rounded border border-emerald-800/60 z-10 select-none font-mono font-medium" style="left: 720px; top: 535px;">
+                    Deliver Scrap Event
+                </div>
+                <div class="absolute text-[10px] bg-slate-950/90 text-slate-400 px-2 py-1 rounded border border-slate-800 z-10 select-none font-mono" style="left: 920px; top: 450px;">
+                    Upload PDF
+                </div>
+                <div class="absolute text-[10px] bg-sky-950/90 text-sky-400 px-2 py-1 rounded border border-sky-800/60 z-10 select-none font-mono font-medium" style="left: 580px; top: 648px;">
+                    LLM Input Event
+                </div>
+                <div class="absolute text-[10px] bg-sky-950/90 text-sky-400 px-2 py-1 rounded border border-sky-800/60 z-10 select-none font-mono font-medium" style="left: 730px; top: 380px;">
+                    Deliver LLM Event
+                </div>
+                <div class="absolute text-[10px] bg-slate-950/90 text-slate-400 px-2 py-1 rounded border border-slate-800 z-10 select-none font-mono" style="left: 935px; top: 245px;">
+                    Download PDF
+                </div>
+                <div class="absolute text-[10px] bg-slate-950/90 text-slate-400 px-2 py-1 rounded border border-slate-800 z-10 select-none font-mono" style="left: 720px; top: 125px;">
+                    Local Inference
+                </div>
+
+
+
+
+            </div>
+        </div>
+
+    </main>
+
+    <script>
+        // Node configuration metadata for inspection
+        const nodeSpecs = {
+            'django-api': {
+                name: 'Django Rest API',
+                desc: 'Central backend service responsible for registering new court records, saving consolidated metadata to relational database, and sanitizing/merging AI pipeline output.',
+                tech: 'Python / Django REST',
+                event: 'REST HTTP (Sync)'
+            },
+            'ingest-worker': {
+                name: 'Ingest Worker (Schedules)',
+                desc: 'Periodic cron-based worker monitoring court portals, discovering newly filed records, and dispatching queue events for asynchronous processing.',
+                tech: 'Celery / Redis',
+                event: 'AMQP Publish (Async)'
+            },
+            'broker': {
+                name: 'RabbitMQ Message Broker',
+                desc: 'Decouples Django API from background workers. Persists queue state to disk in case workers disconnect.',
+                tech: 'RabbitMQ / AMQP',
+                event: 'AMQP Queue Routing'
+            },
+            'gemma-model': {
+                name: 'Gemma 3 LLM Model',
+                desc: 'Dedicated local offline Google Gemma 3 model instance running on GPU, constrained to return strictly structured JSON output.',
+                tech: 'Ollama / vLLM',
+                event: 'HTTP POST (Inference)'
+            },
+            'scrapper-worker': {
+                name: 'Scrapper Worker',
+                desc: 'Asynchronous crawler simulating user browsing, navigating court firewalls, and bundling lawsuit PDFs.',
+                tech: 'Puppeteer / BeautifulSoup',
+                event: 'AMQP & AWS SDK Upload'
+            },
+            'llm-worker': {
+                name: 'LLM Worker pipeline',
+                desc: 'Consumes extraction tasks, downloads raw PDFs from S3, orchestrates text chunking, and triggers local inference calls.',
+                tech: 'LangChain / PyPDF2',
+                event: 'AMQP & HTTP Post'
+            },
+            's3-storage': {
+                name: 'Amazon S3 Document Storage',
+                desc: 'Highly available and durable object store keeping legal PDF documents for auditability and downstream analysis.',
+                tech: 'AWS S3 API',
+                event: 'Boto3 / AWS SDK Interface'
+            }
+        };
+
+        // Simulator state
+        let simulationInterval = null;
+        let isRunning = true;
+        let currentStep = 0;
+        let hardwareTimer = null;
+
+        // Ordered simulation pipeline steps
+        const simulationSteps = [
+            {
+                name: 'Ingestion Check',
+                desc: 'Ingest-worker queries Django API to check for new records missing in the local database.',
+                pulseId: 'pulse-ingest-to-api',
+                activeCards: ['card-ingest-worker', 'card-django-api'],
+                nodeStatus: { 'django-api': 'Processing...', 'ingest-worker': 'Querying pending...' },
+                logs: []
+            },
+            {
+                name: 'API Response',
+                desc: 'Django API responds with records needing extraction. Ingest-worker consolidates local entries.',
+                pulseId: 'pulse-api-to-ingest',
+                activeCards: ['card-django-api', 'card-ingest-worker'],
+                nodeStatus: { 'django-api': 'Sending response...', 'ingest-worker': 'Syncing...' },
+                logs: []
+            },
+            {
+                name: 'Event Publishing',
+                desc: 'Ingest-worker publishes a broker message with record identifiers to trigger scraping.',
+                pulseId: 'pulse-ingest-to-broker',
+                activeCards: ['card-ingest-worker', 'card-broker'],
+                nodeStatus: { 'ingest-worker': 'Idle', 'broker': 'Message Received!' },
+                logs: []
+            },
+            {
+                name: 'Consume Scraping Event',
+                desc: 'Scrapper-worker consumes the message to begin court crawler job in the background.',
+                pulseId: 'pulse-broker-to-scrapper',
+                activeCards: ['card-broker', 'card-scrapper-worker'],
+                nodeStatus: { 'broker': 'Message consumed', 'scrapper-worker': 'Crawling court...' },
+                logs: []
+            },
+            {
+                name: 'Saving to S3',
+                desc: 'Scrapper-worker downloads all documents, merges into a consolidated PDF, and uploads to Amazon S3.',
+                pulseId: 'pulse-scrapper-to-s3',
+                activeCards: ['card-scrapper-worker', 'card-s3-storage'],
+                nodeStatus: { 'scrapper-worker': 'Uploading to S3...', 's3-storage': 'Storing PDF...' },
+                logs: []
+            },
+            {
+                name: 'Publishing AI Job',
+                desc: 'With the PDF safely in S3, Scrapper-worker publishes an "LLM Input Ready" event to the broker.',
+                pulseId: 'pulse-scrapper-to-broker',
+                activeCards: ['card-scrapper-worker', 'card-broker'],
+                nodeStatus: { 'scrapper-worker': 'Idle', 'broker': 'Receiving AI Event...' },
+                logs: []
+            },
+            {
+                name: 'Consume Scraping Event IA',
+                desc: 'LLM-worker consumes the event and prepares to download the raw PDF stored in S3.',
+                pulseId: 'pulse-broker-to-llm',
+                activeCards: ['card-broker', 'card-llm-worker'],
+                nodeStatus: { 'broker': 'Message consumed', 'llm-worker': 'Preparing Chunks...' },
+                logs: []
+            },
+            {
+                name: 'Reading S3 Document',
+                desc: 'LLM-worker streams the PDF from S3 and segments text into token-optimized chunks.',
+                pulseId: 'pulse-llm-to-s3',
+                activeCards: ['card-llm-worker', 'card-s3-storage'],
+                nodeStatus: { 'llm-worker': 'Processing chunks...', 's3-storage': 'Streaming PDF...' },
+                logs: []
+            },
+            {
+                name: 'Local Model Inference',
+                desc: 'LLM-worker submits structured prompt chunks to Gemma 3 on port 1234 for JSON entity extraction.',
+                pulseId: 'pulse-llm-to-gemma',
+                activeCards: ['card-llm-worker', 'card-gemma-model'],
+                nodeStatus: { 'llm-worker': 'Awaiting AI...', 'gemma-model': 'GPU Active/Inference' },
+                logs: []
+            },
+            {
+                name: 'Data Consolidation & Merge',
+                desc: 'Gemma 3 returns structured JSON. LLM-worker calls Django API to reconcile and merge into database.',
+                pulseId: 'pulse-llm-to-api',
+                activeCards: ['card-llm-worker', 'card-django-api'],
+                nodeStatus: { 'llm-worker': 'Idle', 'django-api': 'Merging data...' },
+                logs: []
+            }
+        ];
+
+        function runSimulationStep() {
+            const step = simulationSteps[currentStep];
+
+            // 1. Reset visual styling
+            document.querySelectorAll('.node-card').forEach(card => {
+                card.classList.remove('active', 'border-pink-500', 'border-purple-400', 'border-violet-500', 'border-amber-500');
+                card.classList.add('border-slate-700/60');
+            });
+            
+            // Hide all SVG pulses
+            simulationSteps.forEach(s => {
+                const pulse = document.getElementById(s.pulseId);
+                if (pulse) pulse.classList.add('hidden');
+                
+                const pathEl = document.getElementById(s.pulseId.replace('pulse-', 'path-'));
+                if (pathEl) {
+                    pathEl.classList.remove('flow-path-active');
+                    pathEl.setAttribute('stroke-width', '2.5');
+                }
+            });
+
+            // 2. Highlight active cards
+            step.activeCards.forEach(id => {
+                const card = document.getElementById(id);
+                if (card) {
+                    card.classList.add('active');
+                    card.classList.remove('border-slate-700/60');
+                    if (id.includes('django') || id.includes('worker')) {
+                        card.classList.add('border-pink-500');
+                    } else if (id.includes('broker')) {
+                        card.classList.add('border-purple-400');
+                    } else if (id.includes('gemma')) {
+                        card.classList.add('border-violet-500');
+                    } else if (id.includes('s3')) {
+                        card.classList.add('border-amber-500');
+                    }
+                }
+            });
+
+            // 3. Activate SVG flow animation
+            const activePulse = document.getElementById(step.pulseId);
+            if (activePulse) activePulse.classList.remove('hidden');
+            
+            const activePath = document.getElementById(step.pulseId.replace('pulse-', 'path-'));
+            if (activePath) {
+                activePath.classList.add('flow-path-active');
+                activePath.setAttribute('stroke-width', '4');
+            }
+
+            // 4. Update status labels
+            Object.keys(step.nodeStatus).forEach(nodeId => {
+                const statusEl = document.getElementById(`status-${nodeId}`);
+                if (statusEl) {
+                    statusEl.innerText = step.nodeStatus[nodeId];
+                    statusEl.className = 'text-pink-400 font-semibold animate-pulse';
+                }
+            });
+
+            // Reset idle nodes
+            const allNodeIds = ['django-api', 'ingest-worker', 'broker', 'gemma-model', 'scrapper-worker', 'llm-worker', 's3-storage'];
+            allNodeIds.forEach(nodeId => {
+                if (!Object.keys(step.nodeStatus).includes(nodeId)) {
+                    const statusEl = document.getElementById(`status-${nodeId}`);
+                    if (statusEl) {
+                        if (nodeId === 'broker') {
+                            statusEl.innerText = '0 msg/s';
+                            statusEl.className = 'text-purple-400 font-mono';
+                        } else if (nodeId === 's3-storage') {
+                            statusEl.innerText = 'Active';
+                            statusEl.className = 'text-amber-400 font-medium';
+                        } else if (nodeId === 'gemma-model') {
+                            statusEl.innerText = 'Local/Inference';
+                            statusEl.className = 'text-violet-400 font-medium';
+                        } else {
+                            statusEl.innerText = 'Idle';
+                            statusEl.className = 'text-emerald-400 font-medium';
+                        }
+                    }
+                }
+            });
+
+            // Advance step
+            currentStep = (currentStep + 1) % simulationSteps.length;
+        }
+
+        function toggleSimulation() {}
+        function stepSimulation() {}
+        function resetSimulation() {}
+
+        function inspectNode(nodeKey, element) {
+            element.classList.add('ring-2', 'ring-indigo-500', 'ring-offset-2', 'ring-offset-slate-950');
+            setTimeout(() => {
+                element.classList.remove('ring-2', 'ring-indigo-500', 'ring-offset-2', 'ring-offset-slate-950');
+            }, 800);
+        }
+
+        function closeDialog() {}
+
+        window.onload = function() {
+            // Run the first diagram step immediately
+            runSimulationStep();
+            
+            // Configure standard auto interval to 4 seconds
+            simulationInterval = setInterval(runSimulationStep, 4000);
+        };
+    </script>
+</body>
+</html>

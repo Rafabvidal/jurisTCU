@@ -1,0 +1,266 @@
+{
+  "hits": {
+    "hits": [
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13641,
+              "nome": "Categoria Profissional Especial"
+            }
+          ],
+          "classe": {
+            "codigo": 11886,
+            "nome": "Recurso Ordinário - Rito Sumaríssimo"
+          },
+          "data_ajuizamento": "20251113091110",
+          "data_hora_ultima_atualizacao": "2026-04-30T13:10:53.491000Z",
+          "grau": "G2",
+          "id": "TRT6_G2_00004599420255060143",
+          "numero_processo": "00004599420255060143",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2611606,
+            "codigo": 74269,
+            "nome": "GAB. DES. JOSÉ LUCIANO ALEXO"
+          },
+          "timestamp": "2026-04-30T13:10:53.491000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13641,
+              "nome": "Categoria Profissional Especial"
+            }
+          ],
+          "classe": {
+            "codigo": 1125,
+            "nome": "Ação Trabalhista - Rito Sumaríssimo"
+          },
+          "data_ajuizamento": "20231024191932",
+          "data_hora_ultima_atualizacao": "2026-03-11T13:23:50.404000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00011332320235060182",
+          "numero_processo": "00011332320235060182",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2606804,
+            "codigo": 20690,
+            "nome": "IGARASSU  - 02A VARA"
+          },
+          "timestamp": "2026-03-11T13:23:50.404000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13641,
+              "nome": "Categoria Profissional Especial"
+            }
+          ],
+          "classe": {
+            "codigo": 985,
+            "nome": "Ação Trabalhista - Rito Ordinário"
+          },
+          "data_ajuizamento": "20240502204136",
+          "data_hora_ultima_atualizacao": "2026-03-09T17:45:03.648000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00003205120245060411",
+          "numero_processo": "00003205120245060411",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2611101,
+            "codigo": 20710,
+            "nome": "PETROLINA  - 01A VARA"
+          },
+          "timestamp": "2026-03-09T17:45:03.648000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13641,
+              "nome": "Categoria Profissional Especial"
+            }
+          ],
+          "classe": {
+            "codigo": 1125,
+            "nome": "Ação Trabalhista - Rito Sumaríssimo"
+          },
+          "data_ajuizamento": "20250306115741",
+          "data_hora_ultima_atualizacao": "2026-03-09T17:46:55.284000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00001929120255060412",
+          "numero_processo": "00001929120255060412",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2611101,
+            "codigo": 20711,
+            "nome": "PETROLINA  - 02A VARA"
+          },
+          "timestamp": "2026-03-09T17:46:55.284000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13641,
+              "nome": "Categoria Profissional Especial"
+            }
+          ],
+          "classe": {
+            "codigo": 985,
+            "nome": "Ação Trabalhista - Rito Ordinário"
+          },
+          "data_ajuizamento": "20220509192410",
+          "data_hora_ultima_atualizacao": "2026-03-09T16:53:50.938000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00003600720225060022",
+          "numero_processo": "00003600720225060022",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2611606,
+            "codigo": 20654,
+            "nome": "RECIFE  - 05A VARA"
+          },
+          "timestamp": "2026-03-09T16:53:50.938000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13641,
+              "nome": "Categoria Profissional Especial"
+            }
+          ],
+          "classe": {
+            "codigo": 1125,
+            "nome": "Ação Trabalhista - Rito Sumaríssimo"
+          },
+          "data_ajuizamento": "20250423183629",
+          "data_hora_ultima_atualizacao": "2026-03-09T16:48:20.716000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00004599420255060143",
+          "numero_processo": "00004599420255060143",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2607901,
+            "codigo": 20696,
+            "nome": "JABOATÃO DOS GUARARAPES  - 03A VARA"
+          },
+          "timestamp": "2026-03-09T16:48:20.716000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13641,
+              "nome": "Categoria Profissional Especial"
+            }
+          ],
+          "classe": {
+            "codigo": 1009,
+            "nome": "Recurso Ordinário Trabalhista"
+          },
+          "data_ajuizamento": "20150706144437",
+          "data_hora_ultima_atualizacao": "2026-01-08T22:46:18.261000Z",
+          "grau": "G2",
+          "id": "TRT6_G2_00009933520145060010",
+          "numero_processo": "00009933520145060010",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2611606,
+            "codigo": 87426,
+            "nome": "GAB. DES. VIRGÍNIO HENRIQUES DE SÁ E BENEVIDES"
+          },
+          "timestamp": "2026-01-08T22:46:18.261000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13641,
+              "nome": "Categoria Profissional Especial"
+            }
+          ],
+          "classe": {
+            "codigo": 1009,
+            "nome": "Recurso Ordinário Trabalhista"
+          },
+          "data_ajuizamento": "20251020074015",
+          "data_hora_ultima_atualizacao": "2026-01-08T22:56:04.321000Z",
+          "grau": "G2",
+          "id": "TRT6_G2_00010258020245060142",
+          "numero_processo": "00010258020245060142",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2611606,
+            "codigo": 80362,
+            "nome": "GAB. DES. MILTON GOUVEIA DA SILVA FILHO"
+          },
+          "timestamp": "2026-01-08T22:56:04.321000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13641,
+              "nome": "Categoria Profissional Especial"
+            }
+          ],
+          "classe": {
+            "codigo": 985,
+            "nome": "Ação Trabalhista - Rito Ordinário"
+          },
+          "data_ajuizamento": "20250108134637",
+          "data_hora_ultima_atualizacao": "2026-02-05T14:59:07.974000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00000114220255060331",
+          "numero_processo": "00000114220255060331",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2601706,
+            "codigo": 20676,
+            "nome": "BELO JARDIM  - 01A VARA"
+          },
+          "timestamp": "2026-02-05T14:59:07.974000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13641,
+              "nome": "Categoria Profissional Especial"
+            }
+          ],
+          "classe": {
+            "codigo": 985,
+            "nome": "Ação Trabalhista - Rito Ordinário"
+          },
+          "data_ajuizamento": "20240911124221",
+          "data_hora_ultima_atualizacao": "2025-11-07T20:13:37.013000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00010258020245060142",
+          "numero_processo": "00010258020245060142",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2607901,
+            "codigo": 20698,
+            "nome": "JABOATÃO DOS GUARARAPES  - 05A VARA"
+          },
+          "timestamp": "2025-11-07T20:13:37.013000Z",
+          "tribunal": "TRT6"
+        }
+      }
+    ]
+  }
+}

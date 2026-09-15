@@ -1,0 +1,11 @@
+{
+  "size": 10,
+  "query": {
+    "bool": {
+      "must": [
+        { "match": { "assuntos.nome": "Transporte Aéreo" } },
+        { "match": { "assuntos.nome": "Indenização por Dano Moral" } }
+      ]
+    }
+  }
+}

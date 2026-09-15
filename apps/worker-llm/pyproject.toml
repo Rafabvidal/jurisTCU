@@ -1,0 +1,28 @@
+[project.scripts]
+llm-process = "main:main"
+
+[project]
+name = "worker-llm"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "shared",       # Para saber o formato do JSON que a LLM deve cuspir e usar o cliente S3 para baixar o PDF.
+    "langchain>=1.2.13",
+    "langchain-openai>=1.1.11",
+    "opendataloader-pdf>=2.0.2",
+    "requests>=2.33.0",
+    "celery>=5.6.3",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["main*", "worker*", "convert*"] # Adjust based on main files if not in a package
+
+[tool.uv.sources]
+shared = { workspace = true } # Indica que deve buscar no monorepo

@@ -1,0 +1,266 @@
+{
+  "hits": {
+    "hits": [
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13754,
+              "nome": "Trabalho em Condições Análogas  à de Escravo"
+            }
+          ],
+          "classe": {
+            "codigo": 994,
+            "nome": "Execução Provisória em Autos Suplementares"
+          },
+          "data_ajuizamento": "20190918170150",
+          "data_hora_ultima_atualizacao": "2026-03-11T18:40:08.930000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00012189120195060103",
+          "numero_processo": "00012189120195060103",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2609600,
+            "codigo": 20704,
+            "nome": "OLINDA  - 03A VARA"
+          },
+          "timestamp": "2026-03-11T18:40:08.930000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13754,
+              "nome": "Trabalho em Condições Análogas  à de Escravo"
+            }
+          ],
+          "classe": {
+            "codigo": 12374,
+            "nome": "Homologação da Transação Extrajudicial"
+          },
+          "data_ajuizamento": "20240812195347",
+          "data_hora_ultima_atualizacao": "2026-03-11T14:01:14.766000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00007723320245060291",
+          "numero_processo": "00007723320245060291",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2610004,
+            "codigo": 20705,
+            "nome": "PALMARES  - 01A VARA"
+          },
+          "timestamp": "2026-03-11T14:01:14.766000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13754,
+              "nome": "Trabalho em Condições Análogas  à de Escravo"
+            }
+          ],
+          "classe": {
+            "codigo": 1125,
+            "nome": "Ação Trabalhista - Rito Sumaríssimo"
+          },
+          "data_ajuizamento": "20200224152139",
+          "data_hora_ultima_atualizacao": "2026-03-11T15:59:35.651000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00001663520205060003",
+          "numero_processo": "00001663520205060003",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2611606,
+            "codigo": 20652,
+            "nome": "RECIFE  - 03A VARA"
+          },
+          "timestamp": "2026-03-11T15:59:35.651000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13754,
+              "nome": "Trabalho em Condições Análogas  à de Escravo"
+            }
+          ],
+          "classe": {
+            "codigo": 985,
+            "nome": "Ação Trabalhista - Rito Ordinário"
+          },
+          "data_ajuizamento": "20240414122851",
+          "data_hora_ultima_atualizacao": "2026-03-09T17:46:48.333000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00004002120245060312",
+          "numero_processo": "00004002120245060312",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2604106,
+            "codigo": 20681,
+            "nome": "CARUARU  - 02A VARA"
+          },
+          "timestamp": "2026-03-09T17:46:48.333000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13754,
+              "nome": "Trabalho em Condições Análogas  à de Escravo"
+            }
+          ],
+          "classe": {
+            "codigo": 985,
+            "nome": "Ação Trabalhista - Rito Ordinário"
+          },
+          "data_ajuizamento": "20221113114408",
+          "data_hora_ultima_atualizacao": "2026-03-09T17:47:12.138000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00009698120225060024",
+          "numero_processo": "00009698120225060024",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2611606,
+            "codigo": 84615,
+            "nome": "RECIFE  - 24A VARA"
+          },
+          "timestamp": "2026-03-09T17:47:12.138000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13754,
+              "nome": "Trabalho em Condições Análogas  à de Escravo"
+            }
+          ],
+          "classe": {
+            "codigo": 1125,
+            "nome": "Ação Trabalhista - Rito Sumaríssimo"
+          },
+          "data_ajuizamento": "20170220213011",
+          "data_hora_ultima_atualizacao": "2026-03-10T15:22:13.593000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00002377320175060122",
+          "numero_processo": "00002377320175060122",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2610707,
+            "codigo": 20708,
+            "nome": "PAULISTA  - 02A VARA"
+          },
+          "timestamp": "2026-03-10T15:22:13.593000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13754,
+              "nome": "Trabalho em Condições Análogas  à de Escravo"
+            }
+          ],
+          "classe": {
+            "codigo": 1009,
+            "nome": "Recurso Ordinário Trabalhista"
+          },
+          "data_ajuizamento": "20260224223008",
+          "data_hora_ultima_atualizacao": "2026-03-09T16:53:34.257000Z",
+          "grau": "G2",
+          "id": "TRT6_G2_00002691720255060181",
+          "numero_processo": "00002691720255060181",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2611606,
+            "codigo": 20757,
+            "nome": "GAB. DES. SERGIO TORRES TEIXEIRA"
+          },
+          "timestamp": "2026-03-09T16:53:34.257000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13754,
+              "nome": "Trabalho em Condições Análogas  à de Escravo"
+            }
+          ],
+          "classe": {
+            "codigo": 985,
+            "nome": "Ação Trabalhista - Rito Ordinário"
+          },
+          "data_ajuizamento": "20221007091806",
+          "data_hora_ultima_atualizacao": "2026-02-05T13:09:41.038000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00010104520225060122",
+          "numero_processo": "00010104520225060122",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2610707,
+            "codigo": 20708,
+            "nome": "PAULISTA  - 02A VARA"
+          },
+          "timestamp": "2026-02-05T13:09:41.038000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13754,
+              "nome": "Trabalho em Condições Análogas  à de Escravo"
+            }
+          ],
+          "classe": {
+            "codigo": 985,
+            "nome": "Ação Trabalhista - Rito Ordinário"
+          },
+          "data_ajuizamento": "20140507160236",
+          "data_hora_ultima_atualizacao": "2025-07-16T16:19:30.529000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00012626020145060241",
+          "numero_processo": "00012626020145060241",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2609501,
+            "codigo": 20700,
+            "nome": "NAZARÉ DA MATA  - 01A VARA"
+          },
+          "timestamp": "2025-07-16T16:19:30.529000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13754,
+              "nome": "Trabalho em Condições Análogas  à de Escravo"
+            }
+          ],
+          "classe": {
+            "codigo": 985,
+            "nome": "Ação Trabalhista - Rito Ordinário"
+          },
+          "data_ajuizamento": "20170928183703",
+          "data_hora_ultima_atualizacao": "2025-07-09T03:05:52.775000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00013606320175060007",
+          "numero_processo": "00013606320175060007",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2611606,
+            "codigo": 20668,
+            "nome": "RECIFE  - 19A VARA"
+          },
+          "timestamp": "2025-07-09T03:05:52.775000Z",
+          "tribunal": "TRT6"
+        }
+      }
+    ]
+  }
+}

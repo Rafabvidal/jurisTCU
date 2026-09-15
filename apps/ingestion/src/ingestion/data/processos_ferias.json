@@ -1,0 +1,362 @@
+{
+  "hits": {
+    "hits": [
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13254,
+              "nome": "Permuta "
+            },
+            {
+              "codigo": 13432,
+              "nome": "Férias / Gozo / Fruição "
+            },
+            {
+              "codigo": 13809,
+              "nome": "Férias"
+            },
+            {
+              "codigo": 13812,
+              "nome": "Férias Coletivas"
+            },
+            {
+              "codigo": 13996,
+              "nome": "Férias Proporcionais"
+            }
+          ],
+          "classe": {
+            "codigo": 985,
+            "nome": "Ação Trabalhista - Rito Ordinário"
+          },
+          "data_ajuizamento": "20110329030000",
+          "data_hora_ultima_atualizacao": "2026-04-27T18:40:56.171000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00004277520115060371",
+          "numero_processo": "00004277520115060371",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2613909,
+            "codigo": 20717,
+            "nome": "SERRA TALHADA  - 01A VARA"
+          },
+          "timestamp": "2026-04-27T18:40:56.171000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13432,
+              "nome": "Férias / Gozo / Fruição "
+            },
+            {
+              "codigo": 13809,
+              "nome": "Férias"
+            },
+            {
+              "codigo": 13909,
+              "nome": "Gratificação de Férias"
+            },
+            {
+              "codigo": 13996,
+              "nome": "Férias Proporcionais"
+            }
+          ],
+          "classe": {
+            "codigo": 985,
+            "nome": "Ação Trabalhista - Rito Ordinário"
+          },
+          "data_ajuizamento": "20250120113625",
+          "data_hora_ultima_atualizacao": "2026-03-10T15:26:14.393000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00000183720255060233",
+          "numero_processo": "00000183720255060233",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2606200,
+            "codigo": 20688,
+            "nome": "GOIANA  - 03A VARA"
+          },
+          "timestamp": "2026-03-10T15:26:14.393000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13432,
+              "nome": "Férias / Gozo / Fruição "
+            },
+            {
+              "codigo": 13809,
+              "nome": "Férias"
+            },
+            {
+              "codigo": 13909,
+              "nome": "Gratificação de Férias"
+            },
+            {
+              "codigo": 13996,
+              "nome": "Férias Proporcionais"
+            }
+          ],
+          "classe": {
+            "codigo": 12374,
+            "nome": "Homologação da Transação Extrajudicial"
+          },
+          "data_ajuizamento": "20250130105239",
+          "data_hora_ultima_atualizacao": "2025-04-03T19:20:24.661000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00001515520255060241",
+          "numero_processo": "00001515520255060241",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2609501,
+            "codigo": 20700,
+            "nome": "NAZARÉ DA MATA  - 01A VARA"
+          },
+          "timestamp": "2025-04-03T19:20:24.661000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13809,
+              "nome": "Férias"
+            },
+            {
+              "codigo": 13909,
+              "nome": "Gratificação de Férias"
+            },
+            {
+              "codigo": 13996,
+              "nome": "Férias Proporcionais"
+            }
+          ],
+          "classe": {
+            "codigo": 12374,
+            "nome": "Homologação da Transação Extrajudicial"
+          },
+          "data_ajuizamento": "20241213113235",
+          "data_hora_ultima_atualizacao": "2025-07-16T16:19:35.782000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00014942320245060241",
+          "numero_processo": "00014942320245060241",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2609501,
+            "codigo": 20700,
+            "nome": "NAZARÉ DA MATA  - 01A VARA"
+          },
+          "timestamp": "2025-07-16T16:19:35.782000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13809,
+              "nome": "Férias"
+            },
+            {
+              "codigo": 13909,
+              "nome": "Gratificação de Férias"
+            },
+            {
+              "codigo": 13996,
+              "nome": "Férias Proporcionais"
+            }
+          ],
+          "classe": {
+            "codigo": 12374,
+            "nome": "Homologação da Transação Extrajudicial"
+          },
+          "data_ajuizamento": "20241213085843",
+          "data_hora_ultima_atualizacao": "2025-05-09T12:44:48.508000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00014881620245060241",
+          "numero_processo": "00014881620245060241",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2609501,
+            "codigo": 20700,
+            "nome": "NAZARÉ DA MATA  - 01A VARA"
+          },
+          "timestamp": "2025-05-09T12:44:48.508000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13809,
+              "nome": "Férias"
+            },
+            {
+              "codigo": 13909,
+              "nome": "Gratificação de Férias"
+            },
+            {
+              "codigo": 13996,
+              "nome": "Férias Proporcionais"
+            }
+          ],
+          "classe": {
+            "codigo": 12374,
+            "nome": "Homologação da Transação Extrajudicial"
+          },
+          "data_ajuizamento": "20241213173708",
+          "data_hora_ultima_atualizacao": "2025-07-16T14:45:32.898000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00014769620245060242",
+          "numero_processo": "00014769620245060242",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2609501,
+            "codigo": 20701,
+            "nome": "NAZARÉ DA MATA  - 02A VARA"
+          },
+          "timestamp": "2025-07-16T14:45:32.898000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13809,
+              "nome": "Férias"
+            },
+            {
+              "codigo": 13909,
+              "nome": "Gratificação de Férias"
+            },
+            {
+              "codigo": 13996,
+              "nome": "Férias Proporcionais"
+            }
+          ],
+          "classe": {
+            "codigo": 12374,
+            "nome": "Homologação da Transação Extrajudicial"
+          },
+          "data_ajuizamento": "20241213115146",
+          "data_hora_ultima_atualizacao": "2025-07-16T14:46:44.493000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00014742920245060242",
+          "numero_processo": "00014742920245060242",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2609501,
+            "codigo": 20701,
+            "nome": "NAZARÉ DA MATA  - 02A VARA"
+          },
+          "timestamp": "2025-07-16T14:46:44.493000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13809,
+              "nome": "Férias"
+            },
+            {
+              "codigo": 13909,
+              "nome": "Gratificação de Férias"
+            },
+            {
+              "codigo": 13996,
+              "nome": "Férias Proporcionais"
+            }
+          ],
+          "classe": {
+            "codigo": 12374,
+            "nome": "Homologação da Transação Extrajudicial"
+          },
+          "data_ajuizamento": "20241213090306",
+          "data_hora_ultima_atualizacao": "2025-07-16T14:48:41.196000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00014648220245060242",
+          "numero_processo": "00014648220245060242",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2609501,
+            "codigo": 20701,
+            "nome": "NAZARÉ DA MATA  - 02A VARA"
+          },
+          "timestamp": "2025-07-16T14:48:41.196000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13809,
+              "nome": "Férias"
+            },
+            {
+              "codigo": 13909,
+              "nome": "Gratificação de Férias"
+            },
+            {
+              "codigo": 13996,
+              "nome": "Férias Proporcionais"
+            }
+          ],
+          "classe": {
+            "codigo": 12374,
+            "nome": "Homologação da Transação Extrajudicial"
+          },
+          "data_ajuizamento": "20241213174218",
+          "data_hora_ultima_atualizacao": "2025-07-16T14:49:02.860000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00014986020245060241",
+          "numero_processo": "00014986020245060241",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2609501,
+            "codigo": 20700,
+            "nome": "NAZARÉ DA MATA  - 01A VARA"
+          },
+          "timestamp": "2025-07-16T14:49:02.860000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13809,
+              "nome": "Férias"
+            },
+            {
+              "codigo": 13909,
+              "nome": "Gratificação de Férias"
+            },
+            {
+              "codigo": 13996,
+              "nome": "Férias Proporcionais"
+            }
+          ],
+          "classe": {
+            "codigo": 12374,
+            "nome": "Homologação da Transação Extrajudicial"
+          },
+          "data_ajuizamento": "20241213092032",
+          "data_hora_ultima_atualizacao": "2025-07-16T16:18:05.696000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00014673720245060242",
+          "numero_processo": "00014673720245060242",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2609501,
+            "codigo": 20701,
+            "nome": "NAZARÉ DA MATA  - 02A VARA"
+          },
+          "timestamp": "2025-07-16T16:18:05.696000Z",
+          "tribunal": "TRT6"
+        }
+      }
+    ]
+  }
+}

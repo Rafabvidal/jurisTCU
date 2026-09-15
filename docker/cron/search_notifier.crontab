@@ -1,0 +1,5 @@
+# Search-notifier schedule (UTC) — read by supercronic in the search-notifier container.
+# Format: m  h  dom mon dow  command
+
+# 04:00 UTC daily — logo após a ingestão/scrape, checa buscas salvas e alerta os usuários.
+0 4 * * * search-notifier

@@ -1,0 +1,274 @@
+{
+  "hits": {
+    "hits": [
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 12936,
+              "nome": "Direito Individual do Trabalho "
+            },
+            {
+              "codigo": 12943,
+              "nome": "Processo Coletivo "
+            }
+          ],
+          "classe": {
+            "codigo": 1125,
+            "nome": "Ação Trabalhista - Rito Sumaríssimo"
+          },
+          "data_ajuizamento": "20251105181558",
+          "data_hora_ultima_atualizacao": "2026-02-05T14:29:44.349000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00018077020255060201",
+          "numero_processo": "00018077020255060201",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2616407,
+            "codigo": 20719,
+            "nome": "VITÓRIA DE SANTO ANTÃO  - 01A VARA"
+          },
+          "timestamp": "2026-02-05T14:29:44.349000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 12936,
+              "nome": "Direito Individual do Trabalho "
+            },
+            {
+              "codigo": 12949,
+              "nome": "Arbitragem e Mediação no Direito Coletivo "
+            }
+          ],
+          "classe": {
+            "codigo": 985,
+            "nome": "Ação Trabalhista - Rito Ordinário"
+          },
+          "data_ajuizamento": "20120119060000",
+          "data_hora_ultima_atualizacao": "2024-11-06T14:21:10.678000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00000416320125060192",
+          "numero_processo": "00000416320125060192",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2607208,
+            "codigo": 20692,
+            "nome": "IPOJUCA  - 02A VARA"
+          },
+          "timestamp": "2024-11-06T14:21:10.678000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 12755,
+              "nome": "Direito Coletivo"
+            }
+          ],
+          "classe": {
+            "codigo": 37,
+            "nome": "Embargos de Terceiro Cível"
+          },
+          "data_ajuizamento": "20251205120817",
+          "data_hora_ultima_atualizacao": "2026-03-09T16:47:10.307000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00014774020255060018",
+          "numero_processo": "00014774020255060018",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2611606,
+            "codigo": 20667,
+            "nome": "RECIFE  - 18A VARA"
+          },
+          "timestamp": "2026-03-09T16:47:10.307000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 12755,
+              "nome": "Direito Coletivo"
+            }
+          ],
+          "classe": {
+            "codigo": 241,
+            "nome": "Petição Cível"
+          },
+          "data_ajuizamento": "20260204110332",
+          "data_hora_ultima_atualizacao": "2026-03-09T16:48:05.949000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00001089320265060141",
+          "numero_processo": "00001089320265060141",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2607901,
+            "codigo": 20694,
+            "nome": "JABOATÃO DOS GUARARAPES  - 01A VARA"
+          },
+          "timestamp": "2026-03-09T16:48:05.949000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 12755,
+              "nome": "Direito Coletivo"
+            }
+          ],
+          "classe": {
+            "codigo": 37,
+            "nome": "Embargos de Terceiro Cível"
+          },
+          "data_ajuizamento": "20251204155147",
+          "data_hora_ultima_atualizacao": "2026-03-09T16:49:13.258000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00014730320255060018",
+          "numero_processo": "00014730320255060018",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2611606,
+            "codigo": 20667,
+            "nome": "RECIFE  - 18A VARA"
+          },
+          "timestamp": "2026-03-09T16:49:13.258000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 12755,
+              "nome": "Direito Coletivo"
+            }
+          ],
+          "classe": {
+            "codigo": 37,
+            "nome": "Embargos de Terceiro Cível"
+          },
+          "data_ajuizamento": "20251204154126",
+          "data_hora_ultima_atualizacao": "2026-03-09T16:49:22.399000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00014411320255060013",
+          "numero_processo": "00014411320255060013",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2611606,
+            "codigo": 20662,
+            "nome": "RECIFE  - 13A VARA"
+          },
+          "timestamp": "2026-03-09T16:49:22.399000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 12755,
+              "nome": "Direito Coletivo"
+            }
+          ],
+          "classe": {
+            "codigo": 37,
+            "nome": "Embargos de Terceiro Cível"
+          },
+          "data_ajuizamento": "20251205115818",
+          "data_hora_ultima_atualizacao": "2026-03-09T16:34:20.540000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00014472020255060013",
+          "numero_processo": "00014472020255060013",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2611606,
+            "codigo": 20662,
+            "nome": "RECIFE  - 13A VARA"
+          },
+          "timestamp": "2026-03-09T16:34:20.540000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 12755,
+              "nome": "Direito Coletivo"
+            }
+          ],
+          "classe": {
+            "codigo": 1125,
+            "nome": "Ação Trabalhista - Rito Sumaríssimo"
+          },
+          "data_ajuizamento": "20251120120737",
+          "data_hora_ultima_atualizacao": "2026-03-09T16:36:12.786000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00014828320255060011",
+          "numero_processo": "00014828320255060011",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2611606,
+            "codigo": 20660,
+            "nome": "RECIFE  - 11A VARA"
+          },
+          "timestamp": "2026-03-09T16:36:12.786000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 12755,
+              "nome": "Direito Coletivo"
+            }
+          ],
+          "classe": {
+            "codigo": 1125,
+            "nome": "Ação Trabalhista - Rito Sumaríssimo"
+          },
+          "data_ajuizamento": "20250519105503",
+          "data_hora_ultima_atualizacao": "2026-03-09T16:42:37.750000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00004918920255060211",
+          "numero_processo": "00004918920255060211",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2604007,
+            "codigo": 20679,
+            "nome": "CARPINA  - 01A VARA"
+          },
+          "timestamp": "2026-03-09T16:42:37.750000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 12755,
+              "nome": "Direito Coletivo"
+            }
+          ],
+          "classe": {
+            "codigo": 37,
+            "nome": "Embargos de Terceiro Cível"
+          },
+          "data_ajuizamento": "20251205151812",
+          "data_hora_ultima_atualizacao": "2026-03-09T16:43:24.546000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00014782520255060018",
+          "numero_processo": "00014782520255060018",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2611606,
+            "codigo": 20667,
+            "nome": "RECIFE  - 18A VARA"
+          },
+          "timestamp": "2026-03-09T16:43:24.546000Z",
+          "tribunal": "TRT6"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,298 @@
+{
+  "hits": {
+    "hits": [
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13626,
+              "nome": "Aposentadoria e Pensão"
+            },
+            {
+              "codigo": 13627,
+              "nome": "Complementação de Aposentadoria/Pensão"
+            }
+          ],
+          "classe": {
+            "codigo": 985,
+            "nome": "Ação Trabalhista - Rito Ordinário"
+          },
+          "data_ajuizamento": "20251027152359",
+          "data_hora_ultima_atualizacao": "2026-02-05T12:29:40.573000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00012794220255060005",
+          "numero_processo": "00012794220255060005",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2611606,
+            "codigo": 20654,
+            "nome": "RECIFE  - 05A VARA"
+          },
+          "timestamp": "2026-02-05T12:29:40.573000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13626,
+              "nome": "Aposentadoria e Pensão"
+            }
+          ],
+          "classe": {
+            "codigo": 985,
+            "nome": "Ação Trabalhista - Rito Ordinário"
+          },
+          "data_ajuizamento": "20110119040000",
+          "data_hora_ultima_atualizacao": "2026-04-27T18:40:49.614000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00000301420115060016",
+          "numero_processo": "00000301420115060016",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2611606,
+            "codigo": 20665,
+            "nome": "RECIFE  - 16A VARA"
+          },
+          "timestamp": "2026-04-27T18:40:49.614000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13626,
+              "nome": "Aposentadoria e Pensão"
+            }
+          ],
+          "classe": {
+            "codigo": 1125,
+            "nome": "Ação Trabalhista - Rito Sumaríssimo"
+          },
+          "data_ajuizamento": "20241128154612",
+          "data_hora_ultima_atualizacao": "2025-07-16T16:19:19.800000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00012510520245060007",
+          "numero_processo": "00012510520245060007",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2611606,
+            "codigo": 20656,
+            "nome": "RECIFE  - 07A VARA"
+          },
+          "timestamp": "2025-07-16T16:19:19.800000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13626,
+              "nome": "Aposentadoria e Pensão"
+            }
+          ],
+          "classe": {
+            "codigo": 1125,
+            "nome": "Ação Trabalhista - Rito Sumaríssimo"
+          },
+          "data_ajuizamento": "20250205185140",
+          "data_hora_ultima_atualizacao": "2025-07-16T16:19:32.877000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00001280920255060145",
+          "numero_processo": "00001280920255060145",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2607901,
+            "codigo": 20698,
+            "nome": "JABOATÃO DOS GUARARAPES  - 05A VARA"
+          },
+          "timestamp": "2025-07-16T16:19:32.877000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13626,
+              "nome": "Aposentadoria e Pensão"
+            }
+          ],
+          "classe": {
+            "codigo": 37,
+            "nome": "Embargos de Terceiro Cível"
+          },
+          "data_ajuizamento": "20240805100759",
+          "data_hora_ultima_atualizacao": "2025-07-16T14:46:40.444000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00007666620245060019",
+          "numero_processo": "00007666620245060019",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2611606,
+            "codigo": 20668,
+            "nome": "RECIFE  - 19A VARA"
+          },
+          "timestamp": "2025-07-16T14:46:40.444000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13626,
+              "nome": "Aposentadoria e Pensão"
+            }
+          ],
+          "classe": {
+            "codigo": 985,
+            "nome": "Ação Trabalhista - Rito Ordinário"
+          },
+          "data_ajuizamento": "20231005165506",
+          "data_hora_ultima_atualizacao": "2025-07-16T14:49:42.817000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00008478820235060006",
+          "numero_processo": "00008478820235060006",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2611606,
+            "codigo": 20655,
+            "nome": "RECIFE  - 06A VARA"
+          },
+          "timestamp": "2025-07-16T14:49:42.817000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13626,
+              "nome": "Aposentadoria e Pensão"
+            },
+            {
+              "codigo": 14015,
+              "nome": "Pensão Vitalícia"
+            }
+          ],
+          "classe": {
+            "codigo": 985,
+            "nome": "Ação Trabalhista - Rito Ordinário"
+          },
+          "data_ajuizamento": "20250829150220",
+          "data_hora_ultima_atualizacao": "2026-03-09T16:49:33.845000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00010753820255060024",
+          "numero_processo": "00010753820255060024",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2611606,
+            "codigo": 84615,
+            "nome": "RECIFE  - 24A VARA"
+          },
+          "timestamp": "2026-03-09T16:49:33.845000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13626,
+              "nome": "Aposentadoria e Pensão"
+            },
+            {
+              "codigo": 14015,
+              "nome": "Pensão Vitalícia"
+            },
+            {
+              "codigo": 14024,
+              "nome": "Doença Ocupacional"
+            }
+          ],
+          "classe": {
+            "codigo": 985,
+            "nome": "Ação Trabalhista - Rito Ordinário"
+          },
+          "data_ajuizamento": "20240130170314",
+          "data_hora_ultima_atualizacao": "2026-03-09T17:44:06.955000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00000789520245060313",
+          "numero_processo": "00000789520245060313",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2604106,
+            "codigo": 20682,
+            "nome": "CARUARU  - 03A VARA"
+          },
+          "timestamp": "2026-03-09T17:44:06.955000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13378,
+              "nome": "Complementação de Aposentadoria / Pensão "
+            },
+            {
+              "codigo": 13627,
+              "nome": "Complementação de Aposentadoria/Pensão"
+            },
+            {
+              "codigo": 14050,
+              "nome": "Complementação de Aposentadoria/Pensão"
+            }
+          ],
+          "classe": {
+            "codigo": 985,
+            "nome": "Ação Trabalhista - Rito Ordinário"
+          },
+          "data_ajuizamento": "20220425115759",
+          "data_hora_ultima_atualizacao": "2026-03-11T17:57:37.831000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00002943320225060020",
+          "numero_processo": "00002943320225060020",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2611606,
+            "codigo": 20669,
+            "nome": "RECIFE  - 20A VARA"
+          },
+          "timestamp": "2026-03-11T17:57:37.831000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13378,
+              "nome": "Complementação de Aposentadoria / Pensão "
+            },
+            {
+              "codigo": 13627,
+              "nome": "Complementação de Aposentadoria/Pensão"
+            },
+            {
+              "codigo": 14050,
+              "nome": "Complementação de Aposentadoria/Pensão"
+            }
+          ],
+          "classe": {
+            "codigo": 985,
+            "nome": "Ação Trabalhista - Rito Ordinário"
+          },
+          "data_ajuizamento": "20231025111448",
+          "data_hora_ultima_atualizacao": "2025-10-03T17:58:20.812000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00009022720235060010",
+          "numero_processo": "00009022720235060010",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2611606,
+            "codigo": 20659,
+            "nome": "RECIFE  - 10A VARA"
+          },
+          "timestamp": "2025-10-03T17:58:20.812000Z",
+          "tribunal": "TRT6"
+        }
+      }
+    ]
+  }
+}

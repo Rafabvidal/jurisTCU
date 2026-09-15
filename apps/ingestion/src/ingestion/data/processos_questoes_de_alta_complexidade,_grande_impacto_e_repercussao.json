@@ -1,0 +1,322 @@
+{
+  "hits": {
+    "hits": [
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 10379,
+              "nome": "Anulação e Correção de Provas / Questões"
+            }
+          ],
+          "classe": {
+            "codigo": 120,
+            "nome": "Mandado de Segurança Cível"
+          },
+          "data_ajuizamento": "20180929095827",
+          "data_hora_ultima_atualizacao": "2024-07-24T18:39:50.048000Z",
+          "grau": "G2",
+          "id": "TRT6_G2_00006157020185060000",
+          "numero_processo": "00006157020185060000",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2611606,
+            "codigo": 20754,
+            "nome": "GAB. DESª NISE PEDROSO LINS DE SOUSA"
+          },
+          "timestamp": "2024-07-24T18:39:50.048000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 10379,
+              "nome": "Anulação e Correção de Provas / Questões"
+            }
+          ],
+          "classe": {
+            "codigo": 120,
+            "nome": "Mandado de Segurança Cível"
+          },
+          "data_ajuizamento": "20180929091730",
+          "data_hora_ultima_atualizacao": "2024-07-24T18:54:33.458000Z",
+          "grau": "G2",
+          "id": "TRT6_G2_00006148520185060000",
+          "numero_processo": "00006148520185060000",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2611606,
+            "codigo": 20759,
+            "nome": "GAB. DES. PAULO DIAS DE ALCÂNTARA"
+          },
+          "timestamp": "2024-07-24T18:54:33.458000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13804,
+              "nome": "Cálculo/Repercussão"
+            },
+            {
+              "codigo": 13839,
+              "nome": "Comissões e Percentuais"
+            }
+          ],
+          "classe": {
+            "codigo": 985,
+            "nome": "Ação Trabalhista - Rito Ordinário"
+          },
+          "data_ajuizamento": "20190910213523",
+          "data_hora_ultima_atualizacao": "2026-03-09T17:45:52.715000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00008852120195060013",
+          "numero_processo": "00008852120195060013",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2611606,
+            "codigo": 20662,
+            "nome": "RECIFE  - 13A VARA"
+          },
+          "timestamp": "2026-03-09T17:45:52.715000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13804,
+              "nome": "Cálculo/Repercussão"
+            },
+            {
+              "codigo": 13929,
+              "nome": "Plano de Cargos e Salários"
+            }
+          ],
+          "classe": {
+            "codigo": 985,
+            "nome": "Ação Trabalhista - Rito Ordinário"
+          },
+          "data_ajuizamento": "20200623151323",
+          "data_hora_ultima_atualizacao": "2025-07-16T14:43:01.075000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00004977220205060017",
+          "numero_processo": "00004977220205060017",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2611606,
+            "codigo": 20652,
+            "nome": "RECIFE  - 03A VARA"
+          },
+          "timestamp": "2025-07-16T14:43:01.075000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13804,
+              "nome": "Cálculo/Repercussão"
+            },
+            {
+              "codigo": 13929,
+              "nome": "Plano de Cargos e Salários"
+            }
+          ],
+          "classe": {
+            "codigo": 1009,
+            "nome": "Recurso Ordinário Trabalhista"
+          },
+          "data_ajuizamento": "20220831072138",
+          "data_hora_ultima_atualizacao": "2024-07-23T07:07:17.373000Z",
+          "grau": "G2",
+          "id": "TRT6_G2_00004977220205060017",
+          "numero_processo": "00004977220205060017",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2611606,
+            "codigo": 88248,
+            "nome": "GAB. DES. EDMILSON ALVES DA SILVA"
+          },
+          "timestamp": "2024-07-23T07:07:17.373000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13788,
+              "nome": "Base de Cálculo"
+            },
+            {
+              "codigo": 13804,
+              "nome": "Cálculo/Repercussão"
+            },
+            {
+              "codigo": 13839,
+              "nome": "Comissões e Percentuais"
+            }
+          ],
+          "classe": {
+            "codigo": 1004,
+            "nome": "Agravo de Petição"
+          },
+          "data_ajuizamento": "20250627162016",
+          "data_hora_ultima_atualizacao": "2025-12-04T15:57:38.686000Z",
+          "grau": "G2",
+          "id": "TRT6_G2_00004177020245060146",
+          "numero_processo": "00004177020245060146",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2611606,
+            "codigo": 87425,
+            "nome": "GAB. DESª CARMEN LÚCIA VIEIRA DO NASCIMENTO"
+          },
+          "timestamp": "2025-12-04T15:57:38.686000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13773,
+              "nome": "Repouso Semanal Remunerado e Feriado"
+            },
+            {
+              "codigo": 13804,
+              "nome": "Cálculo/Repercussão"
+            },
+            {
+              "codigo": 13839,
+              "nome": "Comissões e Percentuais"
+            }
+          ],
+          "classe": {
+            "codigo": 985,
+            "nome": "Ação Trabalhista - Rito Ordinário"
+          },
+          "data_ajuizamento": "20200909145421",
+          "data_hora_ultima_atualizacao": "2026-03-09T16:49:38.296000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00007492620205060001",
+          "numero_processo": "00007492620205060001",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2611606,
+            "codigo": 20650,
+            "nome": "RECIFE  - 01A VARA"
+          },
+          "timestamp": "2026-03-09T16:49:38.296000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 10537,
+              "nome": "Taxa de Prevenção e Combate a Incêndio"
+            },
+            {
+              "codigo": 13769,
+              "nome": "Horas Extras"
+            },
+            {
+              "codigo": 13804,
+              "nome": "Cálculo/Repercussão"
+            },
+            {
+              "codigo": 13903,
+              "nome": "Natureza Jurídica da Parcela - Repercussão"
+            }
+          ],
+          "classe": {
+            "codigo": 985,
+            "nome": "Ação Trabalhista - Rito Ordinário"
+          },
+          "data_ajuizamento": "20161103185424",
+          "data_hora_ultima_atualizacao": "2025-07-16T14:44:47.822000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00015567020165060006",
+          "numero_processo": "00015567020165060006",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2611606,
+            "codigo": 20655,
+            "nome": "RECIFE  - 06A VARA"
+          },
+          "timestamp": "2025-07-16T14:44:47.822000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 10537,
+              "nome": "Taxa de Prevenção e Combate a Incêndio"
+            },
+            {
+              "codigo": 13769,
+              "nome": "Horas Extras"
+            },
+            {
+              "codigo": 13804,
+              "nome": "Cálculo/Repercussão"
+            },
+            {
+              "codigo": 13903,
+              "nome": "Natureza Jurídica da Parcela - Repercussão"
+            }
+          ],
+          "classe": {
+            "codigo": 1004,
+            "nome": "Agravo de Petição"
+          },
+          "data_ajuizamento": "20241224153133",
+          "data_hora_ultima_atualizacao": "2025-04-03T19:51:20.587000Z",
+          "grau": "G2",
+          "id": "TRT6_G2_00015567020165060006",
+          "numero_processo": "00015567020165060006",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2611606,
+            "codigo": 20755,
+            "nome": "GAB. DES. RUY SALATHIEL DE ALBUQUERQUE E MELLO VENTURA"
+          },
+          "timestamp": "2025-04-03T19:51:20.587000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13310,
+              "nome": "Temas repetitivos / Repercussão Geral "
+            },
+            {
+              "codigo": 13900,
+              "nome": "Previ e Cassi/BB"
+            }
+          ],
+          "classe": {
+            "codigo": 120,
+            "nome": "Mandado de Segurança Cível"
+          },
+          "data_ajuizamento": "20260122213103",
+          "data_hora_ultima_atualizacao": "2026-03-09T16:53:32.111000Z",
+          "grau": "G2",
+          "id": "TRT6_G2_00001351420265060000",
+          "numero_processo": "00001351420265060000",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2611606,
+            "codigo": 79730,
+            "nome": "GAB. DESª ANA CLAUDIA PETRUCCELLI DE LIMA"
+          },
+          "timestamp": "2026-03-09T16:53:32.111000Z",
+          "tribunal": "TRT6"
+        }
+      }
+    ]
+  }
+}

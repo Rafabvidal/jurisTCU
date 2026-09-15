@@ -1,0 +1,266 @@
+{
+  "hits": {
+    "hits": [
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13831,
+              "nome": "Verbas Remuneratórias, Indenizatórias e Benefícios"
+            }
+          ],
+          "classe": {
+            "codigo": 1125,
+            "nome": "Ação Trabalhista - Rito Sumaríssimo"
+          },
+          "data_ajuizamento": "20250926105616",
+          "data_hora_ultima_atualizacao": "2026-04-30T14:24:09.488000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00011449720255060015",
+          "numero_processo": "00011449720255060015",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2611606,
+            "codigo": 20664,
+            "nome": "RECIFE  - 15A VARA"
+          },
+          "timestamp": "2026-04-30T14:24:09.488000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13831,
+              "nome": "Verbas Remuneratórias, Indenizatórias e Benefícios"
+            }
+          ],
+          "classe": {
+            "codigo": 1125,
+            "nome": "Ação Trabalhista - Rito Sumaríssimo"
+          },
+          "data_ajuizamento": "20250716164637",
+          "data_hora_ultima_atualizacao": "2026-04-30T14:23:39.600000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00006783920255060101",
+          "numero_processo": "00006783920255060101",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2609600,
+            "codigo": 20702,
+            "nome": "OLINDA  - 01A VARA"
+          },
+          "timestamp": "2026-04-30T14:23:39.600000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13831,
+              "nome": "Verbas Remuneratórias, Indenizatórias e Benefícios"
+            }
+          ],
+          "classe": {
+            "codigo": 985,
+            "nome": "Ação Trabalhista - Rito Ordinário"
+          },
+          "data_ajuizamento": "20250805202055",
+          "data_hora_ultima_atualizacao": "2026-04-30T14:23:51.101000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00007164820255060102",
+          "numero_processo": "00007164820255060102",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2609600,
+            "codigo": 20703,
+            "nome": "OLINDA  - 02A VARA"
+          },
+          "timestamp": "2026-04-30T14:23:51.101000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13831,
+              "nome": "Verbas Remuneratórias, Indenizatórias e Benefícios"
+            }
+          ],
+          "classe": {
+            "codigo": 985,
+            "nome": "Ação Trabalhista - Rito Ordinário"
+          },
+          "data_ajuizamento": "20240224150106",
+          "data_hora_ultima_atualizacao": "2026-04-30T14:22:34.797000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00000712620245060371",
+          "numero_processo": "00000712620245060371",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2613909,
+            "codigo": 20717,
+            "nome": "SERRA TALHADA  - 01A VARA"
+          },
+          "timestamp": "2026-04-30T14:22:34.797000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13831,
+              "nome": "Verbas Remuneratórias, Indenizatórias e Benefícios"
+            }
+          ],
+          "classe": {
+            "codigo": 985,
+            "nome": "Ação Trabalhista - Rito Ordinário"
+          },
+          "data_ajuizamento": "19901016030000",
+          "data_hora_ultima_atualizacao": "2026-04-27T18:40:50.535000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_01539009019905060121",
+          "numero_processo": "01539009019905060121",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2610707,
+            "codigo": 20707,
+            "nome": "PAULISTA  - 01A VARA"
+          },
+          "timestamp": "2026-04-27T18:40:50.535000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13831,
+              "nome": "Verbas Remuneratórias, Indenizatórias e Benefícios"
+            }
+          ],
+          "classe": {
+            "codigo": 985,
+            "nome": "Ação Trabalhista - Rito Ordinário"
+          },
+          "data_ajuizamento": "19970114040000",
+          "data_hora_ultima_atualizacao": "2026-04-13T12:30:37.059000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_94194000920025060003",
+          "numero_processo": "94194000920025060003",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2611606,
+            "codigo": 20652,
+            "nome": "RECIFE  - 03A VARA"
+          },
+          "timestamp": "2026-04-13T12:30:37.059000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13831,
+              "nome": "Verbas Remuneratórias, Indenizatórias e Benefícios"
+            }
+          ],
+          "classe": {
+            "codigo": 985,
+            "nome": "Ação Trabalhista - Rito Ordinário"
+          },
+          "data_ajuizamento": "20110809030000",
+          "data_hora_ultima_atualizacao": "2026-04-13T12:30:43.732000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00011291320115060018",
+          "numero_processo": "00011291320115060018",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2611606,
+            "codigo": 20667,
+            "nome": "RECIFE  - 18A VARA"
+          },
+          "timestamp": "2026-04-13T12:30:43.732000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13831,
+              "nome": "Verbas Remuneratórias, Indenizatórias e Benefícios"
+            }
+          ],
+          "classe": {
+            "codigo": 985,
+            "nome": "Ação Trabalhista - Rito Ordinário"
+          },
+          "data_ajuizamento": "20050831030000",
+          "data_hora_ultima_atualizacao": "2026-04-13T12:30:23.639000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_01377005220055060001",
+          "numero_processo": "01377005220055060001",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2611606,
+            "codigo": 20650,
+            "nome": "RECIFE  - 01A VARA"
+          },
+          "timestamp": "2026-04-13T12:30:23.639000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13831,
+              "nome": "Verbas Remuneratórias, Indenizatórias e Benefícios"
+            }
+          ],
+          "classe": {
+            "codigo": 985,
+            "nome": "Ação Trabalhista - Rito Ordinário"
+          },
+          "data_ajuizamento": "20070319030000",
+          "data_hora_ultima_atualizacao": "2026-04-13T12:30:24.043000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00255003420075060001",
+          "numero_processo": "00255003420075060001",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2611606,
+            "codigo": 20650,
+            "nome": "RECIFE  - 01A VARA"
+          },
+          "timestamp": "2026-04-13T12:30:24.043000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13831,
+              "nome": "Verbas Remuneratórias, Indenizatórias e Benefícios"
+            }
+          ],
+          "classe": {
+            "codigo": 985,
+            "nome": "Ação Trabalhista - Rito Ordinário"
+          },
+          "data_ajuizamento": "20120720030000",
+          "data_hora_ultima_atualizacao": "2026-04-13T12:30:28.579000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00010245320125060001",
+          "numero_processo": "00010245320125060001",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2611606,
+            "codigo": 20650,
+            "nome": "RECIFE  - 01A VARA"
+          },
+          "timestamp": "2026-04-13T12:30:28.579000Z",
+          "tribunal": "TRT6"
+        }
+      }
+    ]
+  }
+}

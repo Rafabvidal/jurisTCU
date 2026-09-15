@@ -1,0 +1,266 @@
+{
+  "hits": {
+    "hits": [
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13764,
+              "nome": "Duração do Trabalho"
+            }
+          ],
+          "classe": {
+            "codigo": 985,
+            "nome": "Ação Trabalhista - Rito Ordinário"
+          },
+          "data_ajuizamento": "20220915102729",
+          "data_hora_ultima_atualizacao": "2026-03-11T17:58:24.588000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00007329820225060007",
+          "numero_processo": "00007329820225060007",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2611606,
+            "codigo": 20656,
+            "nome": "RECIFE  - 07A VARA"
+          },
+          "timestamp": "2026-03-11T17:58:24.588000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13764,
+              "nome": "Duração do Trabalho"
+            }
+          ],
+          "classe": {
+            "codigo": 985,
+            "nome": "Ação Trabalhista - Rito Ordinário"
+          },
+          "data_ajuizamento": "20220908164600",
+          "data_hora_ultima_atualizacao": "2026-03-11T18:49:00.797000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00006505020225060142",
+          "numero_processo": "00006505020225060142",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2607901,
+            "codigo": 20695,
+            "nome": "JABOATÃO DOS GUARARAPES  - 02A VARA"
+          },
+          "timestamp": "2026-03-11T18:49:00.797000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13764,
+              "nome": "Duração do Trabalho"
+            }
+          ],
+          "classe": {
+            "codigo": 985,
+            "nome": "Ação Trabalhista - Rito Ordinário"
+          },
+          "data_ajuizamento": "20240513060000",
+          "data_hora_ultima_atualizacao": "2026-03-12T14:42:15.059000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00152006119955060121",
+          "numero_processo": "00152006119955060121",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2610707,
+            "codigo": 20707,
+            "nome": "PAULISTA  - 01A VARA"
+          },
+          "timestamp": "2026-03-12T14:42:15.059000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13764,
+              "nome": "Duração do Trabalho"
+            }
+          ],
+          "classe": {
+            "codigo": 1125,
+            "nome": "Ação Trabalhista - Rito Sumaríssimo"
+          },
+          "data_ajuizamento": "20231220122832",
+          "data_hora_ultima_atualizacao": "2026-04-08T14:20:36.283000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00011851420235060313",
+          "numero_processo": "00011851420235060313",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2604106,
+            "codigo": 20682,
+            "nome": "CARUARU  - 03A VARA"
+          },
+          "timestamp": "2026-04-08T14:20:36.283000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13764,
+              "nome": "Duração do Trabalho"
+            }
+          ],
+          "classe": {
+            "codigo": 985,
+            "nome": "Ação Trabalhista - Rito Ordinário"
+          },
+          "data_ajuizamento": "20221102020141",
+          "data_hora_ultima_atualizacao": "2026-03-11T16:11:16.225000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00005583520225060413",
+          "numero_processo": "00005583520225060413",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2611101,
+            "codigo": 20712,
+            "nome": "PETROLINA  - 03A VARA"
+          },
+          "timestamp": "2026-03-11T16:11:16.225000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13764,
+              "nome": "Duração do Trabalho"
+            }
+          ],
+          "classe": {
+            "codigo": 985,
+            "nome": "Ação Trabalhista - Rito Ordinário"
+          },
+          "data_ajuizamento": "20250820165053",
+          "data_hora_ultima_atualizacao": "2026-03-09T17:43:45.723000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00010251220255060121",
+          "numero_processo": "00010251220255060121",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2610707,
+            "codigo": 20707,
+            "nome": "PAULISTA  - 01A VARA"
+          },
+          "timestamp": "2026-03-09T17:43:45.723000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13764,
+              "nome": "Duração do Trabalho"
+            }
+          ],
+          "classe": {
+            "codigo": 985,
+            "nome": "Ação Trabalhista - Rito Ordinário"
+          },
+          "data_ajuizamento": "20230206144843",
+          "data_hora_ultima_atualizacao": "2026-03-09T16:50:44.794000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00001281220235060102",
+          "numero_processo": "00001281220235060102",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2609600,
+            "codigo": 20703,
+            "nome": "OLINDA  - 02A VARA"
+          },
+          "timestamp": "2026-03-09T16:50:44.794000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13764,
+              "nome": "Duração do Trabalho"
+            }
+          ],
+          "classe": {
+            "codigo": 985,
+            "nome": "Ação Trabalhista - Rito Ordinário"
+          },
+          "data_ajuizamento": "20240523111855",
+          "data_hora_ultima_atualizacao": "2026-03-09T17:42:34.384000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00005709320245060311",
+          "numero_processo": "00005709320245060311",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2604106,
+            "codigo": 20680,
+            "nome": "CARUARU  - 01A VARA"
+          },
+          "timestamp": "2026-03-09T17:42:34.384000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13764,
+              "nome": "Duração do Trabalho"
+            }
+          ],
+          "classe": {
+            "codigo": 985,
+            "nome": "Ação Trabalhista - Rito Ordinário"
+          },
+          "data_ajuizamento": "20080919060000",
+          "data_hora_ultima_atualizacao": "2025-11-07T20:13:31.390000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_01294003620085060021",
+          "numero_processo": "01294003620085060021",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2611606,
+            "codigo": 20670,
+            "nome": "RECIFE  - 21A VARA"
+          },
+          "timestamp": "2025-11-07T20:13:31.390000Z",
+          "tribunal": "TRT6"
+        }
+      },
+      {
+        "source": {
+          "assuntos": [
+            {
+              "codigo": 13764,
+              "nome": "Duração do Trabalho"
+            }
+          ],
+          "classe": {
+            "codigo": 985,
+            "nome": "Ação Trabalhista - Rito Ordinário"
+          },
+          "data_ajuizamento": "20150326090000",
+          "data_hora_ultima_atualizacao": "2025-07-04T17:41:20.678000Z",
+          "grau": "G1",
+          "id": "TRT6_G1_00005812920135060014",
+          "numero_processo": "00005812920135060014",
+          "orgao_julgador": {
+            "codigo_municipio_ibge": 2611606,
+            "codigo": 20663,
+            "nome": "RECIFE  - 14A VARA"
+          },
+          "timestamp": "2025-07-04T17:41:20.678000Z",
+          "tribunal": "TRT6"
+        }
+      }
+    ]
+  }
+}
