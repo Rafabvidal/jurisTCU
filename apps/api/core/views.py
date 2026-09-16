@@ -398,10 +398,14 @@ class AdminAuditLogView(APIView):
 
         class AuditLogSerializer(drf_serializers.ModelSerializer):
             username = drf_serializers.CharField(source="user.username", default=None)
+            detail = drf_serializers.SerializerMethodField()
 
             class Meta:
                 model = SecurityAuditLog
                 fields = ["id", "timestamp", "username", "ip_address", "event_type", "severity", "detail"]
+
+            def get_detail(self, obj):
+                return obj.get_decrypted_detail()
 
         limit = min(int(request.query_params.get("limit", 100)), 500)
         event_type = request.query_params.get("event_type")
